@@ -10,12 +10,13 @@ $td_top_retina_logo = td_util::get_option('tds_logo_upload_r');
 $td_footer_text = td_util::get_option('tds_footer_text');
 $td_footer_email = td_util::get_option('tds_footer_email');
 
-$td_social_enabled = '';
-if(td_util::get_option('tds_footer_social') != 'no') {
-	$td_social_enabled = 'td-pb-span5';
-} else {
-	$td_social_enabled = 'td-pb-span9';
-}
+//$td_social_enabled = '';
+//if(td_util::get_option('tds_footer_social') != 'no') {
+//	$td_social_enabled = 'td-pb-span5';
+//} else {
+//	$td_social_enabled = 'td-pb-span9';
+//}
+$td_social_enabled = 'td-pb-span5';
 
 $buffy = '';
 
@@ -50,20 +51,29 @@ $buffy .= '<div class="' . $td_social_enabled . '"><aside class="footer-text-wra
 $buffy .= '</aside></div>';
 
 // column 3 social icons
-if(td_util::get_option('tds_footer_social') != 'no') {
-	$buffy .= '<div class="td-pb-span4"><aside class="footer-social-wrap td-social-style-2">';
-	    $buffy .= '<div class="block-title"><span>' . __td('FOLLOW US', TD_THEME_NAME) . '</span></div>';
-	    //get the socials that are set by user
-	    $td_get_social_network = td_util::get_option('td_social_networks');
 
-	    if(!empty($td_get_social_network)) {
-	        foreach($td_get_social_network as $social_id => $social_link) {
-	            if(!empty($social_link)) {
-	                $buffy .= td_social_icons::get_icon($social_link, $social_id, 4, 16, true);
-	            }
-	        }
-	    }
-	$buffy .= '</aside></div>';
-}
+
+	$buffy .= '<div class="td-pb-span4"><aside class="footer-social-wrap td-social-style-2">';
+	    $buffy .= '<div class="block-title"><span>' . __td('COLLABOR', TD_THEME_NAME) . '</span></div>';
+		$buffy .= '<img src="/wp-content/uploads/2016/01/11cafb4187b90ac0595da92030466f6c_logo_20160113.gif">';
+		$buffy .= '</aside></div>';
+
+
+
+// if(td_util::get_option('tds_footer_social') != 'no') {
+	// $buffy .= '<div class="td-pb-span4"><aside class="footer-social-wrap td-social-style-2">';
+	    // $buffy .= '<div class="block-title"><span>' . __td('FOLLOW US', TD_THEME_NAME) . '</span></div>';
+	    //get the socials that are set by user
+	    // $td_get_social_network = td_util::get_option('td_social_networks');
+
+	    // if(!empty($td_get_social_network)) {
+	        // foreach($td_get_social_network as $social_id => $social_link) {
+	            // if(!empty($social_link)) {
+	                // $buffy .= td_social_icons::get_icon($social_link, $social_id, 4, 16, true);
+	            // }
+	        // }
+	    // }
+	// $buffy .= '</aside></div>';
+// }
 
 echo $buffy;
