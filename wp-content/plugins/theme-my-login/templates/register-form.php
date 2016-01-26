@@ -5,7 +5,7 @@ Theme My Login will always look in your theme's directory first, before using th
 */
 ?>
 <div class="tml tml-register" id="theme-my-login<?php $template->the_instance(); ?>">
-	<?php $template->the_action_template_message( 'register' ); ?>
+	<!-- ?php $template->the_action_template_message( 'register' ); ? -->
 	<?php $template->the_errors(); ?>
 	<form name="registerform" id="registerform<?php $template->the_instance(); ?>" action="<?php $template->the_action_url( 'register', 'login_post' ); ?>" method="post">
 		<?php if ( 'email' != $theme_my_login->get_option( 'login_type' ) ) : ?>
@@ -15,12 +15,13 @@ Theme My Login will always look in your theme's directory first, before using th
 		</p>
 		<?php endif; ?>
 
+
+		<?php do_action( 'register_form' ); ?>
+
 		<p class="tml-user-email-wrap">
 			<label for="user_email<?php $template->the_instance(); ?>"><?php _e( 'E-mail', 'theme-my-login' ); ?></label>
 			<input type="text" name="user_email" id="user_email<?php $template->the_instance(); ?>" class="input" value="<?php $template->the_posted_value( 'user_email' ); ?>" size="20" />
 		</p>
-
-		<?php do_action( 'register_form' ); ?>
 
 		<p class="tml-registration-confirmation" id="reg_passmail<?php $template->the_instance(); ?>"><?php echo apply_filters( 'tml_register_passmail_template_message', __( 'Registration confirmation will be e-mailed to you.', 'theme-my-login' ) ); ?></p>
 

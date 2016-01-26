@@ -427,7 +427,13 @@ class Theme_My_Login extends Theme_My_Login_Abstract {
 						}
 						$user_email = isset( $_POST['user_email'] ) ? $_POST['user_email'] : '';
 						$this->errors = register_new_user( $user_login, $user_email );
-						if ( ! is_wp_error( $this->errors ) ) {
+						
+						die(var_dump($this->errors));
+						if ( ! is_wp_error( $this->errors ) ) {							
+							
+							$current_user = get_user_by('login', $user_login);
+							
+							$is_ok=update_user_meta($current_user->ID, 'show_admin_bar_front', false);
 							$redirect_to = ! empty( $_POST['redirect_to'] ) ? $_POST['redirect_to'] : site_url( 'wp-login.php?checkemail=registered' );
 							wp_safe_redirect( $redirect_to );
 							exit;
@@ -1102,15 +1108,13 @@ if(typeof wpOnload=='function')wpOnload()
 		$mofile = sprintf( 'theme-my-login-%s.mo', $locale );
 
 		// Look in global /wp-content/languages/theme-my-login folder
-		$test1=	load_textdomain( 'theme-my-login', WP_LANG_DIR . '/theme-my-login/' . $mofile );
-		
+		load_textdomain( 'theme-my-login', WP_LANG_DIR . '/theme-my-login/' . $mofile );
+
 		// Look in local /wp-content/plugins/theme-my-login/languages folder
-		$test2= load_textdomain( 'theme-my-login', WP_PLUGIN_DIR . '/theme-my-login/languages/' . $mofile );
+		load_textdomain( 'theme-my-login', WP_PLUGIN_DIR . '/theme-my-login/languages/' . $mofile );
 
 		// Look in global /wp-content/languages/plugins folder
 		load_plugin_textdomain( 'theme-my-login' );
-		
-		//file_put_contents("/site/baibianlady_com/public_html/log.txt", $110n);
 	}
 
 	/**

@@ -152,4 +152,39 @@ function cmp_add_frontend_jquery_ui() {
 	wp_register_script('jquery-ui-core', '//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js',array('jquery'),'1.10.4',false);
 	wp_enqueue_script('jquery-ui-core');
 }
+
 add_action('wp_enqueue_scripts', 'cmp_add_frontend_jquery_ui',9);
+
+/**
+ * WordPress 注册表单添加额外的字段
+ * http://www.wpdaxue.com/require-additional-profile-fields-at-registration.html
+ */
+// 在注册界面添加额外的表单
+add_action( 'register_form', 'additional_profile_fields' );
+function additional_profile_fields() { ?>
+	<p>
+		<label><?php _e('手机') ?><br />
+			<input type="text" name="first_name" id="first_name" class="input" size="25" tabindex="20" /></label>
+	</p>
+	<p>
+		<label><?php _e('关于身心成长您希望在这里得到哪些帮助') ?><br />
+			<textarea name="description" id="description" class="input" size="25" tabindex="21"></textarea></label>
+	</p>
+<?php }
+// 检测表单字段是否为空，如果为空显示提示信息
+add_action( 'register_post', 'add_register_field_validate_first_name', 10, 3 );
+function add_register_field_validate_first_name( $sanitized_user_login, $user_email, $errors) {
+	if (!isset($_POST[ 'first_name' ]) || empty($_POST[ 'first_name' ])) {
+		return $errors->add( 'firstnameempty', '<strong>ERROR</strong>: 请输入姓名.' );
+	}
+}
+// 将用户填写的字段内容保存到数据库中
+add_action( 'user_register', 'insert_register_fields' );
+function insert_register_fields( $user_id ) {
+
+	$first_name = apply_filters('pre_user_first_name', $_POST['first_name']);
+	$description = apply_filters('pre_user_description', $_POST['description']);
+	// 以下的 'first_name' 和 'last_name' 是“我的个人资料”中已有的字段
+	update_user_meta( $user_id, 'first_name', $first_name );
+	update_user_meta( $user_id, 'description', $description );
+}
