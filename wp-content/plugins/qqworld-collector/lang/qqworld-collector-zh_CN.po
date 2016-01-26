@@ -1,0 +1,3553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QQworld Auto Save Images\n"
+"Report-Msgid-Bugs-To: http://www.qqworld.org\n"
+"POT-Creation-Date: 2015-12-09 21:00+0800\n"
+"PO-Revision-Date: 2015-12-09 21:00+0800\n"
+"Last-Translator: Michael Wang <admin@qqworld.org>\n"
+"Language-Team: QQWorld <admin@qqworld.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: modules/aliyun_oss.php:127 modules/qiniu.php:126 modules/tencent_cos.php:117
+#: modules/upyun.php:84
+#, php-format
+msgid "%d no synced attachment found, syncing..."
+msgid_plural "%d no synced attachments found, syncing..."
+msgstr[0] "发现 %d 个未同步的附件，同步中……"
+
+#: modules/aliyun_oss.php:130 modules/qiniu.php:129 modules/tencent_cos.php:120
+#: modules/upyun.php:87
+#, php-format
+msgid "%d attachment found, scanning..."
+msgid_plural "%d attachments found, scanning..."
+msgstr[0] "找到 %d 个附件，扫描中……"
+
+#: modules/aliyun_oss.php:141 modules/qiniu.php:140 modules/tencent_cos.php:131
+#: modules/upyun.php:98
+msgid "Congratulations, seems like all attachments had already synced."
+msgstr "恭喜你，看起来所有的附件都已同步。"
+
+#: modules/aliyun_oss.php:173
+msgid "AliYun OSS"
+msgstr "阿里云OSS"
+
+#: modules/aliyun_oss.php:182 modules/qiniu.php:181 modules/tencent_cos.php:172
+#: modules/upyun.php:214
+msgid "Sync Again"
+msgstr "再次同步"
+
+#: modules/aliyun_oss.php:184 modules/qiniu.php:183 modules/tencent_cos.php:174
+#: modules/upyun.php:216
+msgid "Sync Now"
+msgstr "立即同步"
+
+#: modules/aliyun_oss.php:277 modules/qiniu.php:276 modules/tencent_cos.php:267
+#: modules/upyun.php:203
+msgid "Synced"
+msgstr "已同步"
+
+#: modules/aliyun_oss.php:444 modules/qiniu.php:423 modules/tencent_cos.php:409
+msgid "Private"
+msgstr "私有"
+
+#: modules/aliyun_oss.php:445 modules/qiniu.php:424 modules/tencent_cos.php:410
+msgid "Public Read Write"
+msgstr "公共读写"
+
+#: modules/aliyun_oss.php:446 modules/qiniu.php:425 modules/tencent_cos.php:411
+msgid "Public Read"
+msgstr "公共读"
+
+#: modules/aliyun_oss.php:454 modules/qiniu.php:433 modules/tencent_cos.php:419
+msgid "Congratulations, This group attachments has already synced."
+msgstr "恭喜，本组附件已同步。"
+
+#: modules/aliyun_oss.php:455 modules/qiniu.php:434 modules/tencent_cos.php:420
+msgid "The OSS Access Key Id you provided does not exist in our records."
+msgstr "你提供的 OSS Access Key ID 在我们的记录中不存在。"
+
+#: modules/aliyun_oss.php:456 modules/qiniu.php:435 modules/tencent_cos.php:421
+msgid ""
+"The request signature we calculated does not match the signature you "
+"provided. Check your key and signing method."
+msgstr "你提供的签名不符，请检查您的Key和签名方法。"
+
+#: modules/aliyun_oss.php:457 modules/qiniu.php:436 modules/tencent_cos.php:422
+msgid ""
+"The requested bucket name is not available. The bucket namespace is shared "
+"by all users of the system. Please select a different name and try again."
+msgstr "请求的Bucket名不可用。该名称已被使用，请选择一个不同的名称并重试。"
+
+#: modules/aliyun_oss.php:458 modules/qiniu.php:437 modules/tencent_cos.php:423
+msgid "Please enter bucketname."
+msgstr "请输入Bucketname。"
+
+#: modules/aliyun_oss.php:459 modules/tencent_cos.php:424
+msgid "Please Select Bucket."
+msgstr "请选择Bucket。"
+
+#: modules/aliyun_oss.php:594
+msgid "Use AliYun Open Storage Service (OSS)"
+msgstr "使用阿里云开放存储服务OSS"
+
+#: modules/aliyun_oss.php:605 modules/aliyun_oss.php:607
+#: modules/auto-save-images.php:2535 modules/auto-save-images.php:2537
+#: modules/ftp.php:128 modules/ftp.php:130 modules/qiniu.php:487
+#: modules/qiniu.php:489 modules/tencent_cos.php:504
+#: modules/tencent_cos.php:506 modules/upyun.php:410 modules/upyun.php:412
+msgid "Domain & Folder"
+msgstr "域名 & 目录"
+
+#: modules/aliyun_oss.php:605 modules/auto-save-images.php:2535
+#: modules/ftp.php:128 modules/qiniu.php:487 modules/tencent_cos.php:504
+#: modules/upyun.php:410
+msgid ""
+"Set new url structure, Do not end with '/'. The folder string must front "
+"with '/'."
+msgstr "设置新的URL结构，不要以 '/' 结尾，目录字符串必须以 '/' 开头。"
+
+#: modules/aliyun_oss.php:613 modules/auto-save-images.php:2539
+#: modules/ftp.php:136 modules/qiniu.php:495 modules/tencent_cos.php:512
+#: modules/upyun.php:418
+msgid "Host"
+msgstr "主机"
+
+#: modules/aliyun_oss.php:614 modules/ftp.php:137 modules/qiniu.php:496
+#: modules/tencent_cos.php:513 modules/upyun.php:419
+msgid "Folder (Can be empty)"
+msgstr "目录（可以为空）"
+
+#: modules/aliyun_oss.php:620 modules/aliyun_oss.php:622
+msgid "Access Key ID"
+msgstr ""
+
+#: modules/aliyun_oss.php:629 modules/aliyun_oss.php:631
+msgid "Access Key Secret"
+msgstr ""
+
+#: modules/aliyun_oss.php:634
+msgid "Test Access OSS"
+msgstr "测试连接OSS"
+
+#: modules/aliyun_oss.php:639 modules/aliyun_oss.php:646
+msgid "Buckets"
+msgstr ""
+
+#: modules/aliyun_oss.php:639
+msgid "Only the authority Public-Read can be used."
+msgstr "只有公共读权限可用。"
+
+#: modules/aliyun_oss.php:639
+msgid "Bucket Naming conventions:"
+msgstr "Bucket命名规范："
+
+#: modules/aliyun_oss.php:641
+msgid "Can only contain lowercase letters, numbers, and dashes"
+msgstr "只能包含小写字母，数字和短横线"
+
+#: modules/aliyun_oss.php:642
+msgid "You must start and end with lowercase letters and numbers"
+msgstr "必须以小写字母和数字开头和结尾"
+
+#: modules/aliyun_oss.php:643
+msgid "BucketName length limits between 3-63"
+msgstr "bucketName的长度限制在3-63之间"
+
+#: modules/aliyun_oss.php:656
+msgid "Please Select..."
+msgstr "请选择..."
+
+#: modules/aliyun_oss.php:667 modules/aliyun_oss.php:670
+#: modules/auto-save-images.php:2027 modules/auto-save-images.php:2046
+msgid "None"
+msgstr "无"
+
+#: modules/aliyun_oss.php:673
+msgid "Delete Bucket"
+msgstr "删除Bucket"
+
+#: modules/aliyun_oss.php:674
+msgid "New Bucket Name"
+msgstr "新Bucket名"
+
+#: modules/aliyun_oss.php:674
+msgid "Create a New Bucket"
+msgstr "新建Bucket"
+
+#: modules/aliyun_oss.php:678 modules/aliyun_oss.php:680 modules/qiniu.php:530
+#: modules/qiniu.php:532 modules/tencent_cos.php:556
+#: modules/tencent_cos.php:558 modules/upyun.php:449 modules/upyun.php:451
+msgid "Scan & Sync"
+msgstr "扫描 & 同步"
+
+#: modules/aliyun_oss.php:678 modules/qiniu.php:530 modules/tencent_cos.php:556
+msgid ""
+"Automatically scan media library and sync to AliYun OSS.<br /><strong>Fast "
+"Scan</strong>: Determines whether the synchronization with local marks.<br /"
+"><strong>Smart Scan</strong>: Determines whether the synchronization with "
+"OSS file exists."
+msgstr ""
+"自动扫描媒体库并同步到阿里云OSS。<br /><strong>快速扫描</strong>：通过本地记"
+"号来判断是否已同步。<br /><strong>智能扫描</strong>：通过OSS上的文件是否存在"
+"判断是否已同步。"
+
+#: modules/aliyun_oss.php:681 modules/qiniu.php:533 modules/tencent_cos.php:559
+#: modules/upyun.php:452
+msgid "Fast Scan"
+msgstr "快速扫描"
+
+#: modules/aliyun_oss.php:682 modules/qiniu.php:534 modules/tencent_cos.php:560
+#: modules/upyun.php:453
+msgid "Smart Scan"
+msgstr "智能扫描"
+
+#: modules/aliyun_oss.php:686 modules/aliyun_oss.php:688 modules/qiniu.php:538
+#: modules/qiniu.php:540 modules/tencent_cos.php:564
+#: modules/tencent_cos.php:566 modules/upyun.php:457 modules/upyun.php:459
+msgid "Sync Delete"
+msgstr "同步删除"
+
+#: modules/aliyun_oss.php:686 modules/qiniu.php:538 modules/tencent_cos.php:564
+msgid ""
+"When you delete a local attachment file, delete the OSS file synchronization."
+msgstr "当你删除本地附件文件时，同时删除OSS上的文件。"
+
+#: modules/aliyun_oss.php:695 modules/aliyun_oss.php:697 modules/qiniu.php:547
+#: modules/qiniu.php:549 modules/tencent_cos.php:573
+#: modules/tencent_cos.php:575 modules/upyun.php:466 modules/upyun.php:468
+msgid "Auto Replace"
+msgstr "自动替换"
+
+#: modules/aliyun_oss.php:695 modules/qiniu.php:547 modules/tencent_cos.php:573
+msgid ""
+"Automatically replaces post content's local url as OSS's url when syncing."
+msgstr "当同步时自动将文章内容中的本地URL替换为OSS上的URL。"
+
+#: modules/auto-save-images.php:358
+msgid "Minutely"
+msgstr "每分钟一次"
+
+#: modules/auto-save-images.php:385 modules/auto-save-images.php:1440
+msgid "ID"
+msgstr "ID"
+
+#: modules/auto-save-images.php:386 modules/collector.php:926
+#: modules/collector.php:1367
+msgid "Author"
+msgstr "作者"
+
+#: modules/auto-save-images.php:387 modules/auto-save-images.php:1442
+#: modules/collector.php:155 modules/collector.php:988
+#: modules/collector.php:1053 modules/collector.php:1093
+#: modules/collector.php:1134 modules/collector.php:1365
+msgid "Title"
+msgstr "标题"
+
+#: modules/auto-save-images.php:388
+msgid "Date"
+msgstr "日期"
+
+#: modules/auto-save-images.php:389
+msgid "Last Modified"
+msgstr "最后修改"
+
+#: modules/auto-save-images.php:390
+msgid "Comment Count"
+msgstr "评论数"
+
+#: modules/auto-save-images.php:430
+msgid "Successfully deleted schedule."
+msgstr "成功删除计划任务。"
+
+#: modules/auto-save-images.php:432
+msgid "Deleted schedule faied."
+msgstr "删除计划任务失败。"
+
+#: modules/auto-save-images.php:474 modules/auto-save-images.php:489
+msgid "none"
+msgstr ""
+
+#: modules/auto-save-images.php:493 modules/auto-save-images.php:2110
+#, php-format
+msgid "Start from %s to Scan"
+msgstr "从 %s 开始扫描"
+
+#: modules/auto-save-images.php:494 modules/auto-save-images.php:2112
+msgid "All"
+msgstr "所有"
+
+#: modules/auto-save-images.php:495 modules/auto-save-images.php:2118
+#: modules/auto-save-images.php:2653
+msgid "Posts"
+msgstr "文章"
+
+#: modules/auto-save-images.php:525
+msgid "H:i:s, d M Y"
+msgstr "Y-m-d H:i:s"
+
+#: modules/auto-save-images.php:528 modules/auto-save-images.php:1446
+#: modules/auto-save-images.php:1840 modules/auto-save-images.php:1856
+#: modules/auto-save-images.php:1872 modules/auto-save-images.php:2212
+#: modules/auto-save-images.php:2316 modules/collector.php:621
+#: modules/collector.php:643 modules/collector.php:673
+#: modules/collector.php:694 modules/collector.php:871
+#: modules/collector.php:890 modules/collector.php:958
+#: modules/collector.php:964 modules/collector.php:1105
+#: modules/collector.php:1159 modules/collector.php:1407
+#: modules/collector.php:1461
+msgid "Delete"
+msgstr "删除"
+
+#: modules/auto-save-images.php:592
+#, php-format
+msgid "%d no watermark attachment found, processing..."
+msgid_plural "%d no watermark attachments found, processing..."
+msgstr[0] "找到%d幅没有水印的附件，处理中……"
+
+#: modules/auto-save-images.php:601
+msgid "Congratulations, seems like all attachments had already processed."
+msgstr "恭喜，看上去所有的附件都处理过了。"
+
+#: modules/auto-save-images.php:654
+msgid "Successfully cleared all Crons."
+msgstr "成功清除了所有计划任务。"
+
+#: modules/auto-save-images.php:656
+msgid "No Crons found."
+msgstr "未发现计划任务。"
+
+#: modules/auto-save-images.php:732
+#, php-format
+msgid "%d data has been effected."
+msgid_plural "%d data have been effected."
+msgstr[0] "%d条数据被替换。"
+
+#: modules/auto-save-images.php:732
+msgid "Nothing Changed."
+msgstr "没有改变任何数据。"
+
+#: modules/auto-save-images.php:737 modules/auto-save-images.php:1456
+msgid "Please enter Source Text & Replacement Text."
+msgstr "请输入 来源文本 & 替换文本。"
+
+#: modules/auto-save-images.php:774
+msgid "Compression"
+msgstr "压缩"
+
+#: modules/auto-save-images.php:789
+msgid "Compress Again"
+msgstr "再次压缩"
+
+#: modules/auto-save-images.php:791
+msgid "Compress It"
+msgstr "压缩"
+
+#: modules/auto-save-images.php:795
+msgid "Uncompressible"
+msgstr "不可压缩"
+
+#: modules/auto-save-images.php:807
+msgid ""
+"Your server PHP does not support cUrl, please remove ';' from in front of "
+"extension=php_curl.dll in the php.ini."
+msgstr ""
+"你的服务器PHP不支持cUrl，请在php.ini中移除extension=php_curl.dll前面的‘;’。"
+
+#: modules/auto-save-images.php:808
+msgid ""
+"Your server PHP does not support GD2, please remove ';' from in front of "
+"extension=php_gd2.dll in the <strong>php.ini</strong>."
+msgstr ""
+"你的服务器PHP不支持GD2，请在php.ini中移除extension=php_gd2.dll前面的‘;’。"
+
+#: modules/auto-save-images.php:809
+msgid ""
+"Your server PHP does not support fopen, please set allow_url_fopen=1 in the "
+"php.ini."
+msgstr "你的服务器PHP不支持fopen，请在php.ini中设置allow_url_fopen=1。"
+
+#: modules/auto-save-images.php:834
+#, php-format
+msgid "%d uncompressed image of attachments found, compressing..."
+msgid_plural "%d uncompressed images of attachments found, compressing..."
+msgstr[0] "发现 %d 幅未压缩的图片附件，正在压缩中……"
+
+#: modules/auto-save-images.php:835 modules/auto-save-images.php:1448
+msgid ""
+"Congratulations, seems like all images attachments had already compressed."
+msgstr "恭喜你，看起来所有的图片附件都已经过压缩。"
+
+#: modules/auto-save-images.php:905 modules/auto-save-images.php:945
+#, php-format
+msgid "%d image has been compressed, "
+msgid_plural "%d images have been compressed, "
+msgstr[0] "已压缩 %d 个图像，"
+
+#: modules/auto-save-images.php:906 modules/auto-save-images.php:946
+#, php-format
+msgid "Total space saving %s."
+msgstr "共节省空间 %s。"
+
+#: modules/auto-save-images.php:1006 modules/auto-save-images.php:3100
+msgid "Original Link"
+msgstr "原始链接"
+
+#: modules/auto-save-images.php:1061
+msgid "Successfully downloaded update file. updating now..."
+msgstr "成功下载更新文件，正在更新中……"
+
+#: modules/auto-save-images.php:1067
+msgid ""
+"Failed to download update file, perhaps your server does not support cUrl, "
+"or update server was down, or login password was not correct."
+msgstr ""
+"无法下载更新文件，也许你的服务器不支持cUrl，或更新服务器无响应，或登录密码不"
+"正确。"
+
+#: modules/auto-save-images.php:1104
+msgid "Extract zip file failed, please try again."
+msgstr "解压文件失败，请重试。"
+
+#: modules/auto-save-images.php:1112
+msgid "Open zip file failed, please try again."
+msgstr "打开压缩文件失败，请重试。"
+
+#: modules/auto-save-images.php:1119
+msgid "Successfully Updated."
+msgstr "已成功升级。"
+
+#: modules/auto-save-images.php:1124
+msgid "Failed to updated, please try again."
+msgstr "升级失败，请重试。"
+
+#: modules/auto-save-images.php:1150 modules/collector.php:477
+msgid "Michael Wang"
+msgstr "王晓骞"
+
+#: modules/auto-save-images.php:1151
+msgid "QQWorld Auto Save Images Pro"
+msgstr "QQWorld自动保存图片专业版"
+
+#: modules/auto-save-images.php:1152
+msgid " (In Development)"
+msgstr "（开发中）"
+
+#: modules/auto-save-images.php:1305 modules/collector.php:472
+msgid "No taxonomies found."
+msgstr "没有相关分类方法。"
+
+#: modules/auto-save-images.php:1313 modules/auto-save-images.php:1597
+msgid "All remote images have been saved."
+msgstr "已保存所有远程图像。"
+
+#: modules/auto-save-images.php:1313 modules/auto-save-images.php:1314
+#, php-format
+msgid " <a href=\"%s\">View</a>"
+msgstr " <a href=\"%s\">查看</a>"
+
+#: modules/auto-save-images.php:1314
+msgid "Has missing images or image which could not download."
+msgstr "内容包含 不存在/无法下载 的图像。"
+
+#: modules/auto-save-images.php:1329
+#, fuzzy
+msgid "Yes"
+msgstr "你确定吗？在你点击确定按钮之前，我建议你备份网站的数据库。"
+
+#: modules/auto-save-images.php:1330 modules/auto-save-images.php:1905
+msgid "No"
+msgstr ""
+
+#: modules/auto-save-images.php:1355
+msgid "In processing."
+msgstr "正在保存……"
+
+#: modules/auto-save-images.php:1357
+msgid ""
+"Download Timeout, please set the timeout option that in optimization "
+"settings page to a longger time."
+msgstr "下载超时，请将优化设置页面中的超时选项设置为更长的时间。"
+
+#: modules/auto-save-images.php:1358
+msgid "Successfully saved."
+msgstr "成功保存。"
+
+#: modules/auto-save-images.php:1359
+msgid "Successfully deleted."
+msgstr "删除成功。"
+
+#: modules/auto-save-images.php:1360
+msgid "Successfully ignored."
+msgstr "成功忽略。"
+
+#: modules/auto-save-images.php:1361
+msgid "Failed saved."
+msgstr "保存失败。"
+
+#: modules/auto-save-images.php:1362
+msgid "No remote images found."
+msgstr "没有远程图像。"
+
+#: modules/auto-save-images.php:1363
+msgid ""
+"All remote images have been saved.<br />And the post content has been "
+"updated, no need to update again."
+msgstr "所有远程图片保存成功。<br />并且文章已更新，无需再次更新。"
+
+#: modules/auto-save-images.php:1364
+msgid ""
+"Portion of remote images have been saved.<br />And the post content has been "
+"updated, no need to update again."
+msgstr "部分远程图片已成功保存。<br />并且文章已更新，无需再次更新。"
+
+#: modules/auto-save-images.php:1365
+msgid "All remote images saved failed."
+msgstr "所有远程图像保存失败。"
+
+#: modules/auto-save-images.php:1366
+msgid "All remote images have been canceled, what are you doing?"
+msgstr "所有远程图像被取消了，你想干嘛？"
+
+#: modules/auto-save-images.php:1367
+msgid "Save remote images you've selected"
+msgstr "保存选择的远程图像"
+
+#: modules/auto-save-images.php:1368
+msgid "Please Check Remote Images"
+msgstr "请检查远程图片"
+
+#: modules/auto-save-images.php:1369
+msgid "Are you sure?<br />Remote images not checked will be deleted."
+msgstr "未选中的远程图像将被删除。<br />确定要这么做吗？"
+
+#: modules/auto-save-images.php:1370 modules/auto-save-images.php:1447
+#: modules/auto-save-images.php:1476
+msgid "Something error, please check."
+msgstr "出错了，请检查。"
+
+#: modules/auto-save-images.php:1374 modules/collector.php:1406
+msgid "Edit"
+msgstr ""
+
+#: modules/auto-save-images.php:1375
+msgid "Add this image to list of Exclude-CRC."
+msgstr "将此图像添加到排除CRC列表。"
+
+#: modules/auto-save-images.php:1376
+msgid "Add this image to list of Delete-CRC."
+msgstr "将此图像添加到删除CRC列表。"
+
+#: modules/auto-save-images.php:1377
+msgid "Close"
+msgstr ""
+
+#: modules/auto-save-images.php:1378
+msgid "Title (title)"
+msgstr "标题（title）"
+
+#: modules/auto-save-images.php:1379
+msgid "Alternative Text (alt)"
+msgstr "替代文本（alt）"
+
+#: modules/auto-save-images.php:1380
+msgid "Are you sure to add this image to blacklist?"
+msgstr "确定要将此图像加入黑名单吗？"
+
+#: modules/auto-save-images.php:1381
+msgid "This image has been successfully added to the blacklist!"
+msgstr "该图像已成功加入黑名单！"
+
+#: modules/auto-save-images.php:1382
+msgid ""
+"This image can not be added to the blacklist!<br />Undownloadable or not "
+"exists?"
+msgstr "无法将该图像加入黑名单！<br />不可下载或文件不存在？"
+
+#: modules/auto-save-images.php:1417
+msgid "Trial expires in %D% days %H% hours %I% minutes %S% seconds."
+msgstr "试用版将于 %D% 天 %H% 时 %I% 分 %S% 秒 后过期."
+
+#: modules/auto-save-images.php:1418
+msgid "Unable to access update server, please contact plugin author."
+msgstr "无法连接升级服务器，请联系插件作者。"
+
+#: modules/auto-save-images.php:1419
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: modules/auto-save-images.php:1420
+msgid ""
+"Are you sure?<br />Before you click the yes button, I recommend backup site "
+"database."
+msgstr "你确定吗？<br />在点击确定按钮之前，我建议你备份网站的数据库。"
+
+#: modules/auto-save-images.php:1421 modules/auto-save-images.php:2099
+#: modules/collector.php:922 modules/collector.php:1158
+msgid "Please select post types."
+msgstr "请选择文章类型。"
+
+#: modules/auto-save-images.php:1422
+msgid "May be a problem with some posts: "
+msgstr "也许一些文章有问题："
+
+#: modules/auto-save-images.php:1423
+#, php-format
+msgid "No need enter \"%s\"."
+msgstr "不需要输入“%s”。"
+
+#: modules/auto-save-images.php:1424
+#, php-format
+msgid "%d post has been scanned."
+msgstr "已扫描%d篇文章。"
+
+#: modules/auto-save-images.php:1425
+#, php-format
+msgid "%d posts have been scanned."
+msgstr "已扫描%d篇文章。"
+
+#: modules/auto-save-images.php:1426
+#, php-format
+msgid "%d post included remote images processed."
+msgstr "已处理%d篇包含远程图像的文章。"
+
+#: modules/auto-save-images.php:1427
+#, php-format
+msgid "%d posts included remote images processed."
+msgstr "已处理%d篇包含远程图像的文章。"
+
+#: modules/auto-save-images.php:1428
+#, php-format
+msgid "%d post has missing images couldn't be processed."
+msgstr "%d篇包含不存在的远程图像的文章无法处理。"
+
+#: modules/auto-save-images.php:1429
+#, php-format
+msgid "%d posts have missing images couldn't be processed."
+msgstr "%d篇包含不存在的远程图像的文章无法处理。"
+
+#: modules/auto-save-images.php:1430
+#, php-format
+msgid "found %d post including remote images."
+msgstr "找到%d篇包含远程图像的文章。"
+
+#: modules/auto-save-images.php:1431
+#, php-format
+msgid "found %d posts including remote images."
+msgstr "找到%d篇包含远程图像的文章。"
+
+#: modules/auto-save-images.php:1432
+#, php-format
+msgid "And with %d post has missing images."
+msgstr "其中有%d篇文章包含不存在的远程图像。"
+
+#: modules/auto-save-images.php:1433
+#, php-format
+msgid "And with %d posts have missing images."
+msgstr "其中有%d篇文章包含不存在的远程图像。"
+
+#: modules/auto-save-images.php:1434
+msgid "No posts processed."
+msgstr "未处理任何文章。"
+
+#: modules/auto-save-images.php:1435
+msgid "No post has remote images found."
+msgstr "没有文章包含远程图像。"
+
+#: modules/auto-save-images.php:1436
+msgid "No posts found."
+msgstr "未找到任何文章。"
+
+#: modules/auto-save-images.php:1437
+msgid "All done."
+msgstr "全部完成。"
+
+#: modules/auto-save-images.php:1438
+msgid "Scanning..."
+msgstr "扫描中……"
+
+#: modules/auto-save-images.php:1439
+msgid "Listing..."
+msgstr "显示列表中……"
+
+#: modules/auto-save-images.php:1441 modules/collector.php:1366
+msgid "Post Type"
+msgstr "文章类型"
+
+#: modules/auto-save-images.php:1443 modules/auto-save-images.php:2123
+#: modules/auto-save-images.php:2207 modules/collector.php:157
+msgid "Status"
+msgstr "状态"
+
+#: modules/auto-save-images.php:1444 modules/collector.php:158
+#: modules/collector.php:862 modules/collector.php:881
+msgid "Control"
+msgstr "控制"
+
+#: modules/auto-save-images.php:1445
+msgid "Done"
+msgstr "完成"
+
+#: modules/auto-save-images.php:1449
+msgid "Successfull Scheduled Event."
+msgstr "设定计划任务成功。"
+
+#: modules/auto-save-images.php:1450
+msgid "Successfully Accessed."
+msgstr "连接成功。"
+
+#: modules/auto-save-images.php:1451
+msgid "Access Failed."
+msgstr "连接失败。"
+
+#: modules/auto-save-images.php:1452
+msgid "Successfully Created."
+msgstr "创建成功。"
+
+#: modules/auto-save-images.php:1453
+msgid "Successfully Deleted."
+msgstr "删除成功。"
+
+#: modules/auto-save-images.php:1454
+msgid "Length out of range."
+msgstr "长度超出范围。"
+
+#: modules/auto-save-images.php:1455
+msgid "Nonstandard naming."
+msgstr "命名不规范。"
+
+#: modules/auto-save-images.php:1597 modules/auto-save-images.php:1629
+msgid "Has missing images."
+msgstr "有不存在的远程图像。"
+
+#: modules/auto-save-images.php:1629
+msgid "Normal"
+msgstr "正常"
+
+#: modules/auto-save-images.php:1630
+msgid "Fetch"
+msgstr "抓取"
+
+#: modules/auto-save-images.php:1644
+msgid "Save Remote Images"
+msgstr "保存远程图片"
+
+#: modules/auto-save-images.php:1653 modules/collector.php:1251
+msgid "Settings"
+msgstr "设置"
+
+#: modules/auto-save-images.php:1662 modules/auto-save-images.php:1693
+#: modules/auto-save-images.php:2273
+msgid "Auto Save Images"
+msgstr "自动保存图片"
+
+#: modules/auto-save-images.php:1668 modules/auto-save-images.php:2253
+msgid "Watermark"
+msgstr "水印"
+
+#: modules/auto-save-images.php:1675
+msgid "Optimization"
+msgstr "优化"
+
+#: modules/auto-save-images.php:1682
+msgid "Database"
+msgstr "数据库"
+
+#: modules/auto-save-images.php:1694
+msgid ""
+"Automatically keep the all remote picture to the local, and automatically "
+"set featured image."
+msgstr ""
+"自动保存远程图片到本地，自动设置特色图片，并且支持机器人采集软件从外部提交。"
+
+#: modules/auto-save-images.php:1699
+msgid "General"
+msgstr "常规"
+
+#: modules/auto-save-images.php:1700
+msgid "Filter"
+msgstr "过滤"
+
+#: modules/auto-save-images.php:1701
+msgid "Format"
+msgstr "格式化"
+
+#: modules/auto-save-images.php:1702
+msgid "Scan Posts"
+msgstr "扫描文章"
+
+#: modules/auto-save-images.php:1703 modules/auto-save-images.php:2189
+msgid "Cron"
+msgstr "计划任务"
+
+#: modules/auto-save-images.php:1709 modules/auto-save-images.php:1711
+#: modules/auto-save-images.php:1715 modules/auto-save-images.php:1719
+#: modules/auto-save-images.php:2515 modules/auto-save-images.php:2517
+#: modules/collector.php:582 modules/translate.php:266
+#: modules/translate.php:268
+msgid "Mode"
+msgstr "模式"
+
+#: modules/auto-save-images.php:1714 modules/auto-save-images.php:2180
+#: modules/collector.php:1086
+msgid "Automatic"
+msgstr "自动"
+
+#: modules/auto-save-images.php:1715
+msgid ""
+"Automatically save all remote images to local media libary when you save or "
+"publish post."
+msgstr "在保存或发布文章时，自动将所有远程图像保存到本地媒体库。"
+
+#: modules/auto-save-images.php:1718 modules/auto-save-images.php:2181
+msgid "Manual"
+msgstr "手动"
+
+#: modules/auto-save-images.php:1719
+msgid ""
+"Manually save all remote images to local media libary when you click the "
+"button on the top of editor."
+msgstr "当单击编辑器顶部的按钮时，手动将所有远程图像保存到本地媒体库。"
+
+#: modules/auto-save-images.php:1724 modules/auto-save-images.php:1726
+msgid "When"
+msgstr "什么时候"
+
+#: modules/auto-save-images.php:1724
+msgid "Select the post statuses you want to grab remote images."
+msgstr "选择你要抓取远程图像的文章状态。"
+
+#: modules/auto-save-images.php:1742 modules/auto-save-images.php:1744
+#: modules/collector.php:1316
+msgid "Schedule Publish"
+msgstr "定时发布"
+
+#: modules/auto-save-images.php:1742
+msgid "Save remote images via Schedule Publish."
+msgstr "通过定时发布保存远程图像。"
+
+#: modules/auto-save-images.php:1753 modules/auto-save-images.php:1755
+msgid "Remote Publishing"
+msgstr "远程发布"
+
+#: modules/auto-save-images.php:1753
+msgid ""
+"Save remote images via remote publishing from IFTTT or other way using "
+"XMLRPC. Only supports publish post."
+msgstr "保存通过IFTTT或其他使用XMLRPC方法远程发布的远程图片。仅支持发布文章。"
+
+#: modules/auto-save-images.php:1763 modules/auto-save-images.php:1765
+msgid "Set Featured Image"
+msgstr "设置特色图片"
+
+#: modules/auto-save-images.php:1763
+msgid "Set first one of the remote images as featured image."
+msgstr "设置远程图片中的第1个为特色图片。"
+
+#: modules/auto-save-images.php:1773 modules/auto-save-images.php:1775
+msgid "No Media Library"
+msgstr "不使用媒体库"
+
+#: modules/auto-save-images.php:1773
+msgid ""
+"Remote images will no be saved into media library, it means would not "
+"generate thumbnail. but if you checked Set-Featured-Image, the first remote "
+"image will be saved into media library."
+msgstr ""
+"远程图像不会被保存到媒体库，这意味着不会生成各种尺寸的缩略图。但如果你勾选了"
+"设置特色图片，则只会将第一幅远程图像保存到媒体库。"
+
+#: modules/auto-save-images.php:1790 modules/auto-save-images.php:1792
+msgid "Grabbing from Each Posts"
+msgstr "从每篇文章抓取"
+
+#: modules/auto-save-images.php:1794
+msgid "All Images"
+msgstr "全部图片"
+
+#: modules/auto-save-images.php:1798
+#, php-format
+msgid "First %d image only"
+msgid_plural "First %d images only"
+msgstr[0] "前 %d 个图像"
+
+#: modules/auto-save-images.php:1805 modules/auto-save-images.php:1807
+msgid "Minimum Picture Size"
+msgstr "最小图像尺寸"
+
+#: modules/auto-save-images.php:1805
+msgid "Ignore smaller than this size picture."
+msgstr "忽略比这个尺寸更小的图像。"
+
+#: modules/auto-save-images.php:1809 modules/auto-save-images.php:1824
+#: modules/auto-save-images.php:2299
+msgid "Width:"
+msgstr "宽度："
+
+#: modules/auto-save-images.php:1809 modules/auto-save-images.php:1812
+#: modules/auto-save-images.php:1824 modules/auto-save-images.php:1827
+#: modules/auto-save-images.php:2299 modules/auto-save-images.php:2302
+msgid "(px)"
+msgstr "（像素）"
+
+#: modules/auto-save-images.php:1812 modules/auto-save-images.php:1827
+#: modules/auto-save-images.php:2302
+msgid "Height:"
+msgstr "高度："
+
+#: modules/auto-save-images.php:1815
+msgid "Automatically delete images smaller than minimum-picture-size."
+msgstr "自动删除小于最小图像尺寸的图片。"
+
+#: modules/auto-save-images.php:1820 modules/auto-save-images.php:1822
+msgid "Maximum Picture Size"
+msgstr "最大图像尺寸"
+
+#: modules/auto-save-images.php:1820
+msgid ""
+"Automatic reduction is greater than the size of the picture. if you want "
+"image width less than 800px with any size height, please set width 800 and "
+"leave height blank."
+msgstr ""
+"自动缩小大于该尺寸的图像。如果你想要宽度不超过800px和任意高度图片，请设置宽度"
+"800，并设置高度为空。"
+
+#: modules/auto-save-images.php:1832 modules/auto-save-images.php:1834
+msgid "Exclude Domain/Keyword"
+msgstr "排除域名/关键词"
+
+#: modules/auto-save-images.php:1832
+msgid "Images will not be saved, if that url contains Exclude-Domain/Keyword."
+msgstr "如果图片地址包含排除域名/关键词，则不会保存该图片。"
+
+#: modules/auto-save-images.php:1844 modules/auto-save-images.php:2320
+msgid "Add a Domain/Keyword"
+msgstr "添加域名/关键词"
+
+#: modules/auto-save-images.php:1848 modules/auto-save-images.php:1850
+msgid "Exclude CRC"
+msgstr "排除 CRC"
+
+#: modules/auto-save-images.php:1848
+msgid "Remote images will not be saved, if the CRC of image in this list."
+msgstr "如果远程图像的CRC在此列表中，则不会被保存。"
+
+#: modules/auto-save-images.php:1860 modules/auto-save-images.php:1876
+msgid "Add a CRC of Image"
+msgstr "添加图像CRC"
+
+#: modules/auto-save-images.php:1860 modules/auto-save-images.php:1876
+msgid "How to get CRC of Image?"
+msgstr "如何获得图像的CRC？"
+
+#: modules/auto-save-images.php:1860 modules/auto-save-images.php:1876
+msgid "Use 7-Zip, WinRAR or others compression tools."
+msgstr "使用7-Zip、WinRAR或其他压缩工具。"
+
+#: modules/auto-save-images.php:1864 modules/auto-save-images.php:1866
+msgid "Delete CRC"
+msgstr "删除 CRC"
+
+#: modules/auto-save-images.php:1864
+msgid ""
+"Remote images html code will be deleted, if the CRC of image in this list. "
+"it's priority than Exclude-CRC"
+msgstr ""
+"如果远程图像的CRC在此列表中，其HTML代码会被删除。它的优先级高于排除CRC。"
+
+#: modules/auto-save-images.php:1880 modules/auto-save-images.php:1882
+msgid "Excluded Keywords"
+msgstr "已排除的关键词"
+
+#: modules/auto-save-images.php:1900 modules/auto-save-images.php:1903
+msgid "Change Image Filename"
+msgstr "更改图片文件名"
+
+#: modules/auto-save-images.php:1906
+msgid ""
+"Only change remote images filename that have Non-ASCii characters (for "
+"Windows Server)"
+msgstr "仅修改包含非ASCii字符的远程图片文件名（用于Windows服务器）"
+
+#: modules/auto-save-images.php:1907
+msgid "Change all remote images Filename (for Linux Server)"
+msgstr "自动更改所有远程图像文件名（用于Linux服务器）"
+
+#: modules/auto-save-images.php:1912 modules/auto-save-images.php:1915
+msgid "Filename Source & Source Priority"
+msgstr "文件名来源及其优先级"
+
+#: modules/auto-save-images.php:1918
+msgid "Post Name"
+msgstr "文章名"
+
+#: modules/auto-save-images.php:1919
+msgid "Alternative Text of Image (alt)"
+msgstr "图像的替代文本（ALT）"
+
+#: modules/auto-save-images.php:1920
+msgid "Title of Image"
+msgstr "图像的标题（TITLE）"
+
+#: modules/auto-save-images.php:1938 modules/auto-save-images.php:1940
+msgid "Custom Filename Structure"
+msgstr "自定文件名结构"
+
+#: modules/auto-save-images.php:1945
+msgid "Original filename or automatic changed filename."
+msgstr "原文件名或自动更改的文件名。"
+
+#: modules/auto-save-images.php:1946
+msgid "Full date, e.g. 20150209."
+msgstr "完整的日期，例如：20150209。"
+
+#: modules/auto-save-images.php:1947
+msgid "YYYY, e.g. 2015."
+msgstr "YYYY，例如：2015。"
+
+#: modules/auto-save-images.php:1948
+msgid "MM, e.g. 02."
+msgstr "MM，例如：02。"
+
+#: modules/auto-save-images.php:1949
+msgid "DD, e.g. 15."
+msgstr "DD，例如：15。"
+
+#: modules/auto-save-images.php:1950
+msgid "HHMMSS, e.g. 182547."
+msgstr "HHMMSS，例如：182547。"
+
+#: modules/auto-save-images.php:1951
+#, php-format
+msgid "Unix timestamp, e.g. %s."
+msgstr "Unix时间戳，例如：%s。"
+
+#: modules/auto-save-images.php:1956 modules/auto-save-images.php:1958
+msgid "Change Title & Alt"
+msgstr "更改标题和替代文本"
+
+#: modules/auto-save-images.php:1956
+msgid "Automatically add title & alt of image as post title or custom text."
+msgstr "自动依照文章标题或自定义文本添加图片的标题和替代文本。"
+
+#: modules/auto-save-images.php:1961
+msgid "Custom Text for Title & Alt"
+msgstr "自定义 Title & Alt 的文本"
+
+#: modules/auto-save-images.php:1966 modules/auto-save-images.php:1968
+msgid "Keep Outside Links"
+msgstr "保留外链"
+
+#: modules/auto-save-images.php:1966
+msgid "Keep the outside links of remote images if exist."
+msgstr "保留远程图片的链接，如果有的话。"
+
+#: modules/auto-save-images.php:1975 modules/auto-save-images.php:1977
+msgid "Save Outside Links"
+msgstr "保存外链"
+
+#: modules/auto-save-images.php:1975
+msgid "Save the outside links to description of attachments."
+msgstr "保存外部链接到附件的描述。"
+
+#: modules/auto-save-images.php:1981
+msgid ""
+"To custom the content, add codes into <strong>functions.php</strong> like "
+"this below:"
+msgstr ""
+"如果想自定义该内容，加入类似以下代码到 <strong>functions.php</strong> 中："
+
+#: modules/auto-save-images.php:1990 modules/auto-save-images.php:1992
+msgid "Width &amp; Height"
+msgstr "宽度和高度"
+
+#: modules/auto-save-images.php:1999 modules/auto-save-images.php:2001
+msgid "Image Size"
+msgstr "图像尺寸"
+
+#: modules/auto-save-images.php:1999
+msgid "Replace images you want size to display."
+msgstr "替换成你想要显示的尺寸的图像。"
+
+#: modules/auto-save-images.php:2006
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: modules/auto-save-images.php:2007
+msgid "Medium"
+msgstr "中等"
+
+#: modules/auto-save-images.php:2008
+msgid "Large"
+msgstr "大"
+
+#: modules/auto-save-images.php:2009
+msgid "Full Size"
+msgstr "完整尺寸"
+
+#: modules/auto-save-images.php:2018 modules/auto-save-images.php:2020
+msgid "Link To"
+msgstr "链接到"
+
+#: modules/auto-save-images.php:2018
+msgid "If you checked Keep-Outside-Links, this option will not works."
+msgstr "如果你勾选了保留外链，本项将不起作用。"
+
+#: modules/auto-save-images.php:2025
+msgid "Media File"
+msgstr "媒体文件"
+
+#: modules/auto-save-images.php:2026
+msgid "Attachment Page"
+msgstr "附件页面"
+
+#: modules/auto-save-images.php:2036 modules/auto-save-images.php:2038
+#: modules/auto-save-images.php:2335
+msgid "Align To"
+msgstr "对齐方式"
+
+#: modules/auto-save-images.php:2043
+msgid "Left"
+msgstr ""
+
+#: modules/auto-save-images.php:2044
+msgid "Center"
+msgstr ""
+
+#: modules/auto-save-images.php:2045
+msgid "Right"
+msgstr ""
+
+#: modules/auto-save-images.php:2055 modules/auto-save-images.php:2057
+msgid "Auto Caption"
+msgstr "自动图说"
+
+#: modules/auto-save-images.php:2055
+msgid "Automatically add caption shortcode."
+msgstr "自动添加图说短代码。"
+
+#: modules/auto-save-images.php:2064 modules/auto-save-images.php:2066
+msgid "Additional Content"
+msgstr "额外的内容"
+
+#: modules/auto-save-images.php:2064
+msgid ""
+"This content will be displayed after the each remote images code. you can "
+"use [Attachment ID] indicate current attachment ID."
+msgstr "此内容将在每个远程图像编码后显​​示。你可以使用[附件ID]指示当前连接ID。"
+
+#: modules/auto-save-images.php:2069
+msgid "For example: [Gbuy id='[Attachment ID]']"
+msgstr "例如：[Gbuy id='[Attachment ID]']"
+
+#: modules/auto-save-images.php:2085
+msgid "Select post types"
+msgstr "选择文章类型"
+
+#: modules/auto-save-images.php:2085
+msgid ""
+"If you have too many posts to be scan, sometimes in process looks like "
+"stopping, but it may be fake. please be patient."
+msgstr ""
+"如果有太多文章需要扫描，有时候在扫描过程中看起来像是停止了，但可能是假停止，"
+"请耐心等待。"
+
+#: modules/auto-save-images.php:2098 modules/auto-save-images.php:2204
+#: modules/collector.php:919
+msgid "Categories"
+msgstr "分类目录"
+
+#: modules/auto-save-images.php:2098
+msgid "Default empty to scan all categories."
+msgstr "默认留空扫描所有分类。"
+
+#: modules/auto-save-images.php:2103 modules/auto-save-images.php:2205
+msgid "Scope of Post ID"
+msgstr "文章ID范围"
+
+#: modules/auto-save-images.php:2103
+msgid ""
+"Default empty for scan all posts ID. If you want to scan posts ID from 50 to "
+"100. please type '50' and '100' or '100' and '50', The order in which two "
+"numbers can be reversed. If you only type one number, system would only scan "
+"that ID."
+msgstr ""
+"默认留空扫描所有文章ID，如果要扫描50-100的文章ID，请输入'50'和'100'或"
+"者'100'和'50'，两个数字的顺序可以颠倒。如果你只输入了1个数字，则系统只会扫描"
+"该ID。"
+
+#: modules/auto-save-images.php:2104
+#, php-format
+msgid "From %1$s to %2$s"
+msgstr "从 %1$s 到 %2$s"
+
+#: modules/auto-save-images.php:2108 modules/auto-save-images.php:2206
+#: modules/auto-save-images.php:2377 modules/auto-save-images.php:2379
+msgid "Offset"
+msgstr "偏移"
+
+#: modules/auto-save-images.php:2108
+msgid ""
+"Default scan all posts. If you want to scan 50-150 posts, please type '50' "
+"in the textfield and select '100'."
+msgstr ""
+"默认扫秒全部文章，如果想扫描50-150篇文章，请在文本框中输入“50”并在下拉菜单中"
+"选择“100”。"
+
+#: modules/auto-save-images.php:2128
+msgid "Any"
+msgstr "任意"
+
+#: modules/auto-save-images.php:2138 modules/auto-save-images.php:2208
+msgid "Order By"
+msgstr "排序依据"
+
+#: modules/auto-save-images.php:2150 modules/auto-save-images.php:2209
+msgid "Order"
+msgstr "排序"
+
+#: modules/auto-save-images.php:2160 modules/auto-save-images.php:2465
+#: modules/auto-save-images.php:2467
+msgid "Speed"
+msgstr "速度"
+
+#: modules/auto-save-images.php:2160
+msgid "If the server is too much stress may be appropriately reduced speed."
+msgstr "如果服务器压力过大，可以适当调低速度。"
+
+#: modules/auto-save-images.php:2172
+msgid "Force Scan"
+msgstr "强制扫描"
+
+#: modules/auto-save-images.php:2172
+msgid ""
+"Successfully scanned posts will be marked, wouldn\\'t be scanned again. if "
+"you check this, they will be scanned again."
+msgstr ""
+"成功被扫描的文章将被标记，不会被再次扫描。如果勾选此项，它们将被再次扫描。"
+
+#: modules/auto-save-images.php:2180
+msgid ""
+"Scan posts and keep remote images in all posts to local media library. Maybe "
+"take a long time."
+msgstr "扫描所有的文章，将所有远程图片保存到本地，可能需要很长时间。"
+
+#: modules/auto-save-images.php:2181
+msgid ""
+"The list displayed will show you which posts including remote images, then "
+"you can keep them to local manually via click \"Fetch\" button."
+msgstr ""
+"显示的列表中将告诉你哪些文章包含远程图片，然后你可以通过点击“抓取”按钮手动保"
+"存。"
+
+#: modules/auto-save-images.php:2189
+msgid ""
+"Set cron for automatically scan posts.<br />I recommend set the option "
+"Offset from 0 to scan 100 posts."
+msgstr "设置计划任务自动扫描文章。<br />我建议设置偏移从0开始扫描100篇文章。"
+
+#: modules/auto-save-images.php:2192
+#, php-format
+msgid ""
+"Setting <a href=\"%s\" target=\"_blank\">Timeout</a> is not enough, please "
+"set at least 1 hour."
+msgstr ""
+"设置<a href=\"%s\" target=\"_blank\">超时</a>时间不够，请至少设置为1小时。"
+
+#: modules/auto-save-images.php:2200
+msgid "Cron of Scan Posts"
+msgstr "扫描文章计划任务"
+
+#: modules/auto-save-images.php:2203 modules/collector.php:909
+msgid "Post Types"
+msgstr "文章类型"
+
+#: modules/auto-save-images.php:2210
+msgid "Recurrence"
+msgstr "循环运行间隔"
+
+#: modules/auto-save-images.php:2211
+msgid "Will Run On"
+msgstr "将运行于"
+
+#: modules/auto-save-images.php:2237
+msgid "No Cron yet."
+msgstr "还没有计划任务。"
+
+#: modules/auto-save-images.php:2241
+msgid "Clear All Crons"
+msgstr "清除所有计划任务"
+
+#: modules/auto-save-images.php:2259 modules/auto-save-images.php:2261
+msgid "Enabled Watermark"
+msgstr "启用水印"
+
+#: modules/auto-save-images.php:2269 modules/auto-save-images.php:2271
+#: modules/auto-save-images.php:2274 modules/auto-save-images.php:2277
+#: modules/auto-save-images.php:2280
+msgid "Enabled For"
+msgstr "启用模式"
+
+#: modules/auto-save-images.php:2269
+msgid "Please select the method to using watermark."
+msgstr "请选择使用水印的方式。"
+
+#: modules/auto-save-images.php:2274
+msgid "Enabled for Auto Save Image."
+msgstr "启用于自动保存图片。"
+
+#: modules/auto-save-images.php:2276
+msgid "Edit Page"
+msgstr "编辑页"
+
+#: modules/auto-save-images.php:2277
+msgid "Enabled for Update image in Edit page."
+msgstr "启用于编辑页上传图像。"
+
+#: modules/auto-save-images.php:2279
+msgid "Media Library"
+msgstr "媒体库"
+
+#: modules/auto-save-images.php:2280
+msgid "Enabled for Update image in Meida Labrary page."
+msgstr "启用于媒体库页面上传图像。"
+
+#: modules/auto-save-images.php:2285 modules/auto-save-images.php:2287
+msgid "Ignore animated GIF"
+msgstr "忽略GIF动画"
+
+#: modules/auto-save-images.php:2295 modules/auto-save-images.php:2297
+msgid "Filter by Sizes"
+msgstr "按尺寸过滤"
+
+#: modules/auto-save-images.php:2295
+msgid "Skip images that smaller than this size."
+msgstr "跳过比这个尺寸更小的图像。"
+
+#: modules/auto-save-images.php:2308 modules/auto-save-images.php:2310
+msgid "Filter by Url"
+msgstr "按URL过滤"
+
+#: modules/auto-save-images.php:2308
+msgid "Skip images that url contains these keywords."
+msgstr "跳过URL包含这些关键词的图像。"
+
+#: modules/auto-save-images.php:2325 modules/auto-save-images.php:2327
+msgid "Random Position"
+msgstr "随机位置"
+
+#: modules/auto-save-images.php:2357
+msgid "Position"
+msgstr "位置"
+
+#: modules/auto-save-images.php:2357
+msgid "You can try to drag the watermark image."
+msgstr "你可以试着拖动水印图片。"
+
+#: modules/auto-save-images.php:2372
+msgid "Preview Watermark Effect"
+msgstr "预览水印效果"
+
+#: modules/auto-save-images.php:2390 modules/auto-save-images.php:2392
+msgid "Opacity"
+msgstr "不透明度"
+
+#: modules/auto-save-images.php:2400 modules/auto-save-images.php:2402
+msgid "Upload Watermark Image"
+msgstr "上传水印图片"
+
+#: modules/auto-save-images.php:2404
+msgid "Insert a Watermark Image"
+msgstr "插入水印图片"
+
+#: modules/auto-save-images.php:2415
+msgid "Default Watermark"
+msgstr "默认水印"
+
+#: modules/auto-save-images.php:2419 modules/auto-save-images.php:2421
+#: modules/auto-save-images.php:2423 modules/auto-save-images.php:2612
+#: modules/collector.php:1222
+msgid "Scan"
+msgstr "扫描"
+
+#: modules/auto-save-images.php:2419
+msgid ""
+"Scan media library to automatically add watermark to allowed images. Will "
+"not process to images that already added watermark. (Full size only)"
+msgstr ""
+"扫描媒体库并自动给允许的图像添加水印，不会处理已经添加了水印的图像。（仅完整"
+"尺寸）"
+
+#: modules/auto-save-images.php:2441
+msgid "Authorization Settings"
+msgstr "权限设置"
+
+#: modules/auto-save-images.php:2445
+msgid "Who Can Use?"
+msgstr "谁能用？"
+
+#: modules/auto-save-images.php:2445
+msgid "Set roles who can use this plugin."
+msgstr "设置可以使用本插件的用户角色。"
+
+#: modules/auto-save-images.php:2447 modules/auto-save-images.php:2479
+#: modules/auto-save-images.php:2481 modules/auto-save-images.php:2566
+#: modules/auto-save-images.php:2568
+msgid "Timeout"
+msgstr "超时"
+
+#: modules/auto-save-images.php:2450
+msgid "Subscriber+ (Read)"
+msgstr "订阅者+（阅读）"
+
+#: modules/auto-save-images.php:2451
+msgid "Contributor+ (Edit Posts)"
+msgstr "投稿者+（编辑文章）"
+
+#: modules/auto-save-images.php:2452
+msgid "Author+ (Publish Posts)"
+msgstr "作者+（发布文章）"
+
+#: modules/auto-save-images.php:2453
+msgid "Editor+ (Edit Others Posts)"
+msgstr "编辑+（编辑其他文章）"
+
+#: modules/auto-save-images.php:2454
+msgid "Administrator+ (Manage Options)"
+msgstr "管理员+（管理选项）"
+
+#: modules/auto-save-images.php:2461
+msgid "Webserver Stress"
+msgstr "服务器压力"
+
+#: modules/auto-save-images.php:2465
+msgid ""
+"For Manual Mode, if your server is not powerful. use a low speed will be "
+"better."
+msgstr "用于手动模式，如果你的服务器不够强大，可以尝试将速度调低。"
+
+#: modules/auto-save-images.php:2473
+msgid "Unlimited"
+msgstr "无限制"
+
+#: modules/auto-save-images.php:2479
+msgid ""
+"PHP run time limit (Default: 30 seconds),<br /><strong>For Manual Mode</"
+"strong>: Most situation default 30 seconds is fine, but if you want download "
+"WeChat images i recommend 3 minutes.<br /><strong>For Automatic Mode</"
+"strong>: You need set a bigger number if you need grabbing many remote "
+"images at one time. Recommend set Half-a-Hour.<br /><strong>For Scan Mode</"
+"strong>: I recommend 10 times as long as the time required for automatic "
+"mode."
+msgstr ""
+"PHP运行时间限制 (默认值: 30秒)，<br><strong>手动模式</strong>：大多数情况默认"
+"30秒足矣，但如果你想下载微信图片，建议设置为3分钟。<br><strong>自动模式</"
+"strong>：如果要一次抓取很多远程图像，就需要设置更长的时间。建议设置为半小时。"
+"<br><strong>扫描模式</strong>：建议设置10倍于自动模式所需的时间。"
+
+#: modules/auto-save-images.php:2484
+msgid "30 Seconds (Default)"
+msgstr "30秒（默认）"
+
+#: modules/auto-save-images.php:2485
+msgid "3 Minutes"
+msgstr "3分钟"
+
+#: modules/auto-save-images.php:2486
+msgid "5 Minutes"
+msgstr "5分钟"
+
+#: modules/auto-save-images.php:2487
+msgid "10 Minutes"
+msgstr "10分钟"
+
+#: modules/auto-save-images.php:2488
+msgid "15 Minutes"
+msgstr "15分钟"
+
+#: modules/auto-save-images.php:2489
+msgid "Half a Hour"
+msgstr "半小时"
+
+#: modules/auto-save-images.php:2490
+msgid "1 Hour"
+msgstr "1小时"
+
+#: modules/auto-save-images.php:2491
+msgid "2 Hours"
+msgstr "2小时"
+
+#: modules/auto-save-images.php:2492
+msgid "5 Hours"
+msgstr "5小时"
+
+#: modules/auto-save-images.php:2493
+msgid "10 Hours"
+msgstr "10小时"
+
+#: modules/auto-save-images.php:2494
+msgid "For Ever"
+msgstr "永远"
+
+#: modules/auto-save-images.php:2501
+msgid "Cookie-Free Domain & External Storage"
+msgstr "Cookie-Free域名 & 外部存储"
+
+#: modules/auto-save-images.php:2502
+msgid ""
+"A domain that serves no cookies. The idea here is that you use a cookie-free "
+"domain to serve images, CSS files, scripts and whatnot, so that your users "
+"don't waste time and bandwidth transmitting cookies for them."
+msgstr ""
+"不需要Cookies的域名，你可以将该域名用于图像、CSS、JS脚本等等，这样您的用户就"
+"不用浪费时间和带宽为它们传输Cookies。"
+
+#: modules/auto-save-images.php:2506 modules/auto-save-images.php:2508
+#: modules/auto-save-images.php:2557 modules/auto-save-images.php:2559
+#: modules/auto-save-images.php:2589 modules/auto-save-images.php:2591
+#: modules/translate.php:257 modules/translate.php:259
+msgid "Enabled"
+msgstr "开启"
+
+#: modules/auto-save-images.php:2506
+msgid "Use Cookie-Free Domains to display images."
+msgstr "使用免Cookie域名(Cookie-Free Domains)来显示图片。"
+
+#: modules/auto-save-images.php:2515
+msgid ""
+"If you don't want using local media library, please select Use-FTP-Remote-"
+"Server."
+msgstr "如果你不想使用本地媒体库，请选择使用FTP远程服务器。"
+
+#: modules/auto-save-images.php:2521
+msgid "Use local server"
+msgstr "使用本地服务器"
+
+#: modules/auto-save-images.php:2542
+msgid "You need add this code below into wp-config.php:"
+msgstr "你需要在 wp-config.php 中加入以下代码："
+
+#: modules/auto-save-images.php:2552
+msgid "Proxy Settings"
+msgstr "代理设置"
+
+#: modules/auto-save-images.php:2553
+msgid "I hope you have fast proxy server."
+msgstr "我希望你有速度可观的代理服务器。"
+
+#: modules/auto-save-images.php:2557
+msgid "Use proxy server to download images."
+msgstr "使用代理服务器下载图片。"
+
+#: modules/auto-save-images.php:2566
+msgid "Set timeout period on proxy."
+msgstr "设置代理超时时间。"
+
+#: modules/auto-save-images.php:2570
+msgid "Second(s)"
+msgstr "秒"
+
+#: modules/auto-save-images.php:2575 modules/auto-save-images.php:2577
+msgid "Proxy Address"
+msgstr "代理地址"
+
+#: modules/auto-save-images.php:2575
+msgid "For example: 127.0.0.1:8087"
+msgstr "示例：127.0.0.1:8087"
+
+#: modules/auto-save-images.php:2585
+msgid "Images Compression Options"
+msgstr "图片压缩选项"
+
+#: modules/auto-save-images.php:2589
+msgid "Enable compress images when uploading. (Only JPEG)"
+msgstr "启用上传时压缩图像。（仅JPEG）"
+
+#: modules/auto-save-images.php:2598 modules/auto-save-images.php:2600
+msgid "Quality"
+msgstr "品质"
+
+#: modules/auto-save-images.php:2598
+msgid ""
+"Compression level, ranges from 0 (worst quality, smaller file) to 100 (best "
+"quality, biggest file)."
+msgstr "压缩级别，范围从0（最低品质，文件较小）到100（最高品质，文件较大）。"
+
+#: modules/auto-save-images.php:2603
+msgid " (Recommend)"
+msgstr "（推荐）"
+
+#: modules/auto-save-images.php:2609 modules/auto-save-images.php:2611
+msgid "Scan All Attachments"
+msgstr "扫描所有附件"
+
+#: modules/auto-save-images.php:2609
+msgid "Scan all attachments and automatically compression."
+msgstr "扫描所有附件并自动压缩。"
+
+#: modules/auto-save-images.php:2617
+msgid "Smart Options"
+msgstr "智能选项"
+
+#: modules/auto-save-images.php:2621 modules/auto-save-images.php:2623
+msgid "Smart Grabbing"
+msgstr "智能抓取"
+
+#: modules/auto-save-images.php:2621
+msgid ""
+"Automatically detect 2 images url from href/src of remote image with outside "
+"link, and grab the bigger one."
+msgstr ""
+"自动从带外部链接的远程图片的href和src中检测2幅图片并抓取其中较大的一个。"
+
+#: modules/auto-save-images.php:2643 modules/auto-save-images.php:2694
+msgid "Content Replacement"
+msgstr "内容替换"
+
+#: modules/auto-save-images.php:2644
+msgid "Help you to handle database content easily."
+msgstr "帮你轻松处理数据库内容的工具。"
+
+#: modules/auto-save-images.php:2648 modules/auto-save-images.php:2650
+msgctxt "database"
+msgid "Table"
+msgstr "表"
+
+#: modules/auto-save-images.php:2654
+msgid "Comments"
+msgstr ""
+
+#: modules/auto-save-images.php:2660 modules/auto-save-images.php:2662
+msgctxt "database"
+msgid "Field"
+msgstr "字段"
+
+#: modules/auto-save-images.php:2665
+msgctxt "database"
+msgid "Post Content"
+msgstr "文章内容"
+
+#: modules/auto-save-images.php:2666
+msgctxt "database"
+msgid "Post Title"
+msgstr "文章标题"
+
+#: modules/auto-save-images.php:2667
+msgctxt "database"
+msgid "Post Excerpt"
+msgstr "文章摘要"
+
+#: modules/auto-save-images.php:2673 modules/auto-save-images.php:2675
+#: modules/auto-save-images.php:2677
+msgctxt "database"
+msgid "Source Text"
+msgstr "来源文本"
+
+#: modules/auto-save-images.php:2673 modules/auto-save-images.php:2683
+msgid "For example: "
+msgstr "范例："
+
+#: modules/auto-save-images.php:2683 modules/auto-save-images.php:2685
+#: modules/auto-save-images.php:2687
+msgctxt "database"
+msgid "Replacement Text"
+msgstr "替换文本"
+
+#: modules/auto-save-images.php:2694
+msgid "Replace Now"
+msgstr "立即替换"
+
+#: modules/auto-save-images.php:2694
+msgid ""
+"Be careful, before you click the Replace-Now button, i recommend backup the "
+"website database."
+msgstr "小心，在你点立即替换之前，我建议先备份网站数据库。"
+
+#: modules/check-duplicated-title.php:23
+#, php-format
+msgid "Found %d post has same title."
+msgid_plural "Found %d posts have same title."
+msgstr[0] "找到%d篇有相同标题的文章。"
+
+#: modules/collector.php:156
+msgid "Collection Number"
+msgstr "收藏数目"
+
+#: modules/collector.php:159
+msgid "Lastest collection time"
+msgstr "最后采集时间"
+
+#: modules/collector.php:178
+msgid "Start Automatic Collection"
+msgstr "开始自动采集"
+
+#: modules/collector.php:515
+msgid "Settings for Automatic Collection"
+msgstr "自动采集设置"
+
+#: modules/collector.php:522
+msgid "Source Links Collection"
+msgstr "来源地址采集"
+
+#: modules/collector.php:529
+msgid "Links Filters"
+msgstr "来源地址过滤"
+
+#: modules/collector.php:536
+msgid "Encoding Settings"
+msgstr "编码设置"
+
+#: modules/collector.php:543
+msgid "Grab Content Settings"
+msgstr "抓取内容设置"
+
+#: modules/collector.php:550 modules/collector.php:1160
+msgid "Meta Collection"
+msgstr "自定义栏目采集"
+
+#: modules/collector.php:557
+msgid "Source Content CSS Selector Filters"
+msgstr "来源内容 CSS选择器过滤"
+
+#: modules/collector.php:564
+msgid "Regular Expression (JS) Replacement"
+msgstr "正则表达式（JS）替换"
+
+#: modules/collector.php:585
+msgid "Automatic Detect"
+msgstr "自动检测"
+
+#: modules/collector.php:586
+msgid "Manual Specify"
+msgstr "手动指定"
+
+#: modules/collector.php:591
+msgid "Encoding"
+msgstr "编码"
+
+#: modules/collector.php:608
+msgid "Source Title Replacement - Regular Expression"
+msgstr "来源标题替换 - 正则表达式"
+
+#: modules/collector.php:609 modules/collector.php:631
+msgid "Replacement"
+msgstr "替换成"
+
+#: modules/collector.php:615 modules/collector.php:637
+msgid "You have not set regular expression yet."
+msgstr "还没有设置正则表达式。"
+
+#: modules/collector.php:626 modules/collector.php:648
+msgid "Add a Regular Expression"
+msgstr "添加正则表达式"
+
+#: modules/collector.php:630
+msgid "Source Content Replacement - Regular Expression"
+msgstr "来源内容替换 - 正则表达式"
+
+#: modules/collector.php:649
+#, php-format
+msgid "For example: <strong>%1$s</strong> or <strong>%2$s</strong."
+msgstr "例如：<strong>%1$s</strong> 或 <strong>%2$s</strong。"
+
+#: modules/collector.php:649
+msgid "Advertisement"
+msgstr "搜狐娱乐"
+
+#: modules/collector.php:661
+msgid "ID & Class Selector"
+msgstr "ID & Class 选择器"
+
+#: modules/collector.php:662 modules/collector.php:683
+msgid "Delete Inner HTML"
+msgstr "删除所含内容"
+
+#: modules/collector.php:667
+msgid "You have not set css selector filter yet."
+msgstr "还没有设置CSS选择器过滤。"
+
+#: modules/collector.php:678
+msgid "Add a Selector"
+msgstr "添加选择器"
+
+#: modules/collector.php:682
+msgid "Tags Selector"
+msgstr "标签选择器"
+
+#: modules/collector.php:688
+msgid "You have not set html tag filter yet."
+msgstr "还没有设置HTML标签过滤。"
+
+#: modules/collector.php:699
+msgid "Add a HTML Tag"
+msgstr "添加HTML标签"
+
+#: modules/collector.php:700
+msgid "Choose from list of HTMl tags"
+msgstr "从HTML标签列表中选择"
+
+#: modules/collector.php:702
+msgid "Structure"
+msgstr "构造"
+
+#: modules/collector.php:710
+msgid "Meta Information"
+msgstr "元数据"
+
+#: modules/collector.php:718
+msgid "Text"
+msgstr "文本"
+
+#: modules/collector.php:746
+msgid "Links"
+msgstr "链接"
+
+#: modules/collector.php:751
+msgid "Images and Objects"
+msgstr "图像和对象"
+
+#: modules/collector.php:760
+msgid "Lists"
+msgstr "列表"
+
+#: modules/collector.php:769
+msgid "Table"
+msgstr "表"
+
+#: modules/collector.php:782
+msgid "Forms"
+msgstr "表单"
+
+#: modules/collector.php:795
+msgid "Scripting"
+msgstr "脚本"
+
+#: modules/collector.php:800
+msgid "Presentational"
+msgstr "描述性的"
+
+#: modules/collector.php:811
+msgid "Frame"
+msgstr "框架"
+
+#: modules/collector.php:817
+msgid "HTML5"
+msgstr "为了增强HTML5播放体验，请添加备用源："
+
+#: modules/collector.php:861
+msgid "Keywords Allowed"
+msgstr "允许的关键词"
+
+#: modules/collector.php:867
+msgid "You have not set allowed keywords yet."
+msgstr "未设置允许的关键词。"
+
+#: modules/collector.php:871 modules/collector.php:890
+msgid "Keywords"
+msgstr "关键词"
+
+#: modules/collector.php:876
+msgid "Add a Keyword Allowed"
+msgstr "添加允许的关键词"
+
+#: modules/collector.php:880
+msgid "Keywords Disallowed"
+msgstr "禁止的关键词"
+
+#: modules/collector.php:886
+msgid "You have not set disallowed keywords yet."
+msgstr "未设置禁止的关键词。"
+
+#: modules/collector.php:895
+msgid "Add a Keyword Disallow"
+msgstr "添加禁止的关键词"
+
+#: modules/collector.php:934
+msgid "Post Status"
+msgstr "发布状态"
+
+#: modules/collector.php:951
+msgid "Please enter page links that you want to grabbed."
+msgstr "请输入你想抓取的页面链接。"
+
+#: modules/collector.php:967
+msgid "Add"
+msgstr "添加"
+
+#: modules/collector.php:968
+msgid "For exmaple: http://www.example.com/news/10000.html"
+msgstr "例如：http://www.example.com/news/10000.html"
+
+#: modules/collector.php:969
+msgid "Link Selector"
+msgstr "链接选择器"
+
+#: modules/collector.php:969 modules/collector.php:970
+#: modules/collector.php:1005 modules/collector.php:1018
+#: modules/collector.php:1031
+#, php-format
+msgid "For example: %s"
+msgstr "例如： %s"
+
+#: modules/collector.php:970
+msgid "Paginate Link Selector"
+msgstr "分页链接选择器"
+
+#: modules/collector.php:971
+msgid "Test Grab Links"
+msgstr "测试抓取链接"
+
+#: modules/collector.php:989 modules/collector.php:1054
+#: modules/translate.php:314 modules/translate.php:316
+#: modules/translate.php:355 modules/translate.php:357
+msgid "Method"
+msgstr "方法"
+
+#: modules/collector.php:990 modules/collector.php:1005
+#: modules/collector.php:1018 modules/collector.php:1031
+#: modules/collector.php:1055 modules/collector.php:1072
+#: modules/collector.php:1102 modules/collector.php:1144
+msgid "Method Value"
+msgstr "方法值"
+
+#: modules/collector.php:992
+msgid "Meta"
+msgstr "功能"
+
+#: modules/collector.php:997
+msgid "Source Title"
+msgstr "来源标题"
+
+#: modules/collector.php:1001 modules/collector.php:1014
+#: modules/collector.php:1027 modules/collector.php:1067
+#: modules/collector.php:1081 modules/collector.php:1097
+#: modules/collector.php:1137
+msgid "Selector (CSS)"
+msgstr "选择器（CSS）"
+
+#: modules/collector.php:1002 modules/collector.php:1015
+#: modules/collector.php:1028 modules/collector.php:1068
+#: modules/collector.php:1082 modules/collector.php:1098
+#: modules/collector.php:1142
+msgid "Regular Expression (JS)"
+msgstr "正则表达式（JS）"
+
+#: modules/collector.php:1007
+msgid "Post Title"
+msgstr "文章标题"
+
+#: modules/collector.php:1010
+msgid "Source Content"
+msgstr "来源内容"
+
+#: modules/collector.php:1020
+msgid "Post Content"
+msgstr "文章内容"
+
+#: modules/collector.php:1023
+msgid "Source Excerpt"
+msgstr "来源摘要"
+
+#: modules/collector.php:1033
+msgid "Post Excerpt"
+msgstr "文章摘要"
+
+#: modules/collector.php:1037
+msgid "Test Grab Contents"
+msgstr "测试抓取内容"
+
+#: modules/collector.php:1038
+msgid "Please enter test link url that you want to grab."
+msgstr "请输入你想抓取的测试链接URL。"
+
+#: modules/collector.php:1057 modules/collector.php:1074
+#: modules/collector.php:1088 modules/collector.php:1104
+#: modules/collector.php:1145
+msgid "Custom Post Meta"
+msgstr "自定义栏目"
+
+#: modules/collector.php:1063
+msgid "Source Site"
+msgstr "来源网站"
+
+#: modules/collector.php:1069 modules/collector.php:1083
+#: modules/collector.php:1099 modules/collector.php:1143
+msgid "String"
+msgstr "字符串"
+
+#: modules/collector.php:1078
+msgid "Source Link"
+msgstr "来源地址"
+
+#: modules/collector.php:1110
+msgid "Add Custom Post Meta Collection"
+msgstr "添加自定义栏目采集"
+
+#: modules/collector.php:1132
+msgid "Please enter URL."
+msgstr "请输入URL。"
+
+#: modules/collector.php:1133
+msgid "Please select media you want insert to editor"
+msgstr "请选择想要插入编辑器的媒体"
+
+#: modules/collector.php:1135
+msgid "Content"
+msgstr "内容"
+
+#: modules/collector.php:1136
+msgid "Insert Medias"
+msgstr "插入媒体"
+
+#: modules/collector.php:1138
+msgid "Keyword"
+msgstr "关键词"
+
+#: modules/collector.php:1139 modules/collector.php:1239
+msgid "Collection"
+msgstr "收藏"
+
+#: modules/collector.php:1140
+msgid "List of Collected Links"
+msgstr "已采集的链接"
+
+#: modules/collector.php:1141
+msgid "Test Collection"
+msgstr "测试采集"
+
+#: modules/collector.php:1146
+msgid "In Process..."
+msgstr "正在保存……"
+
+#: modules/collector.php:1147 modules/collector.php:1239
+msgid "Collect Something"
+msgstr "收藏点什么"
+
+#: modules/collector.php:1148
+msgid "Successfully collected."
+msgstr "采集成功。"
+
+#: modules/collector.php:1149
+msgid "Collection failed."
+msgstr "采集失败。"
+
+#: modules/collector.php:1150
+msgid "List of grab links for test"
+msgstr "测试抓取的链接列表"
+
+#: modules/collector.php:1151
+msgid "Grabed title and content for test"
+msgstr "测试抓取的标题和内容"
+
+#: modules/collector.php:1152
+msgid "Content of grab for test"
+msgstr "测试抓取的内容"
+
+#: modules/collector.php:1153
+msgid "Links has successful grabed."
+msgstr "成功抓取链接。"
+
+#: modules/collector.php:1154
+msgid "Content has successful grabed."
+msgstr "成功抓取内容。"
+
+#: modules/collector.php:1155
+msgid "No links has grabed, please check css selector of links."
+msgstr "没有抓取到链接，请检查链接选择器。"
+
+#: modules/collector.php:1156
+msgid "No title has grabed, please check css selector of title."
+msgstr "没有抓取到标题，请检查标题选择器。"
+
+#: modules/collector.php:1157
+msgid ""
+"No content has grabed, please check source link or css selector of source "
+"contents."
+msgstr "没有抓取到内容，请检查来源地址或来源内容选择器。"
+
+#: modules/collector.php:1161
+msgid "Grabed content failed."
+msgstr "抓取内容失败。"
+
+#: modules/collector.php:1174 modules/collector.php:1368
+msgid "Collection Project"
+msgstr "收藏项目"
+
+#: modules/collector.php:1175 modules/collector.php:1176
+#: modules/collector.php:1179 modules/collector.php:1195
+msgid "Collection Projects"
+msgstr "收藏项目"
+
+#: modules/collector.php:1188 qqworld-collector.php:178
+#: qqworld-collector.php:255 qqworld-collector.php:256
+msgid "QQWorld Collector"
+msgstr "QQWorld收藏家"
+
+#: modules/collector.php:1190 modules/collector.php:1191
+#, php-format
+msgid "Add New %s"
+msgstr "添加新%s"
+
+#: modules/collector.php:1192
+#, php-format
+msgid "New %s"
+msgstr "添加新%s"
+
+#: modules/collector.php:1193
+#, php-format
+msgid "Edit %s"
+msgstr "编辑%s"
+
+#: modules/collector.php:1194
+#, php-format
+msgid "View %s"
+msgstr "查看%s"
+
+#: modules/collector.php:1196
+#, php-format
+msgid "Search %s"
+msgstr "搜索%s"
+
+#: modules/collector.php:1197
+#, php-format
+msgid "Parent %s:"
+msgstr "父%s："
+
+#: modules/collector.php:1198
+#, php-format
+msgid "No %s found."
+msgstr "沒有找到%s。"
+
+#: modules/collector.php:1199
+#, php-format
+msgid "No %s found in Trash."
+msgstr "回收站里沒有%s。"
+
+#: modules/collector.php:1218
+msgid "Collection Project: "
+msgstr "收藏项目："
+
+#: modules/collector.php:1225
+msgid "Collection URL: "
+msgstr "采集URL："
+
+#: modules/collector.php:1226
+msgid "Collection URL"
+msgstr "采集URL"
+
+#: modules/collector.php:1230
+msgid "Collect It"
+msgstr "采集"
+
+#: modules/collector.php:1230
+msgid "Get Media"
+msgstr "获取媒体"
+
+#: modules/collector.php:1230
+msgid "Get all media from URL."
+msgstr "从URL中获取所有媒体。"
+
+#: modules/collector.php:1234
+#, php-format
+msgid ""
+"No collection project has created, click <a href=\"%s\">here</a> to make one."
+msgstr "未创建任何采集项目，点击 <a href=\"%s\">这里</a> 创建一个。"
+
+#: modules/collector.php:1260 modules/collector.php:1261
+#: modules/collector.php:1293
+msgid "Collected Posts"
+msgstr "已收藏的文章"
+
+#: modules/collector.php:1267 modules/collector.php:1268
+#: modules/collector.php:1306
+msgid "Collection Settings"
+msgstr "收藏设置"
+
+#: modules/collector.php:1281
+msgid "Number of items per page:"
+msgstr ""
+
+#: modules/collector.php:1296
+msgid "Search Posts"
+msgstr ""
+
+#: modules/collector.php:1307 qqworld-collector.php:77
+msgid ""
+"Grab content from website, and automatically keep the all remote picture to "
+"the local, and automatically set featured image."
+msgstr ""
+"从网站抓取内容，并自动保存远程图片到本地，自动设置特色图片，并且支持机器人采"
+"集软件从外部提交。"
+
+#: modules/collector.php:1314
+msgid "Enabled Manual Mode"
+msgstr "启用手动模式"
+
+#: modules/collector.php:1314
+msgid ""
+"Enabled Manual Mode, A Collection button will shown on the top of editor."
+msgstr "启用手动模式，1个收藏按钮将显示在编辑器的上方。"
+
+#: modules/collector.php:1369
+msgctxt "column name"
+msgid "Date"
+msgstr "日期"
+
+#: modules/ftp.php:103
+msgid "Congratulation! FTP successfully connected."
+msgstr "恭喜！成功连接FTP。"
+
+#: modules/ftp.php:105
+msgid "Failed to change ftp directory, Did dirctory not exist?"
+msgstr "切换FTP目录失败，目录不存在？"
+
+#: modules/ftp.php:108
+msgid "Whoops, FTP logon has failed!"
+msgstr "哎呀，登录FTP失败。"
+
+#: modules/ftp.php:111
+msgid "Whoops, FTP connection has failed!"
+msgstr "哎呀，连接FTP失败。"
+
+#: modules/ftp.php:118
+msgid "Use FTP remote server"
+msgstr "使用FTP远程服务器"
+
+#: modules/ftp.php:143 modules/ftp.php:145
+msgid "FTP Settings"
+msgstr "FTP设置"
+
+#: modules/ftp.php:148
+msgid "IP Address"
+msgstr "IP地址"
+
+#: modules/ftp.php:152
+msgid "Port"
+msgstr "端口"
+
+#: modules/ftp.php:156 modules/upyun.php:432 modules/upyun.php:434
+#: modules/upyun.php:436
+msgid "Username"
+msgstr "用户名"
+
+#: modules/ftp.php:160 modules/upyun.php:441 modules/upyun.php:443
+#: modules/upyun.php:444 qqworld-collector.php:242 qqworld-collector.php:243
+msgid "Password"
+msgstr "密码"
+
+#: modules/ftp.php:164
+msgid "Directory"
+msgstr "目录"
+
+#: modules/ftp.php:168
+msgid "Test FTP"
+msgstr "测试FTP"
+
+#: modules/qiniu.php:172
+msgid "QiNiu Cloud Storage"
+msgstr "七牛云存储"
+
+#: modules/qiniu.php:477
+msgid "Use QiNiu Cloud Storage"
+msgstr "使用七牛云存储"
+
+#: modules/qiniu.php:502 modules/qiniu.php:504
+msgid "AccessKey"
+msgstr ""
+
+#: modules/qiniu.php:511 modules/qiniu.php:513
+msgid "SecretKey"
+msgstr ""
+
+#: modules/qiniu.php:520 modules/qiniu.php:522 modules/tencent_cos.php:546
+#: modules/tencent_cos.php:548
+msgid "Bucket"
+msgstr ""
+
+#: modules/qiniu.php:525
+msgid "Test Access QiNiu"
+msgstr "测试连接七牛云存储"
+
+#: modules/tencent_cos.php:163
+msgid "Tencent COS"
+msgstr "腾讯对象存储服务 (COS)"
+
+#: modules/tencent_cos.php:494
+msgid "Use Tencent Cloud Object Service (COS)"
+msgstr "使用腾讯对象存储服务（COS）"
+
+#: modules/tencent_cos.php:519 modules/tencent_cos.php:521
+msgid "APP ID"
+msgstr ""
+
+#: modules/tencent_cos.php:528 modules/tencent_cos.php:530
+msgid "secretID"
+msgstr ""
+
+#: modules/tencent_cos.php:537 modules/tencent_cos.php:539
+msgid "secretKey"
+msgstr ""
+
+#: modules/tencent_cos.php:551
+msgid "Test Access COS"
+msgstr "测试连接COS"
+
+#: modules/translate.php:86 modules/translate.php:88
+msgctxt "translation"
+msgid "Auto"
+msgstr "自动检测"
+
+#: modules/translate.php:89 modules/translate.php:131
+msgctxt "translation"
+msgid "Chinese Simplified"
+msgstr "简体中文"
+
+#: modules/translate.php:90 modules/translate.php:132
+msgctxt "translation"
+msgid "Chinese Traditional"
+msgstr "繁体中文"
+
+#: modules/translate.php:91
+msgctxt "translation"
+msgid "Cantonese"
+msgstr "粤语"
+
+#: modules/translate.php:92
+msgctxt "translation"
+msgid "Literary Chinese"
+msgstr "文言文"
+
+#: modules/translate.php:93 modules/translate.php:137
+msgctxt "translation"
+msgid "English"
+msgstr "英语"
+
+#: modules/translate.php:94 modules/translate.php:159
+msgctxt "translation"
+msgid "Japanese"
+msgstr "日语"
+
+#: modules/translate.php:95 modules/translate.php:164
+msgctxt "translation"
+msgid "Korean"
+msgstr "韩语"
+
+#: modules/translate.php:96 modules/translate.php:192
+msgctxt "translation"
+msgid "Spanish"
+msgstr "西班牙"
+
+#: modules/translate.php:97 modules/translate.php:142
+msgctxt "translation"
+msgid "French"
+msgstr "法语"
+
+#: modules/translate.php:98 modules/translate.php:141
+msgctxt "translation"
+msgid "Finnish"
+msgstr "芬兰语"
+
+#: modules/translate.php:99 modules/translate.php:153
+msgctxt "translation"
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+#: modules/translate.php:100 modules/translate.php:199
+msgctxt "translation"
+msgid "Thai"
+msgstr "泰语"
+
+#: modules/translate.php:101 modules/translate.php:135
+msgctxt "translation"
+msgid "Danish"
+msgstr "丹麦语"
+
+#: modules/translate.php:102 modules/translate.php:120
+msgctxt "translation"
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: modules/translate.php:103 modules/translate.php:185
+msgctxt "translation"
+msgid "Russian"
+msgstr "俄语"
+
+#: modules/translate.php:104 modules/translate.php:182
+msgctxt "translation"
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: modules/translate.php:105 modules/translate.php:145
+msgctxt "translation"
+msgid "German"
+msgstr "德语"
+
+#: modules/translate.php:106 modules/translate.php:158
+msgctxt "translation"
+msgid "Italian"
+msgstr "意大利语"
+
+#: modules/translate.php:107 modules/translate.php:136
+msgctxt "translation"
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: modules/translate.php:108 modules/translate.php:195
+msgctxt "translation"
+msgid "Swedish"
+msgstr "瑞典语"
+
+#: modules/translate.php:109 modules/translate.php:190
+msgctxt "translation"
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+#: modules/translate.php:110 modules/translate.php:134
+msgctxt "translation"
+msgid "Czech"
+msgstr "捷克语"
+
+#: modules/translate.php:111 modules/translate.php:184
+msgctxt "translation"
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+#: modules/translate.php:112 modules/translate.php:146
+msgctxt "translation"
+msgid "Greek"
+msgstr "希腊语"
+
+#: modules/translate.php:113 modules/translate.php:181
+msgctxt "translation"
+msgid "Polish"
+msgstr "波兰语"
+
+#: modules/translate.php:114 modules/translate.php:127
+msgctxt "translation"
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+#: modules/translate.php:115 modules/translate.php:139
+msgctxt "translation"
+msgid "Estonian"
+msgstr "爱沙尼亚语"
+
+#: modules/translate.php:118
+msgctxt "translation"
+msgid "Afrikaans"
+msgstr "南非荷兰语"
+
+#: modules/translate.php:119
+msgctxt "translation"
+msgid "Albanian"
+msgstr "阿尔巴尼亚语"
+
+#: modules/translate.php:121
+msgctxt "translation"
+msgid "Armenian"
+msgstr "亚美尼亚语"
+
+#: modules/translate.php:122
+msgctxt "translation"
+msgid "Azerbaijani"
+msgstr "阿塞拜疆语"
+
+#: modules/translate.php:123
+msgctxt "translation"
+msgid "Basque"
+msgstr "巴斯克语"
+
+#: modules/translate.php:124
+msgctxt "translation"
+msgid "Belarusian"
+msgstr "白俄罗斯语"
+
+#: modules/translate.php:125
+msgctxt "translation"
+msgid "Bengali"
+msgstr "孟加拉语"
+
+#: modules/translate.php:126
+msgctxt "translation"
+msgid "Bosnian"
+msgstr "波士尼亚语"
+
+#: modules/translate.php:128
+msgctxt "translation"
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+#: modules/translate.php:129
+msgctxt "translation"
+msgid "Cebuano"
+msgstr "宿务语"
+
+#: modules/translate.php:130
+msgctxt "translation"
+msgid "Chichewa"
+msgstr "齐佩瓦语"
+
+#: modules/translate.php:133
+msgctxt "translation"
+msgid "Croatian"
+msgstr "克罗地亚语"
+
+#: modules/translate.php:138
+msgctxt "translation"
+msgid "Esperanto"
+msgstr "世界语"
+
+#: modules/translate.php:140
+msgctxt "translation"
+msgid "Filipino"
+msgstr "菲律宾语"
+
+#: modules/translate.php:143
+msgctxt "translation"
+msgid "Galician"
+msgstr "加利西亚语"
+
+#: modules/translate.php:144
+msgctxt "translation"
+msgid "Georgian"
+msgstr "格鲁吉亚语"
+
+#: modules/translate.php:147
+msgctxt "translation"
+msgid "Gujarati"
+msgstr "古吉拉特语"
+
+#: modules/translate.php:148
+msgctxt "translation"
+msgid "Haitian Creole"
+msgstr "海地克里奥尔语"
+
+#: modules/translate.php:149
+msgctxt "translation"
+msgid "Hausa"
+msgstr "豪撒语"
+
+#: modules/translate.php:150
+msgctxt "translation"
+msgid "Hebrew"
+msgstr "希伯来语"
+
+#: modules/translate.php:151
+msgctxt "translation"
+msgid "Hindi"
+msgstr "印度语"
+
+#: modules/translate.php:152
+msgctxt "translation"
+msgid "Hmong"
+msgstr "苗语"
+
+#: modules/translate.php:154
+msgctxt "translation"
+msgid "Icelandic"
+msgstr "冰岛语"
+
+#: modules/translate.php:155
+msgctxt "translation"
+msgid "Igbo"
+msgstr "伊博语"
+
+#: modules/translate.php:156
+msgctxt "translation"
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+#: modules/translate.php:157
+msgctxt "translation"
+msgid "Irish"
+msgstr "爱尔兰语"
+
+#: modules/translate.php:160
+msgctxt "translation"
+msgid "Javanese"
+msgstr "爪哇语"
+
+#: modules/translate.php:161
+msgctxt "translation"
+msgid "Kannada"
+msgstr "卡纳达语"
+
+#: modules/translate.php:162
+msgctxt "translation"
+msgid "Kazakh"
+msgstr "哈萨克语"
+
+#: modules/translate.php:163
+msgctxt "translation"
+msgid "Khmer"
+msgstr "柬埔寨语"
+
+#: modules/translate.php:165
+msgctxt "translation"
+msgid "Lao"
+msgstr "老挝语"
+
+#: modules/translate.php:166
+msgctxt "translation"
+msgid "Latin"
+msgstr "拉丁语"
+
+#: modules/translate.php:167
+msgctxt "translation"
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+#: modules/translate.php:168
+msgctxt "translation"
+msgid "Lithuanian"
+msgstr "立陶宛语"
+
+#: modules/translate.php:169
+msgctxt "translation"
+msgid "Macedonian"
+msgstr "马其顿语"
+
+#: modules/translate.php:170
+msgctxt "translation"
+msgid "Malagasy"
+msgstr "马达加斯加语"
+
+#: modules/translate.php:171
+msgctxt "translation"
+msgid "Malay"
+msgstr "马來语"
+
+#: modules/translate.php:172
+msgctxt "translation"
+msgid "Malayalam"
+msgstr "马拉雅拉姆语"
+
+#: modules/translate.php:173
+msgctxt "translation"
+msgid "Maltese"
+msgstr "马耳他语"
+
+#: modules/translate.php:174
+msgctxt "translation"
+msgid "Maori"
+msgstr "毛利语"
+
+#: modules/translate.php:175
+msgctxt "translation"
+msgid "Marathi"
+msgstr "马拉地语"
+
+#: modules/translate.php:176
+msgctxt "translation"
+msgid "Mongolian"
+msgstr "蒙古语"
+
+#: modules/translate.php:177
+msgctxt "translation"
+msgid "Myanmar (Burmese)"
+msgstr "缅甸语"
+
+#: modules/translate.php:178
+msgctxt "translation"
+msgid "Nepali"
+msgstr "尼泊尔语"
+
+#: modules/translate.php:179
+msgctxt "translation"
+msgid "Norwegian"
+msgstr "挪威语"
+
+#: modules/translate.php:180
+msgctxt "translation"
+msgid "Persian"
+msgstr "波斯语"
+
+#: modules/translate.php:183
+msgctxt "translation"
+msgid "Punjabi"
+msgstr "印度旁遮普语"
+
+#: modules/translate.php:186
+msgctxt "translation"
+msgid "Serbian"
+msgstr "塞尔维亚语"
+
+#: modules/translate.php:187
+msgctxt "translation"
+msgid "Sesotho"
+msgstr "塞索托语"
+
+#: modules/translate.php:188
+msgctxt "translation"
+msgid "Sinhala"
+msgstr "僧伽罗语"
+
+#: modules/translate.php:189
+msgctxt "translation"
+msgid "Slovak"
+msgstr "斯洛伐克语"
+
+#: modules/translate.php:191
+msgctxt "translation"
+msgid "Somali"
+msgstr "索马里语"
+
+#: modules/translate.php:193
+msgctxt "translation"
+msgid "Sudanese"
+msgstr "苏丹语"
+
+#: modules/translate.php:194
+msgctxt "translation"
+msgid "Swahili"
+msgstr "斯瓦希里语"
+
+#: modules/translate.php:196
+msgctxt "translation"
+msgid "Tajik"
+msgstr "塔吉克语"
+
+#: modules/translate.php:197
+msgctxt "translation"
+msgid "Tamil"
+msgstr "泰米尔文"
+
+#: modules/translate.php:198
+msgctxt "translation"
+msgid "Telugu"
+msgstr "泰卢固语"
+
+#: modules/translate.php:200
+msgctxt "translation"
+msgid "Turkish"
+msgstr "土耳其语"
+
+#: modules/translate.php:201
+msgctxt "translation"
+msgid "Ukrainian"
+msgstr "乌克兰语"
+
+#: modules/translate.php:202
+msgctxt "translation"
+msgid "Urdu"
+msgstr "乌尔都语"
+
+#: modules/translate.php:203
+msgctxt "translation"
+msgid "Uzbek"
+msgstr "乌兹别克语"
+
+#: modules/translate.php:204
+msgctxt "translation"
+msgid "Vietnamese"
+msgstr "越南语"
+
+#: modules/translate.php:205
+msgctxt "translation"
+msgid "Welsh"
+msgstr "威尔士语"
+
+#: modules/translate.php:206
+msgctxt "translation"
+msgid "Yiddish"
+msgstr "依地语"
+
+#: modules/translate.php:207
+msgctxt "translation"
+msgid "Yoruba"
+msgstr "约鲁巴语"
+
+#: modules/translate.php:208
+msgctxt "translation"
+msgid "Zulu"
+msgstr "祖鲁语"
+
+#: modules/translate.php:214 modules/translate.php:233
+msgid "Translated successfully."
+msgstr "翻译成功。"
+
+#: modules/translate.php:239 modules/translate.php:251
+#: modules/translate.php:456
+msgid "Translation"
+msgstr "翻译"
+
+#: modules/translate.php:266
+msgid "Please select translation mode."
+msgstr "请选择翻译模式。"
+
+#: modules/translate.php:272
+msgid "Baidu Translation"
+msgstr "百度翻译"
+
+#: modules/translate.php:273
+msgid "Google Translation"
+msgstr "谷歌翻译"
+
+#: modules/translate.php:281 modules/translate.php:283
+msgid "Display Languages List"
+msgstr "显示语言列表"
+
+#: modules/translate.php:281
+msgid ""
+"Display languages list on top of editor in Manual Mode of Save-Remote-Images."
+msgstr "在保存远程图片的手动模式中的编辑器顶部显示语言列表。"
+
+#: modules/translate.php:295 modules/translate.php:297
+msgctxt "baidu"
+msgid "APP ID"
+msgstr ""
+
+#: modules/translate.php:295
+msgid "How to get APP ID?"
+msgstr "如何获取APP ID？"
+
+#: modules/translate.php:295 modules/translate.php:304
+msgid ""
+"Access <a href='http://api.fanyi.baidu.com' target='_blank'>api.fanyi.baidu."
+"com</a>"
+msgstr ""
+"访问 <a href='http://api.fanyi.baidu.com' target='_blank'>api.fanyi.baidu."
+"com</a>"
+
+#: modules/translate.php:304 modules/translate.php:306
+msgctxt "baidu"
+msgid "Key"
+msgstr "密钥"
+
+#: modules/translate.php:304
+msgid "How to get Key?"
+msgstr "如何获取密钥？"
+
+#: modules/translate.php:318 modules/translate.php:359
+msgid "From"
+msgstr "从"
+
+#: modules/translate.php:328 modules/translate.php:369
+#: modules/translate.php:420 modules/translate.php:443
+msgid "To"
+msgstr "到"
+
+#: modules/translate.php:346 modules/translate.php:348
+msgid "Google API Key"
+msgstr "谷歌API Key"
+
+#: modules/translate.php:346
+msgid "How to get Google API Key?"
+msgstr "如何获取谷歌API Key？"
+
+#: modules/translate.php:346
+msgid ""
+"Access <a href='https://console.developers.google.com/project' "
+"target='_blank'>https://console.developers.google.com/project</a>"
+msgstr ""
+"访问 <a href='https://console.developers.google.com/project' "
+"target='_blank'>https://console.developers.google.com/project</a>"
+
+#: modules/translate.php:389
+msgid "Test"
+msgstr "测试"
+
+#: modules/translate.php:390
+msgid "Hello World!"
+msgstr "你好，世界！"
+
+#: modules/translate.php:394
+msgid "Translate"
+msgstr "翻译"
+
+#: modules/upyun.php:183
+msgid "UPYUN"
+msgstr "又拍云存储"
+
+#: modules/upyun.php:400
+msgid "Use UpYun Storage Service"
+msgstr "使用又拍云存储"
+
+#: modules/upyun.php:425 modules/upyun.php:427 modules/upyun.php:428
+msgctxt "upyun"
+msgid "Bucket"
+msgstr "空间名"
+
+#: modules/upyun.php:445
+msgctxt "upyun"
+msgid "Test Access UpYun"
+msgstr "测试连接又拍云"
+
+#: modules/upyun.php:449
+msgid ""
+"Automatically scan media library and sync to UpYun.<br /><strong>Fast Scan</"
+"strong>: Determines whether the synchronization with local marks.<br /"
+"><strong>Smart Scan</strong>: Determines whether the synchronization with "
+"UpYun file exists."
+msgstr ""
+"自动扫描媒体库并同步到又拍云。<br /><strong>快速扫描</strong>：通过本地记号来"
+"判断是否已同步。<br /><strong>智能扫描</strong>：通过又拍云上的文件是否存在判"
+"断是否已同步。"
+
+#: modules/upyun.php:457
+msgid ""
+"When you delete a local attachment file, delete the UpYun file "
+"synchronization."
+msgstr "当你删除本地附件文件时，同时删除又拍云上的文件。"
+
+#: modules/upyun.php:466
+msgid ""
+"Automatically replaces post content's local url as UpYun's url when syncing."
+msgstr "当同步时自动将文章内容中的本地URL替换为又拍云上的URL。"
+
+#: qqworld-collector.php:76
+msgid "QQWorld Collector - Product Activation"
+msgstr "QQWorld收藏家 - 产品激活"
+
+#: qqworld-collector.php:83 qqworld-collector.php:85
+msgid "Activation Code"
+msgstr "激活码"
+
+#: qqworld-collector.php:87
+msgid "Please enter the Activation Code"
+msgstr "请输入激活码"
+
+#: qqworld-collector.php:87
+msgid "Whoops, Activation code is invalid."
+msgstr "哎呀，激活码无效喔。"
+
+#: qqworld-collector.php:103
+msgid "Installation"
+msgstr "安装说明"
+
+#: qqworld-collector.php:104
+msgid ""
+"<ol><li>Make sure the server configuration <strong>allow_url_fopen=1</"
+"strong> in php.ini.</li><li>Warning: If your website domain has been "
+"changed, you must modify all image link to new domain from database, or else "
+"all images which not modified in post content will be save again.</li></ol>"
+msgstr ""
+"<ol><li>请确保php.ini的设置中 <strong>allow_url_fopen=1</strong></li><li>警"
+"告：如果你的网站域名更改了，必须在数据库中将所有的图片链接更新到新域名，否则"
+"插件会把未更改的图片再保存一次。</li></ol>"
+
+#: qqworld-collector.php:108
+msgid "Notice"
+msgstr "注意"
+
+#: qqworld-collector.php:109
+msgid ""
+"<ul><li>This plugin has a little problem that is all the image url must be "
+"full url, it means must included \"http(s)://\", for example:<ul><li>&lt;img "
+"src=&quot;http://img.whitehouse.gov/image/2014/08/09/gogogo.jpg&quot; /&gt;</"
+"li><li>&lt;img src=&quot;http://www.bubugao.me/image/travel/beijing.png?"
+"date=20140218&quot; /&gt;</li>\t\t\t<li>&lt;img src=&quot;http://r4.ykimg."
+"com/05410408543927D66A0B4D03A98AED24&quot; /&gt;</li><li>&lt;img src=&quot;"
+"https://example.com/image?id=127457&quot; /&gt;</li></ul></li><li>The "
+"examples that not works:<ul><li>&lt;img src=&quot;/images/great.png&quot; /"
+"&gt;</li><li>&lt;img src=&quot;./photo-lab/2014-08-09.jpg&quot; /&gt;</"
+"li><li>&lt;img src=&quot;img/background/black.gif&quot; /&gt;</li></ul></"
+"li></ul>I'v tried to figure this out, but i couldn't get the host name to "
+"make image src full.<br />So if you encounter these codes, plaese manually "
+"fix the images src to full url."
+msgstr ""
+"<ul><li>该插件有个小问题，所有的远程图像的URL必须是完整的，就是说必须得包含"
+"\"http(s)://\"，比如：<ul><li>&lt;img src=&quot;http://img.whitehouse.gov/"
+"image/2014/08/09/gogogo.jpg&quot; /&gt;</li><li>&lt;img src=&quot;http://www."
+"bubugao.me/image/travel/beijing.png?date=20140218&quot; /&gt;</li><li>&lt;"
+"img src=&quot;http://r4.ykimg.com/05410408543927D66A0B4D03A98AED24&quot; /"
+"&gt;</li><li>&lt;img src=&quot;https://example.com/image?id=127457&quot; /"
+"&gt;</li></ul></li><li>不能保存的例子：<ul><li>&lt;img src=&quot;/images/"
+"great.png&quot; /&gt;</li><li>&lt;img src=&quot;./photo-lab/2014-08-09."
+"jpg&quot; /&gt;</li><li>&lt;img src=&quot;img/background/black.gif&quot; /"
+"&gt;</li></ul></li></ul>我尝试解决这个问题，但是我无法让程序获取到主机名从而"
+"让图片的URL完整。<br />所以，如果你碰到这样的代码，请手动将图片地址改成完整"
+"的，或者使用采集工具自动补完图片的URL然后从外部提交给Wordpress。"
+
+#: qqworld-collector.php:113
+msgid "About"
+msgstr "关于"
+
+#: qqworld-collector.php:114
+msgid ""
+"<p>Hi everyone, My name is Michael Wang from china.</p><p>I made this plugin "
+"just for play in the first place, after 1 year, oneday someone sent an email "
+"to me for help , I was surprise and glad to realized my plugin has a fan. "
+"then more and more peoples asked me for helps, and my plugin was getting "
+"more and more powerful. Now this's my plugin. I hope you will like it, "
+"thanks.</p>"
+msgstr ""
+"<p>大家好，我是王晓骞，来自中国。</p><p>我最开始制作本插件只是为了玩，一年后"
+"的某一天，某人以一封邮件向我求助，我才很高兴得意识到居然有人喜欢我的插件，然"
+"后随着越来越多的人向我寻求帮助，我的插件也变得越来越强大。这就是我的插件，我"
+"希望你们能喜欢它，谢谢。</p>"
+
+#: qqworld-collector.php:210 qqworld-collector.php:222
+msgid "Update"
+msgstr "更新"
+
+#: qqworld-collector.php:223
+msgid ""
+"I couldn't put this pro edition in wordpress server, so i built an semi-"
+"automatic update service."
+msgstr "商业版的插件不能托管给Wordpress，所以我开发了一个半自动升级的功能。"
+
+#: qqworld-collector.php:230
+msgid "Current Version"
+msgstr "当前版本"
+
+#: qqworld-collector.php:234
+msgid "Check Update"
+msgstr "检查更新"
+
+#: qqworld-collector.php:235
+msgid "Check Now"
+msgstr "立即检查"
+
+#: qqworld-collector.php:238 qqworld-collector.php:239
+msgid "Login Name"
+msgstr "登录名"
+
+#: qqworld-collector.php:238
+msgid ""
+"If you want update automatically , Please enter your Login Name and Password "
+"of website www.qqworld.org."
+msgstr "如果你想自动更新，请输入您在网站www.qqworld.org上的用户名和密码。"
+
+#: qqworld-collector.php:267
+msgid "QQWorld Collector - Trial license Expired"
+msgstr "QQWorld收藏家 - 试用许可已过期"
+
+#: qqworld-collector.php:268
+#, php-format
+msgid ""
+"This copy is a trial edition, the trial time has expired. please buy <a href="
+"\"%s\" target=\"_blank\">full version</a>."
+msgstr ""
+"该副本是试用版，试用期已过，请购买<a href=\"%s\" target=\"_blank\">正式版</"
+"a>。"
+
+#~ msgid ""
+#~ "Needs <a href=\"%s\" target=\"_blank\">plugin of QiNiu Cloud Storage</a>."
+#~ msgstr "需要 <a href=\"%s\" target=\"_blank\">七牛云存储插件</a>。"
+
+#~ msgid ""
+#~ "Access <a href='api.fanyi.baidu.com' target='_blank'>http://api.fanyi."
+#~ "baidu.com/</a>"
+#~ msgstr ""
+#~ "访问 <a href='api.fanyi.baidu.com' target='_blank'>http://api.fanyi.baidu."
+#~ "com/</a>"
+
+#~ msgid "Baidu API Key"
+#~ msgstr "百度API Key"
+
+#~ msgid "How to get Baidu API Key?"
+#~ msgstr "如何获取百度API Key"
+
+#~ msgid ""
+#~ "Access <a href='http://developer.baidu.com/console#app/project' "
+#~ "target='_blank'>http://developer.baidu.com/console#app/project</a>"
+#~ msgstr ""
+#~ "访问<a href='http://developer.baidu.com/console#app/project' "
+#~ "target='_blank'>http://developer.baidu.com/console#app/project</a>"
+
+#~ msgid "Synchronization"
+#~ msgstr "同步"
+
+#~ msgid "Synchronization Settings"
+#~ msgstr "同步设置"
+
+#~ msgid "Sina Weibo"
+#~ msgstr "新浪微博"
+
+#~ msgid "Sync to Sina Weibo."
+#~ msgstr "同步到新浪微博"
+
+#~ msgid "Coming soon.."
+#~ msgstr "即将推出……"
+
+#~ msgid ""
+#~ "Change all remote images Filename and Alt as post name (for Linux Server)"
+#~ msgstr "改变所有远程图片文件名为文章名（Post Name）（用于Linux服务器）"
+
+#~ msgid ""
+#~ "Your server PHP does not support GD2, please remove ';' from in front of "
+#~ "extension=php_zip.dll in the <strong>php.ini</strong>."
+#~ msgstr ""
+#~ "你的服务器 PHP 不支持 GD2，请删除从 extension=php_zip.dll 在<strong>php."
+#~ "ini 文件</strong>中的 ';'。"
+
+#~ msgid "Save post (Publish, save draft or pedding review)."
+#~ msgstr "保存文章时（发布文章，保存草稿或提交审核）。"
+
+#~ msgid "Publish post only."
+#~ msgstr "仅发布文章时。"
+
+#~ msgid "Read (Subscriber+)"
+#~ msgstr "阅读（订阅者+）"
+
+#~ msgid "Edit Posts (Contributor+)"
+#~ msgstr "编辑文章（投稿者+）"
+
+#~ msgid "Publish Posts (Author+)"
+#~ msgstr "发布文章（作者+）"
+
+#~ msgid "Edit Others Posts (Editor+)"
+#~ msgstr "编辑其他文章（编辑+）"
+
+#~ msgid "Manage Options (Administrator+)"
+#~ msgstr "管理选项（管理员+）"
+
+#~ msgctxt "translation"
+#~ msgid "Simplified Chinese"
+#~ msgstr "简体中文"
+
+#~ msgctxt "translation"
+#~ msgid "Traditional Chinese"
+#~ msgstr "繁体中文"
+
+#~ msgid "Switcher for Enabled Watermark."
+#~ msgstr "启用水印开关。"
+
+#~ msgid "Use for both of remote images and the local upload."
+#~ msgstr "同时用于远程图片和本地上传。"
+
+#~ msgid ""
+#~ "Remote images will no be saved into media library, it means would not "
+#~ "generate thumbnail. but if you checked Set-Featured-Image, it will only "
+#~ "save the first image into media library."
+#~ msgstr ""
+#~ "远程图像不会被保存到媒体库这意味着不会生成各种尺寸的缩略图。但如果你勾选了"
+#~ "设置特色图片，则会保存第一幅图像到媒体库。"
+
+#~ msgid ""
+#~ "Would not save images into media library, only keep the full size remote "
+#~ "images to local. but if you checked Set-Featured-Image, will only save "
+#~ "the first image into media library."
+#~ msgstr ""
+#~ "不会保存图像到媒体库，只保存完整尺寸到本地。但如果你勾选了设置特色图片，则"
+#~ "会保存第一幅图像到媒体库。"
+
+#~ msgid ""
+#~ "This image can not be added to the blacklist! Undownloadable or not "
+#~ "exists?"
+#~ msgstr "无法将该图像加入黑名单！不可下载或文件不存在？"
+
+#~ msgid "Are you sure to add this image to blacklist."
+#~ msgstr "确定要将此图像加入黑名单吗？"
+
+#~ msgid "Are you sure to add this image to black list."
+#~ msgstr "确定要将该图像加入黑名单吗？"
+
+#~ msgid ""
+#~ "Successfully scanned posts will be marked, wouldn\\'t be scanned again, "
+#~ "if you check this, they will be scanned again."
+#~ msgstr ""
+#~ "成功被扫描的文章将被标记，不会被再次扫描。如果勾选此项，它们将被再次扫描。"
+
+#~ msgid ""
+#~ "Remote images html code will be deleted, if the CRC of image in this "
+#~ "list. it's priority than exclude CRC"
+#~ msgstr ""
+#~ "如果远程图像的CRC在此列表中，其HTML代码会被删除。它的优先级高于排除CRC。"
+
+#~ msgid ""
+#~ "Remote images html code will be deleted, if the CRC of image in this list."
+#~ msgstr "如果远程图像的CRC在此列表中，其HTML代码会被删除。"
+
+#~ msgid "Successfully passed."
+#~ msgstr "成功跳过。"
+
+#~ msgid "Images will not be saved, if the CRC of image in this list."
+#~ msgstr "如果图像的CRC在此列表中，则不会被保存。"
+
+#~ msgid "How to get CRC?"
+#~ msgstr "如何获得CRC"
+
+#~ msgid "Use 7-Zip, Winrar or others compression tools."
+#~ msgstr "使用7-Zip、WinRAR或其他压缩工具。"
+
+#~ msgid "Enabled Manual Mode on top of editor."
+#~ msgstr "在编辑器的上方启用手动模式。"
+
+#~ msgid "Custom Upload Directory"
+#~ msgstr "自定义上传目录"
+
+#~ msgid "Upload Dir"
+#~ msgstr "上传目录"
+
+#~ msgid "e.g. custom-dir/my"
+#~ msgstr "范例：custom-dir/my"
+
+#~ msgid ""
+#~ "PHP run time limit (Default: 30 seconds),<br /><strong>For Manual Mode</"
+#~ "strong>: Most situation default 30 seconds is fine, but if you want "
+#~ "download WeChat images i recommend 3 minutes.<br /><strong>For Automatic "
+#~ "Mode</strong>: You need set a bigger number if you need grabbing many "
+#~ "remote images at one time.<br /><strong>For Scan Mode</strong>: I "
+#~ "recommend 10 times as long as the time required for automatic mode."
+#~ msgstr ""
+#~ "PHP运行时间限制 (默认值: 30秒)，<br><strong>手动模式</strong>：大多数情况"
+#~ "默认30秒足矣，但如果你想下载微信图片，建议设置为3分钟。<br><strong>自动模"
+#~ "式</strong>：如果要一次抓取很多远程图像，就需要设置更长的时间。"
+#~ "<br><strong>扫描模式</strong>：推荐设置10倍于自动模式所需的时间。"
+
+#~ msgid ""
+#~ "PHP run time limit (Default: 30 seconds),<br /><strong>For Manual Mode</"
+#~ "strong>: Most situation default 30 is fine, but if you want download "
+#~ "WeChat images i recommend 3 minutes<br /><strong>For Automatic Mode</"
+#~ "strong>: You need set a bigger number if you need grabbing many remote "
+#~ "images at one time.<br /><strong>For Scan Mode</strong>: I recommend 10 "
+#~ "times as long as the time required for automatic mode."
+#~ msgstr ""
+#~ "PHP运行时间限制 (默认值: 30秒)，<br><strong>手动模式</strong>：大多数情况"
+#~ "默认30足矣，但如果你想下载微信图片，建议设置为3分钟。<br><strong>自动模式"
+#~ "</strong>：如果要一次抓取很多远程图像，就需要设置更长的时间。<br><strong>"
+#~ "扫描模式</strong>：我推荐10倍于自动模式所需的时间。"
+
+#~ msgid ""
+#~ "PHP run time limit (Default: 30),<br /><strong>For Manual Mode</strong>: "
+#~ "Most situation default 30 is fine, but if you want download WeChat images "
+#~ "i recommend 3 minutes<br /><strong>For Automatic Mode</strong>: You need "
+#~ "set a bigger number if you need grabbing many remote images at one time."
+#~ "<br /><strong>For Scan Mode</strong>: I recommend 10 times as long as the "
+#~ "time required for automatic mode."
+#~ msgstr ""
+#~ "PHP 运行时间限制 (默认值: 30)，<br><strong>手动模式</strong>：大多数情况默"
+#~ "认30足矣，但如果你想下载微信图片，建议设置为3分钟。<br><strong>自动模式</"
+#~ "strong>：如果要一次抓取很多远程图像，就需要设置更长的时间。<br><strong>扫"
+#~ "描模式</strong>：我推荐10倍于自动模式所需的时间。"
+
+#~ msgid ""
+#~ "PHP run time limit (Default: 30),<br />For Manual Mode: Most situation "
+#~ "default 30 is fine, but if you want download WeChat images i recommend 3 "
+#~ "minutes<br />For Automatic Mode: You need set a bigger number if you need "
+#~ "grabbing many remote images at one time.<br />For Scan Mode: I recommend "
+#~ "10 times as long as the time required for automatic mode."
+#~ msgstr ""
+#~ "PHP 运行时间限制 (默认值: 30)，<br>手动模式：大多数情况默认30足矣，但如果"
+#~ "你想下载微信图片，建议设置为3分钟。<br>自动模式：如果要一次抓取很多远程图"
+#~ "像，就需要设置更长的时间。<br>扫描模式：我推荐10倍于自动模式所需的时间。"
+
+#~ msgid ""
+#~ "PHP run time limit, You need set a bigger number if you need grabbing "
+#~ "many remote images at one time. (Default: 30)"
+#~ msgstr ""
+#~ "PHP运行时间限制，如果你需要一次抓取很多图片，就需要设置一个更大的数值。"
+#~ "（默认：30）"
+
+#~ msgid "One Hour"
+#~ msgstr "1小时"
+
+#~ msgid ""
+#~ "For Manual Mode, if your server is not powerful. use a low speed will be "
+#~ "good."
+#~ msgstr "用于手动模式，如果你的服务器不够强大，调低速度比较好。"
+
+#~ msgid ""
+#~ "You need set a bigger number if you need grabbing many remote images at "
+#~ "one time. (Default: 30)"
+#~ msgstr "如果你需要一次抓取很多图片，就需要设置一个更大的数值。（默认：30）"
+
+#~ msgid ""
+#~ "Download Timeout, please set the timeout option that in optimization "
+#~ "settings page to a larger number."
+#~ msgstr "下载超时，请将优化设置页面中的超时选项设置为更大的数字。"
+
+#~ msgid "Second"
+#~ msgid_plural "Seconds"
+#~ msgstr[0] "秒"
+
+#~ msgid ""
+#~ "Failed to download update file, either your server does not support cUrl "
+#~ "or update server was down or login password was not correct."
+#~ msgstr "无法下载更新文件，"
+
+#~ msgid ""
+#~ "Failed to download update file, either update server was down or login "
+#~ "password was not correct."
+#~ msgstr "下载升级文件失败，如果不是升级服务器无响应，就是登录密码错误。"
+
+#~ msgid "Set cron for automatically scan posts."
+#~ msgstr "设置计划任务自动扫描文章。"
+
+#~ msgid "Automatically add title & alt of image as post title."
+#~ msgstr "自动依照文章标题添加图片的标题和替代文本。"
+
+#~ msgid "Number of Collected Posts per page"
+#~ msgstr "每页的已收藏的文章条数"
+
+#~ msgid " (QQWorld-Auto-Save-Images-Pro's Evolution Edition)"
+#~ msgstr "（QQWorld自动保存图片专业版的进化版）"
+
+#~ msgid "Coming soon."
+#~ msgstr "即将推出"
+
+#~ msgid ""
+#~ "Notice: When next update you probably need register your domain again, "
+#~ "it's free, because this was a different plugin now."
+#~ msgstr ""
+#~ "提示：下次更新时可能需要重新注册您的域名，是免费的，因为这是一款不同的插件"
+#~ "了。"
+
+#~ msgid "Automatically scan media library and sync to AliYun OSS."
+#~ msgstr "自动扫描媒体库并同步到阿里云OSS。"
+
+#~ msgid " (QQWorld-Auto-Save-Images-Pro's Upgrade Edition)"
+#~ msgstr "（QQWorld自动保存图片专业版的升级版）"
+
+#~ msgid ""
+#~ "Notice: When next update you probably need free to register your domain "
+#~ "again, because this was a different plugin now."
+#~ msgstr ""
+#~ "注意：下次更新时可能需要再次注册您的域名，因为现在已经是不同的插件了。"
+
+#~ msgid "Some tools that can help you to handle database content easily."
+#~ msgstr "一些可以帮你轻松处理数据库内容的工具。"
+
+#~ msgid "General Options"
+#~ msgstr "常规选项"
+
+#~ msgid "Filter Options"
+#~ msgstr "过滤选项"
+
+#~ msgid "Format Options"
+#~ msgstr "格式化选项"
+
+#~ msgid "You need add this code below into wp-config.php: "
+#~ msgstr "你需要在 wp-config.php 中加入以下代码："
+
+#~ msgid "Use local server | QiNiu Cloud Storage"
+#~ msgstr "使用 本地服务器 | 七牛云存储"
+
+#~ msgid ""
+#~ "Grab content from website, and automatically keep the all remote picture "
+#~ "to the local, and automatically set featured image"
+#~ msgstr ""
+#~ "从网站抓取内容，并自动保存远程图片到本地，自动设置特色图片，并且支持机器人"
+#~ "采集软件从外部提交。"
+
+#~ msgid "Optimization Options"
+#~ msgstr "优化选项"
+
+#~ msgid "QQWorld Auto Save Images Pro (Activated)"
+#~ msgstr "QQWorld自动保存图片专业版（已激活）"
+
+#~ msgid "QQWorld Auto Save Images Pro - Product Activation"
+#~ msgstr "QQWorld自动保存图片专业版 - 产品激活"
+
+#~ msgid "QQWorld Collector - Licensed Expired"
+#~ msgstr "QQWorld收藏家 - 授权过期"
+
+#~ msgid "QQWorld Collector - Product Expired"
+#~ msgstr "QQWorld收藏家 - 产品已过期"
+
+#~ msgid "QQWorld Auto Save Images"
+#~ msgstr "QQWorld自动保存图片"
+
+#~ msgid "QQWorld Auto Save Images Pro - Product Expired"
+#~ msgstr "QQWorld自动保存图片专业版 - 产品过期"
+
+#~ msgid "Cron List"
+#~ msgstr "计划任务列表"
+
+#~ msgid "Automatically replace local image url to oss image url when syncing."
+#~ msgstr "同步时自动将本地图像url替换为OSS上的图像url。"
+
+#~ msgctxt "database"
+#~ msgid "Source"
+#~ msgstr "来源"
+
+#~ msgctxt "database"
+#~ msgid "Replacement"
+#~ msgstr "替换成"
+
+#~ msgid ""
+#~ "If you wanna use local media library, please choose the Use-local-server."
+#~ msgstr "如果你想使用本地媒体库，请选择使用本地服务器。"
+
+#~ msgid "Set new url structure, Do not end with '/'."
+#~ msgstr "设置新的URL结构，不要以 '/' 结尾。"
+
+#~ msgid "Do not end with '/'."
+#~ msgstr "结尾不要有 '/'。"
+
+#~ msgid "Use remote server"
+#~ msgstr "使用远程服务器"
+
+#~ msgid "Enable compress images when uploading."
+#~ msgstr "启用上传时压缩图像。"
+
+#~ msgid "Compressed"
+#~ msgstr "已压缩"
+
+#~ msgid "Compressible"
+#~ msgstr "可压缩"
+
+#~ msgid "Total space saving %s"
+#~ msgstr "共节省空间 %s。"
+
+#~ msgid "%d image has been compressed."
+#~ msgid_plural "%d images have been compressed."
+#~ msgstr[0] "已压缩 %d 幅图片"
+
+#~ msgid "%s uncompressed images attachments found, compressing..."
+#~ msgstr "发现 %s 幅未压缩的图片附件，正在压缩中……"
+
+#~ msgid ""
+#~ "Compression level, ranges from 5 (worst quality, smaller file) to 100 "
+#~ "(best quality, biggest file)."
+#~ msgstr "压缩级别，范围从0（最低品质，小文件）到100（最高品质，大文件）。"
+
+#~ msgid "Your server PHP version lower than 5.4, so this feature not works."
+#~ msgstr "服务器PHP的版本低于5.4，所以此功能无法使用。"
+
+#~ msgid "Save remote images you'v selected"
+#~ msgstr "保存所选远程图像"
+
+#~ msgid ""
+#~ "Recommeded choose option 2, if you choose option 3, make sure post name | "
+#~ "slug exclude Chinese or other East Asian characters. Notices: If your "
+#~ "host OS is linux, you can choose option 1 and would not cause coding mess "
+#~ "up, because of linux is using UTF8 encoding, as same as Wordpress."
+#~ msgstr ""
+#~ "推荐选择第2项，如果选择第3项，请确保文章名（Post Name | Slug）不包含中文和"
+#~ "其他东亚字符。提示：如果您的主机操作系统是Linux，可以选择第1项而不会导致乱"
+#~ "码，因为Linux的编码是UTF8，和Wordpress一样。"
+
+#~ msgid ""
+#~ "Your cannot get automatically update, because of your server PHP does not "
+#~ "support ZipArchive."
+#~ msgstr "因为你的服务器PHP不支持ZipArchive"
+
+#~ msgid ""
+#~ "Only change remote images filename that has Chinese or other East Asian "
+#~ "characters (for Windows Server)"
+#~ msgstr "仅改变包含中文或其他东亚字符的远程图片文件名（用于Windows服务器）"
+
+#~ msgid "Filename Structure"
+#~ msgstr "文件名结构"
+
+#~ msgid "Default: %filename%-%date%"
+#~ msgstr "默认：%filename%-%date%"
+
+#~ msgid ""
+#~ "Only change remote images filename that has Chinese or other East Asian "
+#~ "characters"
+#~ msgstr "仅改变包含中文或其他东亚字符的远程图片文件名"
+
+#~ msgid "Change all remote images Filename and Alt as post name"
+#~ msgstr "改变所有远程图片文件名为文章名（Post Name）"
+
+#~ msgid "Decompressed zip file failed, please try again."
+#~ msgstr "解压失败，请重试。"
+
+#~ msgid ""
+#~ "Recommeded choose option 2, if you choose option 3, make sure post name | "
+#~ "slug exclude Chinese or other East Asian characters. Notices: If your "
+#~ "host OS is linux, you can choose option 1 and without coding mess up, "
+#~ "because of linux is using UTF8 encoding, as same as Wordpress."
+#~ msgstr ""
+#~ "推荐选择第2项，如果选择第3项，请确保文章名（Post Name | Slug）不包含中文和"
+#~ "其他东亚字符。提示：如果您的主机操作系统是Linux，可以选择第1项而不会导致乱"
+#~ "码，因为Linux的编码是UTF8，和Wordpress一样。"
+
+#~ msgid ""
+#~ "Recommeded choose option 2, if you choose option 3, make sure post name | "
+#~ "slug exclude Chinese or other East Asian characters."
+#~ msgstr ""
+#~ "推荐选择第2项，如果选择第3项，请确保文章名（Post Name | Slug）不包含中文和"
+#~ "其他东亚字符。"
+
+#~ msgid ""
+#~ "Only change remote images filename that has Chinese or other East Asian "
+#~ "characters."
+#~ msgstr "仅改变包含中文或其他东亚字符的远程图片文件名"
+
+#~ msgid "Change all remote images Filename and Alt as post name."
+#~ msgstr "改变所有远程图片文件名为文章名（Post Name）"
+
+#~ msgid ""
+#~ "If you checked this, when the remote image filename have Chinese or other "
+#~ "East Asian characters. system will automatically change image filename. I "
+#~ "suggest enable it."
+#~ msgstr ""
+#~ "如果勾选了此项，当远程图片名包含中文或其他东亚字符的时候，将自动更改图片文"
+#~ "件名。建议开启。"
+
+#~ msgid ""
+#~ "Automatic reduction is greater than the size of the picture. if you want "
+#~ "image width less than 800px with any size height, please set width 800 "
+#~ "and left height blank."
+#~ msgstr ""
+#~ "自动缩小大于该尺寸的图像。如果你想要宽度不超过800px和任意高度图片，请设置"
+#~ "宽度800，并设置高度为空。"
+
+#~ msgid ""
+#~ "Automatic reduction is greater than the size of the picture. if you want "
+#~ "image width 800px with any size height, please set width 800 and left "
+#~ "height blank."
+#~ msgstr "自动缩小大于改尺寸的图像。如果你想要"
+
+#~ msgid "Automatic reduction is greater than the size of the picture."
+#~ msgstr "自动缩小大于改尺寸的图像。"
+
+#~ msgid "Domain"
+#~ msgstr "域名"
+
+#~ msgid "Folder"
+#~ msgstr "目录"
+
+#~ msgid "Optimize Options"
+#~ msgstr "优化选项"
+
+#~ msgid "If you wanna use local media library, choose the Use-local-server."
+#~ msgstr "如果你想使用本地媒体库，请选择使用本地服务器。"
+
+#~ msgid "Use local media library"
+#~ msgstr "使用本地媒体库"
+
+#~ msgid "Using Cookie-Free Domains to display images."
+#~ msgstr "使用免Cookie域名(Cookie-Free Domains)来显示图片。"
+
+#~ msgid "Portion of remote images have been saved."
+#~ msgstr "已保存部分远程图像。"
+
+#~ msgid "Has Missing/Undownloadable images."
+#~ msgstr "有 不存在/不可下载 的远程图像。"
+
+#~ msgid ""
+#~ "Ever since the QQWorld-Auto-Save-Image v1.7.2 released, the plugin core "
+#~ "had a big modification, please reset the <a href=\"%s\">settings</a>."
+#~ msgstr ""
+#~ "自动 QQWorld自动保存图片 v1.7.2发布，插件核心有较大更新，请重新<a href="
+#~ "\"%s\">设置</a>。"
+
+#~ msgid ""
+#~ "Just for preview, The complete feature will on the Pro version. Don't "
+#~ "worry, other features will be free forever."
+#~ msgstr "仅仅用于预览，专业版将提供完整的功能。别担心，其他功能将永久免费。"
+
+#~ msgid "Trial"
+#~ msgstr "试用"
+
+#~ msgid "Upload a Watermark Image"
+#~ msgstr "上传水印图片"
+
+#~ msgid "Upload"
+#~ msgstr "上传"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#, fuzzy
+#~ msgid "Change Image File Name"
+#~ msgstr "更改图片文件名"
+
+#~ msgid "Successed save remote images"
+#~ msgstr "成功保存远程图片"

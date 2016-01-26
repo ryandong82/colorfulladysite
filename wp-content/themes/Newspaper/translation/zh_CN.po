@@ -1,0 +1,2811 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newspaper-四亩地\n"
+"POT-Creation-Date: 2015-09-28 17:36+0800\n"
+"PO-Revision-Date: 2015-09-28 17:48+0800\n"
+"Last-Translator: zeusgeats <admin@4mudi.com>\n"
+"Language-Team: www.4mudi.com <admin@4mudi.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_td\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/shortcodes/td_slide_big.php:174
+msgid "4"
+msgstr "4"
+
+#: ../includes/shortcodes/td_slide_big.php:175 ../includes/td_config.php:4191
+msgid "Limit post number:"
+msgstr "限制文章数："
+
+#: ../includes/shortcodes/td_slide_big.php:185
+msgid "Offset posts:"
+msgstr "偏移文章："
+
+#: ../includes/shortcodes/td_slide_big.php:193
+msgid "Big Slide"
+msgstr "大幻灯片"
+
+#: ../includes/shortcodes/td_slide_big.php:197
+msgid "Blocks"
+msgstr "区块"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:226
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:226
+#: ../includes/wp_booster/td_wp_booster_functions.php:1935
+msgid "Install Required Plugins"
+msgstr "安装必需插件"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:227
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:227
+#: ../includes/wp_booster/td_wp_booster_functions.php:1936
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:228
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:228
+#: ../includes/wp_booster/td_wp_booster_functions.php:1937
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "正在安装插件：%s"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:229
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr "发生了某种错误。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:240
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:240
+msgid "Return to Required Plugins Installer"
+msgstr "返回到必要插件安装列表"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:241
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:241
+msgid "Return to the dashboard"
+msgstr "返回仪表盘"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:242
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2107
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:242
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2107
+#: ../includes/wp_booster/td_wp_booster_functions.php:1950
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:243
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:243
+msgid "The following plugin was activated successfully:"
+msgstr "下面的插件启用成功："
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:244
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "全部插件安装并激活成功. %1$s"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:245
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:245
+msgid "Dismiss this notice"
+msgstr "关闭此通知"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1281
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1281
+msgid "Private Repository"
+msgstr "私人资源库"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1285
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1285
+msgid "Pre-Packaged"
+msgstr "预包装"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1290
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1290
+msgid "WordPress Repository"
+msgstr "WordPress资源库"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1293
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1293
+msgid "Required"
+msgstr "必需"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1293
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1293
+msgid "Recommended"
+msgstr "推荐"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1296
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1296
+msgid "Not Installed"
+msgstr "未安装"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1299
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1299
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1481
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1481
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr "没有插件要安装或激活。<a href=\"%1$s\">返回仪表盘</a>"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1497
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1497
+msgid "Plugin"
+msgstr "插件"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1498
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1498
+msgid "Source"
+msgstr "来源"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1499
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1499
+msgid "Type"
+msgstr "类型"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1500
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1500
+msgid "Status"
+msgstr "状态"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1518
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1518
+msgid "Install"
+msgstr "安装"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:1519
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:1519
+msgid "Activate"
+msgstr "启用"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2090
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2090
+msgid "Install package not available."
+msgstr "安装包不可用。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2091
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2091
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "正在从 <span class=\"code\">%s</span> 下载安装包&#8230;"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2092
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2092
+msgid "Unpacking the package&#8230;"
+msgstr "解压中&#8230;"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2093
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2093
+msgid "Installing the plugin&#8230;"
+msgstr "正在安装插件&#8230;"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2094
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2094
+msgid "Plugin install failed."
+msgstr "插件安装失败。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2095
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2095
+msgid "Plugin installed successfully."
+msgstr "插件安装成功。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2106
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2106
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2229
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2229
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装%1$s时发生错误: <strong>%2$s</strong>."
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2230
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2230
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "安装 %1$s 失败."
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2234
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2234
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "安装和激活过程已开始。这也许要花一点时间，请稍等。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2235
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2235
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s已安装并激活成功"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2235
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2242
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2235
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2242
+msgid "Show Details"
+msgstr "显示详情"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2235
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2242
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2235
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2242
+msgid "Hide Details"
+msgstr "隐藏详情"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2236
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2236
+msgid "All installations and activations have been completed."
+msgstr "全部安装和激活已完成。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2237
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2237
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "安装并激活插件 %1$s (%2$d/%3$d)"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2241
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2241
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"安装和激活过程已经开始。在某些主机上，这个过程可能需要一段时间，所以请耐心等"
+"待。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2242
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2242
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s安装成功。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2243
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2243
+msgid "All installations have been completed."
+msgstr "所有的安装已经完成。"
+
+#: ../includes/wp_booster/external/class-tgm-plugin-activation.php:2244
+#: ../includes/wp_booster/external/td-old-class-tgm-plugin-activation.php:2244
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件%1$s (%2$d/%3$d)"
+
+#: ../includes/wp_booster/td_login.php:105
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "以下帐户要求将密码重置："
+
+#: ../includes/wp_booster/td_login.php:107
+#, php-format
+msgid "Username: %s"
+msgstr "用户名: %s"
+
+#: ../includes/wp_booster/td_login.php:108
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "如果这是一个错误,请忽略这封邮件,什么都不会发生。"
+
+#: ../includes/wp_booster/td_login.php:109
+msgid "To reset your password, visit the following address:"
+msgstr "重置您的密码,请访问以下地址:"
+
+#: ../includes/wp_booster/td_login.php:119
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] 密码重置"
+
+#: ../includes/wp_booster/td_login.php:125
+msgid "The e-mail could not be sent."
+msgstr "邮件不能发送。"
+
+#: ../includes/wp_booster/td_login.php:125
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "可能的原因:你的主机可能禁用 mail()函数……"
+
+#: ../includes/wp_booster/td_translate.php:22
+msgid "View all results"
+msgstr "test"
+
+#: ../includes/wp_booster/td_translate.php:23
+msgid "No results"
+msgstr "没有结果"
+
+#: ../includes/wp_booster/td_translate.php:25
+msgid "Home"
+msgstr "首页"
+
+#: ../includes/wp_booster/td_translate.php:28
+msgid "CLOSE"
+msgstr "关闭"
+
+#: ../includes/wp_booster/td_translate.php:31
+msgid "Page"
+msgstr "页面"
+
+#: ../includes/wp_booster/td_translate.php:35
+msgid "All"
+msgstr "所有"
+
+#: ../includes/wp_booster/td_translate.php:36
+msgid "By"
+msgstr "作者："
+
+#: ../includes/wp_booster/td_translate.php:37
+msgid "Load more"
+msgstr "加载更多"
+
+#: ../includes/wp_booster/td_translate.php:40
+msgid "View all posts in"
+msgstr "查看全部文章"
+
+#: ../includes/wp_booster/td_translate.php:41
+msgid "Tags"
+msgstr "标签"
+
+#: ../includes/wp_booster/td_translate.php:44
+msgid "Previous article"
+msgstr "上篇文章"
+
+#: ../includes/wp_booster/td_translate.php:45
+msgid "Next article"
+msgstr "下篇文章"
+
+#: ../includes/wp_booster/td_translate.php:46
+msgid "Authors"
+msgstr "作者"
+
+#: ../includes/wp_booster/td_translate.php:47
+msgid "Author"
+msgstr "作者"
+
+#: ../includes/wp_booster/td_translate.php:48
+msgid "RELATED ARTICLES"
+msgstr "相关文章"
+
+#: ../includes/wp_booster/td_translate.php:49
+msgid "MORE FROM AUTHOR"
+msgstr "此作者更多文章"
+
+#: ../includes/wp_booster/td_translate.php:50
+msgid "VIA"
+msgstr "通过"
+
+#: ../includes/wp_booster/td_translate.php:51
+msgid "SOURCE"
+msgstr "来源"
+
+#: ../includes/wp_booster/td_translate.php:52
+msgid "TAGS"
+msgstr "标签"
+
+#: ../includes/wp_booster/td_translate.php:53
+msgid "SHARE"
+msgstr "分享"
+
+#: ../includes/wp_booster/td_translate.php:54
+msgid "Continue"
+msgstr "继续"
+
+#: ../includes/wp_booster/td_translate.php:55
+msgid "Read more"
+msgstr "阅读更多"
+
+#: ../includes/wp_booster/td_translate.php:60
+msgid "Name:"
+msgstr "名字："
+
+#: ../includes/wp_booster/td_translate.php:61
+msgid "Email:"
+msgstr "邮箱："
+
+#: ../includes/wp_booster/td_translate.php:62
+msgid "Website:"
+msgstr "网站："
+
+#: ../includes/wp_booster/td_translate.php:63
+msgid "Comment:"
+msgstr "评论："
+
+#: ../includes/wp_booster/td_translate.php:64
+msgid "LEAVE A REPLY"
+msgstr "发表回复"
+
+#: ../includes/wp_booster/td_translate.php:65
+msgid "Post Comment"
+msgstr "发表评论"
+
+#: ../includes/wp_booster/td_translate.php:66
+msgid "Cancel reply"
+msgstr "取消回复"
+
+#: ../includes/wp_booster/td_translate.php:67
+msgid "Reply"
+msgstr "回复"
+
+#: ../includes/wp_booster/td_translate.php:68
+msgid "Log in to leave a comment"
+msgstr "登录以发表评论"
+
+#: ../includes/wp_booster/td_translate.php:69
+msgid "NO COMMENTS"
+msgstr "暂无评论"
+
+#: ../includes/wp_booster/td_translate.php:70
+msgid "1 COMMENT"
+msgstr "1条评论"
+
+#: ../includes/wp_booster/td_translate.php:71
+msgid "COMMENTS"
+msgstr "条评论"
+
+#: ../includes/wp_booster/td_translate.php:75
+msgid "REVIEW OVERVIEW"
+msgstr "点评概览"
+
+#: ../includes/wp_booster/td_translate.php:76
+msgid "SUMMARY"
+msgstr "概述"
+
+#: ../includes/wp_booster/td_translate.php:77
+msgid "OVERALL SCORE"
+msgstr "总体评分"
+
+#: ../includes/wp_booster/td_translate.php:80
+msgid "Ooops... Error 404"
+msgstr "哎呀...错误404"
+
+#: ../includes/wp_booster/td_translate.php:81
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "抱歉，您查找的页面不存在。"
+
+#: ../includes/wp_booster/td_translate.php:82
+msgid "You can go to the"
+msgstr "你可以去"
+
+#: ../includes/wp_booster/td_translate.php:83
+msgid "HOMEPAGE"
+msgstr "首页"
+
+#: ../includes/wp_booster/td_translate.php:86
+msgid "OUR LATEST POSTS"
+msgstr "最新文章"
+
+#: ../includes/wp_booster/td_translate.php:89
+msgid "Posts by"
+msgstr "作者："
+
+#: ../includes/wp_booster/td_translate.php:90
+msgid "POSTS"
+msgstr "文章"
+
+#: ../includes/wp_booster/td_translate.php:93
+msgid "Posts tagged with"
+msgstr "文章标签"
+
+#: ../includes/wp_booster/td_translate.php:94
+msgid "Tag"
+msgstr "标签"
+
+#: ../includes/wp_booster/td_translate.php:97
+msgid "Daily Archives:"
+msgstr "日归档："
+
+#: ../includes/wp_booster/td_translate.php:98
+msgid "Monthly Archives:"
+msgstr "月归档："
+
+#: ../includes/wp_booster/td_translate.php:99
+msgid "Yearly Archives:"
+msgstr "年归档："
+
+#: ../includes/wp_booster/td_translate.php:100
+msgid "Archives"
+msgstr "归档"
+
+#: ../includes/wp_booster/td_translate.php:104
+msgid "LATEST ARTICLES"
+msgstr "最新文章"
+
+#: ../includes/wp_booster/td_translate.php:107
+msgid "search results"
+msgstr "搜索结果"
+
+#: ../includes/wp_booster/td_translate.php:108
+msgid "Search"
+msgstr "搜索"
+
+#: ../includes/wp_booster/td_translate.php:109
+msgid "If you're not happy with the results, please do another search"
+msgstr "如果你不满意这个结果,请搜索另一个"
+
+#: ../includes/wp_booster/td_translate.php:112
+msgid "Contact us"
+msgstr "联系我们"
+
+#: ../includes/wp_booster/td_translate.php:115
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "第%CURRENT_PAGE%页，共%TOTAL_PAGES%页"
+
+#: ../includes/wp_booster/td_translate.php:116
+msgid "Next"
+msgstr "下一页"
+
+#: ../includes/wp_booster/td_translate.php:117
+msgid "Prev"
+msgstr "上一页"
+
+#: ../includes/wp_booster/td_translate.php:118
+msgid "Back"
+msgstr "返回"
+
+#: ../includes/wp_booster/td_translate.php:121
+msgid "No results for your search"
+msgstr "搜索没有结果"
+
+#: ../includes/wp_booster/td_translate.php:122
+msgid "No posts to display"
+msgstr "显示没有文章"
+
+#: ../includes/wp_booster/td_translate.php:125
+msgid "LOG IN"
+msgstr "登录"
+
+#: ../includes/wp_booster/td_translate.php:126
+msgid "Sign in / Join"
+msgstr "注册/登录"
+
+#: ../includes/wp_booster/td_translate.php:127
+msgid "Log In"
+msgstr "登录"
+
+#: ../includes/wp_booster/td_translate.php:128
+msgid "REGISTER"
+msgstr "注册"
+
+#: ../includes/wp_booster/td_translate.php:129
+msgid "Send My Pass"
+msgstr "发送我的密码"
+
+#: ../includes/wp_booster/td_translate.php:130
+msgid "Forgot your password?"
+msgstr "忘记密码？"
+
+#: ../includes/wp_booster/td_translate.php:131
+msgid "Please wait..."
+msgstr "请稍候..."
+
+#: ../includes/wp_booster/td_translate.php:132
+msgid "User or password incorrect!"
+msgstr "用户或密码不正确！"
+
+#: ../includes/wp_booster/td_translate.php:133
+msgid "Email or username incorrect!"
+msgstr "邮箱或用户名不正确！"
+
+#: ../includes/wp_booster/td_translate.php:134
+msgid "Email incorrect!"
+msgstr "密码不正确！"
+
+#: ../includes/wp_booster/td_translate.php:135
+msgid "User or email already exists!"
+msgstr "用户或邮箱已存在"
+
+#: ../includes/wp_booster/td_translate.php:136
+msgid ""
+"Please check you email (index or spam folder), the password was sent there."
+msgstr "请检查你的邮件(索引或垃圾邮件文件夹),密码发送到那里。"
+
+#: ../includes/wp_booster/td_translate.php:137
+msgid "Email address not found!"
+msgstr "邮箱地址找不到！"
+
+#: ../includes/wp_booster/td_translate.php:138
+msgid "Your password is reset, check your email."
+msgstr "您的密码已重置，点击您的邮件。"
+
+#: ../includes/wp_booster/td_translate.php:139
+msgid "Welcome! Log into your account"
+msgstr "欢迎登录您的帐户"
+
+#: ../includes/wp_booster/td_translate.php:140
+msgid "Register for an account"
+msgstr "注册帐户"
+
+#: ../includes/wp_booster/td_translate.php:141
+msgid "Recover your password"
+msgstr "找回密码"
+
+#: ../includes/wp_booster/td_translate.php:142
+msgid "your username"
+msgstr "您的用户名"
+
+#: ../includes/wp_booster/td_translate.php:143
+msgid "your password"
+msgstr "您的密码"
+
+#: ../includes/wp_booster/td_translate.php:144
+msgid "your email"
+msgstr "您的邮箱"
+
+#: ../includes/wp_booster/td_translate.php:145
+msgid "A password will be e-mailed to you."
+msgstr "一个密码邮件将发送给您。"
+
+#: ../includes/wp_booster/td_translate.php:146
+msgid "Logout"
+msgstr "退出"
+
+#: ../includes/wp_booster/td_translate.php:150
+msgid "Like"
+msgstr "喜欢"
+
+#: ../includes/wp_booster/td_translate.php:151
+msgid "Likes"
+msgstr "喜欢"
+
+#: ../includes/wp_booster/td_translate.php:152
+msgid "Fans"
+msgstr "粉丝"
+
+#: ../includes/wp_booster/td_translate.php:153
+msgid "Follow"
+msgstr "关注"
+
+#: ../includes/wp_booster/td_translate.php:154
+msgid "Followers"
+msgstr "粉丝"
+
+#: ../includes/wp_booster/td_translate.php:155
+msgid "Subscribe"
+msgstr "订阅"
+
+#: ../includes/wp_booster/td_translate.php:156
+msgid "Subscribers"
+msgstr "捐款人"
+
+#: ../includes/wp_booster/td_translate.php:159
+msgid "MORE STORIES"
+msgstr "更多"
+
+#: ../includes/wp_booster/td_translate.php:162
+msgid "Latest"
+msgstr "最新"
+
+#: ../includes/wp_booster/td_translate.php:163
+msgid "Featured posts"
+msgstr "精选文章"
+
+#: ../includes/wp_booster/td_translate.php:164
+msgid "Most popular"
+msgstr "最热门"
+
+#: ../includes/wp_booster/td_translate.php:165
+msgid "7 days popular"
+msgstr "7天热门"
+
+#: ../includes/wp_booster/td_translate.php:166
+msgid "By review score"
+msgstr "按评分"
+
+#: ../includes/wp_booster/td_translate.php:167
+msgid "Random"
+msgstr "随机"
+
+#: ../includes/wp_booster/td_translate.php:169
+msgid "Trending Now"
+msgstr "动态"
+
+#: ../includes/wp_booster/td_translate.php:172
+msgid "POPULAR CATEGORY"
+msgstr "热门分类"
+
+#: ../includes/wp_booster/td_translate.php:173
+msgid "POPULAR POSTS"
+msgstr "热门文章"
+
+#: ../includes/wp_booster/td_translate.php:174
+msgid "EDITOR PICKS"
+msgstr "编辑推荐"
+
+#: ../includes/wp_booster/td_translate.php:175
+msgid "ABOUT US"
+msgstr "关于我们"
+
+#: ../includes/wp_booster/td_translate.php:176
+msgid "FOLLOW US"
+msgstr "关注我们"
+
+#: ../includes/wp_booster/td_translate.php:177
+msgid "EVEN MORE NEWS"
+msgstr "更多新闻"
+
+#: ../includes/wp_booster/td_translate.php:181
+msgid "Previous (Left arrow key)"
+msgstr "上一个（左箭头键）"
+
+#: ../includes/wp_booster/td_translate.php:182
+msgid "Next (Right arrow key)"
+msgstr "下一个（右箭头键）"
+
+#: ../includes/wp_booster/td_translate.php:183
+msgid "%curr% of %total%"
+msgstr "%curr% 共 %total%"
+
+#: ../includes/wp_booster/td_translate.php:184
+#, php-format
+msgid "The content from %url% could not be loaded."
+msgstr "来自%url%的内容无法加载"
+
+#: ../includes/wp_booster/td_translate.php:185
+#, php-format
+msgid "The image #%curr% could not be loaded."
+msgstr "图片 #%curr%不能加载"
+
+#: ../includes/wp_booster/td_translate.php:188
+msgid "Blog"
+msgstr "博客"
+
+#: ../includes/wp_booster/td_translate.php:189
+msgid "Share on Facebook"
+msgstr "分享到Facebook"
+
+#: ../includes/wp_booster/td_translate.php:190
+msgid "Tweet on Twitter"
+msgstr "Twitter推文"
+
+#: ../includes/wp_booster/td_translate.php:192
+msgid "Featured"
+msgstr "精选"
+
+#: ../includes/wp_booster/td_translate.php:193
+msgid "All time popular"
+msgstr "所有时间流行"
+
+#: ../includes/wp_booster/td_translate.php:195
+msgid "More"
+msgstr "更多"
+
+#: ../includes/wp_booster/td_translate.php:196
+msgid "Register"
+msgstr "注册"
+
+#: ../includes/wp_booster/td_translate.php:198
+msgid "of"
+msgstr " "
+
+#: ../includes/wp_booster/td_wp_booster_functions.php:1938
+msgid "Something went wrong with the plugin API."
+msgstr "插件API出现一些错误。"
+
+#: ../includes/wp_booster/td_wp_booster_functions.php:1949
+msgid "Return to tagDiv plugins panel"
+msgstr "返回tagDiv插件面板"
+
+#: ../includes/wp_booster/td_wp_booster_functions.php:1951
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "所有插件已安装并成功激活。%s"
+
+#~ msgid "Optional - custom title for this block:"
+#~ msgstr "可选 - 为此区块自定义标题："
+
+#~ msgid "Header color"
+#~ msgstr "页眉颜色"
+
+#~ msgid "Choose a custom header color for this block"
+#~ msgstr "为此区块自定义页眉颜色"
+
+#~ msgid "Header text color"
+#~ msgstr "页眉文字颜色"
+
+#~ msgid "Gallery Type"
+#~ msgstr "图库类型"
+
+#~ msgid "Gallery Title"
+#~ msgstr "相册标题"
+
+#~ msgid "Ad box"
+#~ msgstr "广告框"
+
+#~ msgid "Content"
+#~ msgstr "内容"
+
+#~ msgid "Use adspot :"
+#~ msgstr "使用广告位置:"
+
+#~ msgid "Authors box"
+#~ msgstr "作者框"
+
+#~ msgid "Sort authors by:"
+#~ msgstr "按作者排序："
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid ""
+#~ "Optional - custom url for this block (when the module title is clicked):"
+#~ msgstr "可选 - 为此区块自定义网址（当选中模块标题时）："
+
+#~ msgid "Title style:"
+#~ msgstr "标题风格："
+
+#~ msgid "Show child categories menu:"
+#~ msgstr "显示子分类菜单："
+
+#~ msgid "Use ajax in child categories menu:"
+#~ msgstr "在子分类菜单使用ajax："
+
+#~ msgid "Pagination:"
+#~ msgstr "分页"
+
+#~ msgid "Infinite load show 'Load more' after x pages:"
+#~ msgstr "X页面之后显示'加载更多'无限加载："
+
+#~ msgid "Block 1"
+#~ msgstr "区块1"
+
+#~ msgid "Block 10"
+#~ msgstr "区块10"
+
+#~ msgid "Block 2"
+#~ msgstr "区块2"
+
+#~ msgid "Block 3"
+#~ msgstr "区块3"
+
+#~ msgid "Block 4"
+#~ msgstr "区块4"
+
+#~ msgid "Block 5"
+#~ msgstr "区块5"
+
+#~ msgid "Block 6"
+#~ msgstr "区块6"
+
+#~ msgid "Block 7"
+#~ msgstr "区块7"
+
+#~ msgid "Block 8"
+#~ msgstr "区块8"
+
+#~ msgid "Block 9"
+#~ msgstr "区块9"
+
+#~ msgid "Youtube Video Playlist"
+#~ msgstr "Youtube视频播放列表"
+
+#~ msgid "Vimeo Video Playlist"
+#~ msgstr "Vimeo视频播放列表"
+
+#~ msgid "Popular category"
+#~ msgstr "热门分类"
+
+#~ msgid "Limit the number of categories shown):"
+#~ msgstr "限制分类显示数）："
+
+#~ msgid "Hide block title:"
+#~ msgstr "隐藏区块标题："
+
+#~ msgid "Revolution slider"
+#~ msgstr "Revolution幻灯片"
+
+#~ msgid "Revolution Slider"
+#~ msgstr "Revolution幻灯片"
+
+#~ msgid "Select your Revolution Slider."
+#~ msgstr "选择Revolution幻灯片。"
+
+#~ msgid "Slide"
+#~ msgstr "幻灯片"
+
+#~ msgid "Icon style:"
+#~ msgstr "图标样式："
+
+#~ msgid "Icon size:"
+#~ msgstr "图标大小："
+
+#~ msgid "Open in:"
+#~ msgstr "打开："
+
+#~ msgid "Social icons"
+#~ msgstr "社交图标"
+
+#~ msgid "Social"
+#~ msgstr "社交"
+
+#~ msgid "Text with title"
+#~ msgstr "标题文字"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Enter your content."
+#~ msgstr "输入您的内容。"
+
+#~ msgid "Alignment:"
+#~ msgstr "对齐"
+
+#~ msgid "Footer logo"
+#~ msgstr "页脚LOGO"
+
+#~ msgid "Logo url:"
+#~ msgstr "LOGO网址"
+
+#~ msgid "Logo url retina:"
+#~ msgstr "视网膜LOGO网址"
+
+#~ msgid "Footer text:"
+#~ msgstr "页脚文字："
+
+#~ msgid "Footer text line 2:"
+#~ msgstr "页脚文字第2行："
+
+#~ msgid "Footer email:"
+#~ msgstr "页脚邮箱："
+
+#~ msgid "Login Form"
+#~ msgstr "登录表单"
+
+#~ msgid ""
+#~ "<strong style=\"color:red\"> --- Please activate the theme! --- </strong> "
+#~ "<a href=\""
+#~ msgstr ""
+#~ "<strong style=\"color:red\"> --- 请激活主题！ --- </strong> <a href=\""
+
+#~ msgid ""
+#~ "<strong style=\"color:red\"> Please activate the theme! </strong> - <a "
+#~ "href=\""
+#~ msgstr "<strong style=\"color:red\"> 请激活主题！</strong> - <a href=\""
+
+#~ msgid "Category filter:"
+#~ msgstr "分类筛选"
+
+#~ msgid "Multiple categories filter:"
+#~ msgstr "多个分类筛选"
+
+#~ msgid "Filter by tag slug:"
+#~ msgstr "按标签别名筛选"
+
+#~ msgid "Sort order:"
+#~ msgstr "排序顺序:"
+
+#~ msgid "Post Type:"
+#~ msgstr "文章类型："
+
+#~ msgid "Top Header Menu"
+#~ msgstr "顶部页眉菜单"
+
+#~ msgid "Header Menu (main)"
+#~ msgstr "页眉菜单（主要）"
+
+#~ msgid "Footer Menu"
+#~ msgstr "页脚菜单"
+
+#~ msgid "Categories"
+#~ msgstr "分类"
+
+#~ msgid "by"
+#~ msgstr "作者"
+
+#~ msgid "More articles from author"
+#~ msgstr "此作者更多文章"
+
+#~ msgid "SIMILAR ARTICLES"
+#~ msgstr "相关文章"
+
+#~ msgid "source"
+#~ msgstr "来源"
+
+#~ msgid "via"
+#~ msgstr "通过"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "回复"
+
+#~ msgid "Review overview"
+#~ msgstr "回顾概览"
+
+#~ msgid "Summary"
+#~ msgstr "摘要"
+
+#~ msgid "404 Error - page not found"
+#~ msgstr "错误404-页面找不到"
+
+#~ msgid "We're sorry, but the page you are looking for doesn't exist."
+#~ msgstr "抱歉，您查找的内容不存在。"
+
+#~ msgid "homepage"
+#~ msgstr "首页"
+
+#~ msgid "Posts by "
+#~ msgstr "作者："
+
+#~ msgid "Posts in "
+#~ msgstr "发布于："
+
+#~ msgid "Daily Archives: "
+#~ msgstr "日归档"
+
+#~ msgid "Monthly Archives: "
+#~ msgstr "月归档："
+
+#~ msgid "Yearly Archives: "
+#~ msgstr "年归档："
+
+#~ msgid "Contact"
+#~ msgstr "联系"
+
+#~ msgid "Welcome! Login in to your account"
+#~ msgstr "欢迎光临!登录到您的帐户"
+
+#~ msgid "Search the forum"
+#~ msgstr "搜索论坛"
+
+#~ msgid "Forums"
+#~ msgstr "论坛"
+
+#~ msgid "Timeline"
+#~ msgstr "时间轴"
+
+#~ msgid "Posts per page:"
+#~ msgstr "每页文章："
+
+#~ msgid "Featured posts:"
+#~ msgstr "精选文章："
+
+#~ msgid "Offset:"
+#~ msgstr "偏移："
+
+#~ msgid "Templates with articles"
+#~ msgstr "带文章模板"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "返回仪表盘"
+
+#~ msgid ""
+#~ "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+#~ "Dashboard\">Return to the Dashboard</a>"
+#~ msgstr ""
+#~ "没有插件要安装或激活. <a href=\"%1$s\" title=\"返回仪表盘\">返回仪表盘</a>"
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "没有插件可以在这个时候安装。"
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "没有插件可以在这个时候激活"
+
+#~ msgid "External Link"
+#~ msgstr "外部链接"
+
+#~ msgid "Dowload new version"
+#~ msgstr "下载新版本"
+
+#~ msgid ""
+#~ "There is a new version of Visual Composer available. <a href=\"http://bit."
+#~ "ly/vcomposer\" target=\"_blank\">Download version <b>%s</b></a>."
+#~ msgstr ""
+#~ "有一个新版本的可视化编辑器。<a href=\"http://bit.ly/vcomposer\" target="
+#~ "\"_blank\">下载版本 <b>%s</b></a>."
+
+#~ msgid "Add/remove picture"
+#~ msgstr "添加/删除图片"
+
+#~ msgid "Finish Adding Images"
+#~ msgstr "完成添加图片"
+
+#~ msgid "Add Image"
+#~ msgstr "添加图片"
+
+#~ msgid "Add Images"
+#~ msgstr "添加图片"
+
+#~ msgid "Visual Composer"
+#~ msgstr "可视化编辑器"
+
+#~ msgid "Classic editor"
+#~ msgstr "经典编辑器"
+
+#~ msgid "Please enter templates name"
+#~ msgstr "请输入模板名称"
+
+#~ msgid ""
+#~ "Confirm deleting \"{template_name}\" template, press Cancel to leave. "
+#~ "This action cannot be undone."
+#~ msgstr "确认删除\"{template_name}\"模板，按取消离开。此操作不能撤消。"
+
+#~ msgid "Press OK to delete section, Cancel to leave"
+#~ msgstr "按确定删除 \"{tab_name}\"选项卡，取消以离开"
+
+#~ msgid "Drag and drop me in the column"
+#~ msgstr "拖放我到列中"
+
+#~ msgid "Press OK to delete \"{tab_name}\" tab, Cancel to leave"
+#~ msgstr "按确定删除 \"{tab_name}\"选项卡，取消以离开"
+
+#~ msgid "Tab"
+#~ msgstr "选项卡"
+
+#~ msgid "Section"
+#~ msgstr "部分"
+
+#~ msgid "Please enter new tab title"
+#~ msgstr "请输入新的选项卡标题"
+
+#~ msgid "Press OK to delete \"{tab_name}\" section, Cancel to leave"
+#~ msgstr "按确定删除 \"{tab_name}\"部分，取消以离开"
+
+#~ msgid "Please enter new section title"
+#~ msgstr "请输入部分标题"
+
+#~ msgid "Error. Please try again."
+#~ msgstr "错误。请再试一次。"
+
+#~ msgid ""
+#~ "If you close this window all shortcode settings will be lost. Close this "
+#~ "window?"
+#~ msgstr "如果你关闭此窗口，所有的简码设置都将丢失。关闭此窗口？"
+
+#~ msgid "Select element type"
+#~ msgstr "选择元素类型"
+
+#~ msgid "Media gallery"
+#~ msgstr "媒体库"
+
+#~ msgid "Element settings"
+#~ msgstr "元素设置"
+
+#~ msgid "Add tab"
+#~ msgstr "添加选项卡"
+
+#~ msgid "Are you sure you want to convert to new version?"
+#~ msgstr "你确定你要转换到新版本？"
+
+#~ msgid "Loading..."
+#~ msgstr "加载...."
+
+#~ msgid "Set Image"
+#~ msgstr "设置图片"
+
+#~ msgid "Are you sure taht you want to remove all your data?"
+#~ msgstr "您确定您要删除所有的数据吗？"
+
+#~ msgid "Loop settings"
+#~ msgstr "循环设置"
+
+#~ msgid "Enter custom layout for your row:"
+#~ msgstr "输入你行的自定义布局："
+
+#~ msgid "Wrong row layout format! Example: 1/2 + 1/2 or span6 + span6."
+#~ msgstr "行布局格式错误！示例：1/2+1/2或span6+ span6。"
+
+#~ msgid "Added"
+#~ msgstr "附加的"
+
+#~ msgid "Wrong wpb_map object. Base attribute is required"
+#~ msgstr "错误的wpb_map的对象。基本属性是必需的"
+
+#~ msgid "Wrong layout params"
+#~ msgstr "布局参数错误"
+
+#~ msgid "Save current page as a Template"
+#~ msgstr "保存当前页为模板"
+
+#~ msgid "Load Template"
+#~ msgstr "加载模板"
+
+#~ msgid "No custom templates yet."
+#~ msgstr "没有自定义模板。"
+
+#~ msgid "Show all"
+#~ msgstr "显示所有"
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "Select Content Element"
+#~ msgstr "选择内容元素"
+
+#~ msgid "Search by element name"
+#~ msgstr "按元素名搜索"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Visual Composer for WordPress"
+#~ msgstr "WordPress可视化编辑器"
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "Add element"
+#~ msgstr "添加元素"
+
+#~ msgid "Add row"
+#~ msgstr "添加行"
+
+#~ msgid "Templates"
+#~ msgstr "模板"
+
+#~ msgid ""
+#~ "Your page layout was created with previous Visual Composer version. "
+#~ "Before converting your layout to the new version, make sure to <a target="
+#~ "\"_blank\" href=\"http://kb.wpbakery.com/index.php?"
+#~ "title=Update_Visual_Composer_from_3.4_to_3.5\">read this page</a>."
+#~ msgstr ""
+#~ "你创建的老版可视化编辑器版页面布局。布局转换到新版本之前，请务必 <a "
+#~ "target=\"_blank\" href=\"http://kb.wpbakery.com/index.php?"
+#~ "title=Update_Visual_Composer_from_3.4_to_3.5\">阅读此页面</a>."
+
+#~ msgid "Convert to new version"
+#~ msgstr "转换到新版本"
+
+#~ msgid "Loading, please wait..."
+#~ msgstr "加载中，请稍候..."
+
+#~ msgid "No content yet! You should add some..."
+#~ msgstr "没有内容！您应该添加一些..."
+
+#~ msgid ""
+#~ "This is a visual preview of your page. Currently, you don't have any "
+#~ "content elements. Click or drag the button <a href='#' class='add-element-"
+#~ "to-layout'><i class='icon'></i> Add element</a> on the top to add content "
+#~ "elements on your page. Alternatively add <a href='#' class='add-text-"
+#~ "block-to-content' parent-container='#visual_composer_content'><i "
+#~ "class='icon'></i> Text block</a> with single click."
+#~ msgstr ""
+#~ "这是您的页面的可视化预览。目前，您没有任何内容元素。在顶部点击或拖动按钮 "
+#~ "<a href='#' class='add-element-to-layout'><i class='icon'></i> 添加元素</"
+#~ "a>以添加到您页面上的内容元素。另外点击添加<a href='#' class='add-text-"
+#~ "block-to-content' parent-container='#visual_composer_content'><i "
+#~ "class='icon'></i> 文字区块</a>。"
+
+#~ msgid ""
+#~ "Click the pencil icon on the content elements to change their properties."
+#~ msgstr "点击内容元素的铅笔图标，以改变他们的属性。"
+
+#~ msgid "Crunching..."
+#~ msgstr "捣弄中..."
+
+#~ msgid "Wrong name for shortcode:%s. Name required"
+#~ msgstr "错误的简码名：%s。名字必填"
+
+#~ msgid "Wrong base for shortcode:%s. Base required"
+#~ msgstr "简码基础错误:%s.需要基础"
+
+#~ msgid "Wrong attribute for '%s' shortcode. Attribute 'param_name' required"
+#~ msgstr "简码'%s'属性错误。属性 'param_name' 是必须的"
+
+#~ msgid "Wrong setting_name for shortcode:%s. Base can't be modified."
+#~ msgstr "简码 setting_name错误:%s.基础不能修改。"
+
+#~ msgid "Build query"
+#~ msgstr "建立查询"
+
+#~ msgid "Saved data"
+#~ msgstr "保存的数据"
+
+#~ msgid "Post Count"
+#~ msgstr "文章数"
+
+#~ msgid "Order By"
+#~ msgstr "排列方式："
+
+#~ msgid "Order"
+#~ msgstr "排序"
+
+#~ msgid "Post types"
+#~ msgstr "文章类型"
+
+#~ msgid "Taxonomies"
+#~ msgstr "分类"
+
+#~ msgid "Individual Posts/Pages"
+#~ msgstr "个别文章/页"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "Modified"
+#~ msgstr "修改"
+
+#~ msgid "Comment count"
+#~ msgstr "评论数量"
+
+#~ msgid "Menu order"
+#~ msgstr "菜单顺序"
+
+#~ msgid "Ascending"
+#~ msgstr "升序"
+
+#~ msgid "Descending"
+#~ msgstr "降序"
+
+#~ msgid "Title + Thumbnail + Text"
+#~ msgstr "标题+缩略图+文字"
+
+#~ msgid "Thumbnail + Title + Text"
+#~ msgstr "缩略图+标题+文字"
+
+#~ msgid "Thumbnail + Text"
+#~ msgstr "缩略图+文字"
+
+#~ msgid "Thumbnail + Title"
+#~ msgstr "缩略图+标题"
+
+#~ msgid "Thumbnail only"
+#~ msgstr "仅显示缩略图"
+
+#~ msgid "Title + Text"
+#~ msgstr "标题+文字"
+
+#~ msgid "Select URL"
+#~ msgstr "选择网址"
+
+#~ msgid "URL"
+#~ msgstr "网址"
+
+#~ msgid ""
+#~ "Wrong template for `%s` shortcode in class `%s`. Please check your "
+#~ "mapping settings for this code. Error"
+#~ msgstr "错误模板 `%s` 简码类 `%s`.请检查您的映射设置代码。错误"
+
+#~ msgid "Edit %s"
+#~ msgstr "编辑 %s"
+
+#~ msgid "Clone %s"
+#~ msgstr "克隆 %s"
+
+#~ msgid "Delete %s"
+#~ msgstr "删除 %s"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid ""
+#~ "Field type is changed from `textarea_html` to `textarea`, because it is "
+#~ "already used by `"
+#~ msgstr "字段类型从`textarea_html`更改为`textarea`，因为它已经使用`"
+
+#~ msgid "Add images"
+#~ msgstr "添加图片"
+
+#~ msgid "Add image"
+#~ msgstr "添加图片"
+
+#~ msgid "Append to this column"
+#~ msgstr "附加到此列"
+
+#~ msgid "Prepend to this column"
+#~ msgstr "前置到此列"
+
+#~ msgid "Edit this column"
+#~ msgstr "编辑此列"
+
+#~ msgid "Column"
+#~ msgstr "列"
+
+#~ msgid "Extra class name"
+#~ msgstr "额外的类名"
+
+#~ msgid ""
+#~ "If you wish to style particular content element differently, then use "
+#~ "this field to add a class name and then refer to it in your css file."
+#~ msgstr ""
+#~ "如果你想特殊内容元素风格不同，那么使用此字段在您的CSS文件添加一个类名。"
+
+#~ msgid "Hello World"
+#~ msgstr "世界你好"
+
+#~ msgid "Foo attribute"
+#~ msgstr "Foo属性"
+
+#~ msgid "I'm foo attribute"
+#~ msgstr "我是foo属性"
+
+#~ msgid "Enter foo value."
+#~ msgstr "输入foo的值。"
+
+#~ msgid "I'm hello world"
+#~ msgstr "我是世界你好"
+
+#~ msgid "Drop down example"
+#~ msgstr "下拉例子"
+
+#~ msgid "One, two or three?"
+#~ msgstr "一，二或三？"
+
+#~ msgid "Custom layout"
+#~ msgstr "自定义布局"
+
+#~ msgid "Drag row to reorder"
+#~ msgstr "拖动行重新排序"
+
+#~ msgid "Delete this row"
+#~ msgstr "删除此行"
+
+#~ msgid "Edit this row"
+#~ msgstr "编辑此行"
+
+#~ msgid "Clone this row"
+#~ msgstr "复制此行"
+
+#~ msgid "Append to this %s"
+#~ msgstr "附加到%s"
+
+#~ msgid "Prepend to this %s"
+#~ msgstr "预置到%s"
+
+#~ msgid "Edit this %s"
+#~ msgstr "编辑 %s"
+
+#~ msgid "Clone this %s"
+#~ msgstr "克隆 %s"
+
+#~ msgid "Delete this %s"
+#~ msgstr "删除 %s"
+
+#~ msgid "View all posts filed under %s"
+#~ msgstr "查看%s下的所有文章字段 "
+
+#~ msgid "Feed for all posts filed under %s"
+#~ msgstr "%s下的所有文章订阅"
+
+#~ msgid "General Settings"
+#~ msgstr "常规设置"
+
+#~ msgid "Design Options"
+#~ msgstr "设计选项"
+
+#~ msgid "Element Class Names"
+#~ msgstr "元素的类名"
+
+#~ msgid "Custom CSS"
+#~ msgstr "自定义 CSS"
+
+#~ msgid "Main accent color"
+#~ msgstr "主要强调色"
+
+#~ msgid "Hover color"
+#~ msgstr "悬停颜色"
+
+#~ msgid "Call to action background color"
+#~ msgstr "调用操作的背景颜色"
+
+#~ msgid "Google maps background color"
+#~ msgstr "谷歌地图背景色"
+
+#~ msgid "Post slider caption background color"
+#~ msgstr "文章幻灯片字幕背景颜色"
+
+#~ msgid "Progress bar background color"
+#~ msgstr "进度条背景颜色"
+
+#~ msgid "Separator border color"
+#~ msgstr "分隔符边框颜色"
+
+#~ msgid "Tabs navigation background color"
+#~ msgstr "选项卡导航背景颜色"
+
+#~ msgid "Active tab background color"
+#~ msgstr "活动选项卡背景颜色"
+
+#~ msgid "Visual Composer Settings"
+#~ msgstr "可视化编辑器设置"
+
+#~ msgid "Content types"
+#~ msgstr "内容类型"
+
+#~ msgid "User groups access rules"
+#~ msgstr "用户组访问规则"
+
+#~ msgid "Disable responsive content elements"
+#~ msgstr "禁用自适应内容元素"
+
+#~ msgid "Use custom design options"
+#~ msgstr "使用自定义设计方案"
+
+#~ msgid "Elements bottom margin"
+#~ msgstr "元素下边距"
+
+#~ msgid "Grid gutter width"
+#~ msgstr "网格装订线宽度"
+
+#~ msgid "Mobile screen width"
+#~ msgstr "手机屏幕宽度"
+
+#~ msgid "Paste your CSS code"
+#~ msgstr "粘贴你的CSS代码"
+
+#~ msgid "Are you sure you want to reset to defaults?"
+#~ msgstr "你确定你想重置为默认值吗？"
+
+#~ msgid "Show Visual Composer & default editor"
+#~ msgstr "显示可视化编辑器和默认编辑器"
+
+#~ msgid "Show only Visual Composer"
+#~ msgstr "只显示可视化编辑器"
+
+#~ msgid "Don't allow to use Visual Composer"
+#~ msgstr "不允许使用可视化编辑器"
+
+#~ msgid "Visual Composer access"
+#~ msgstr "可视化编辑器访问"
+
+#~ msgid "Enabled shortcodes"
+#~ msgstr "启用简码"
+
+#~ msgid "Select All"
+#~ msgstr "选择所有"
+
+#~ msgid "Select none"
+#~ msgstr "不选"
+
+#~ msgid ""
+#~ "Select for which content types Visual Composer should be available during "
+#~ "post creation/editing."
+#~ msgstr "选择哪些内容类型可视化编辑器在创建/编辑文章过程中是可用的。"
+
+#~ msgid ""
+#~ "If you want to add some custom CSS code to the plugin and don't want to "
+#~ "modify any files, then it's a good place to enter your code at this field."
+#~ msgstr ""
+#~ "如果你想添加一些自定义CSS代码到插件，且不想修改任何文件，然后在此字段输入"
+#~ "你的代码。"
+
+#~ msgid "Disable"
+#~ msgstr "禁用"
+
+#~ msgid ""
+#~ "Check this checkbox to prevent content elements from \"stacking\" one on "
+#~ "top other (on small media screens, eg. mobile)."
+#~ msgstr ""
+#~ "选中此复选框防止内容元素\"堆叠\" 一个到顶部（在小媒体屏幕，例如手机）。"
+
+#~ msgid ""
+#~ "To change class name for the row element, enter it here. By default "
+#~ "vc_row is used."
+#~ msgstr "要更改的行元素的类名，这里输入。默认情况下用于vc_row。"
+
+#~ msgid ""
+#~ "To change class names for the columns elements, enter them here. By "
+#~ "default vc_spanX are used, where X number from 1 to 12."
+#~ msgstr ""
+#~ "要更改列元素的类的名字，在这里输入它们。默认情况下，vc_spanX的使用，其中X"
+#~ "为1〜12的数字。"
+
+#~ msgid "Enable"
+#~ msgstr "启用"
+
+#~ msgid ""
+#~ "Enable the use of custom design options for your site. When checked, "
+#~ "custom css file will be used."
+#~ msgstr "为您的网站启用使用自定义设计方案。当点击时，将使用自定义CSS文件。"
+
+#~ msgid ""
+#~ "To change default vertical spacing between content elements, enter new "
+#~ "value here. Example: 20px"
+#~ msgstr "要更改默认内容元素之间的垂直间距，输入新值。例如：20像素"
+
+#~ msgid ""
+#~ "To change default horizontal spacing between columns, enter new value in "
+#~ "percents here."
+#~ msgstr "要更改默认水平列间距，在这里输入新值的百分比。"
+
+#~ msgid ""
+#~ "By default content elements \"stack\" one on top other when screen size "
+#~ "is smaller then 480px. Here you can change that value if needed."
+#~ msgstr ""
+#~ "默认情况下，其他屏幕尺寸小于480PX时，内容元素\"堆叠\"一个到顶部时。在这"
+#~ "里，您可以根据需要更改该值。"
+
+#~ msgid ""
+#~ "Here you can tweak default Visual Composer content elements visual "
+#~ "appearance. By default Visual Composer is using neutral light-grey theme. "
+#~ "Changing \"Main accent color\" will affect all content elements if no "
+#~ "specific \"content block\" related color is set."
+#~ msgstr ""
+#~ "在这里，你可以调整默认可视化编辑器内容元素的视觉外观。默认情况下，可视化编"
+#~ "辑器使用中性的浅灰色的主题。如果没有具体的\"内容区块\"相关的颜色设置，更改"
+#~ "\"主要强调色\"将影响到所有的内容元素。"
+
+#~ msgid "Invalid Margin value."
+#~ msgstr "无效的边距值。"
+
+#~ msgid "Invalid Gutter value."
+#~ msgstr "无效装订线值。"
+
+#~ msgid "Invalid \"Responsive max\" value."
+#~ msgstr "无效 \"自适应最大\"值。"
+
+#~ msgid ""
+#~ "Visual Composer: Your css class names settings are deprecated. <a href="
+#~ "\"%s\">Click here to resolve</a>."
+#~ msgstr ""
+#~ "可视化编辑器：你的CSS类名设置已被弃用。 <a href=\"%s\">点击这里来解决</a>."
+
+#~ msgid "WPBakery Visual Composer Settings"
+#~ msgstr "WPBakery可视化编辑器设置"
+
+#~ msgid ""
+#~ "<strong>Deprecated:</strong> To override class names that are applied to "
+#~ "Visual Composer content elements you should use WordPress "
+#~ "add_filter('vc_shortcodes_css_class') function. <a "
+#~ "class='vc_show_example'>See Example</a>."
+#~ msgstr ""
+#~ "<strong>已过时：</strong> 要覆盖类名称应用到可视化编辑器内容元素，你应该使"
+#~ "用WordPress add_filter('vc_shortcodes_css_class')功能. <a "
+#~ "class='vc_show_example'>参见示例</a>."
+
+#~ msgid ""
+#~ "You have used element class names settings to replace row and column css "
+#~ "classes."
+#~ msgstr "您已经使用元素的类名设置，以取代行和列的css类。"
+
+#~ msgid ""
+#~ "Below is code snippet which you should add to your functions.php file in "
+#~ "your theme, to replace row and column classes with custom classes saved "
+#~ "by you earlier."
+#~ msgstr ""
+#~ "下面是你应该添加到您的主题functions.php文件，以代替你刚才保存的自定义类的"
+#~ "行和列类的代码片段。"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存更改"
+
+#~ msgid "Remove all"
+#~ msgstr "全部删除"
+
+#~ msgid "Restore to defaults"
+#~ msgstr "重置为默认值"
+
+#~ msgid ""
+#~ "Something went wrong: js_composer_front_custom.css could not be created."
+#~ msgstr "出现了某些错误：不能创建js_composer_front_custom.css"
+
+#~ msgid "js_composer_front_custom.css could not be created. Connection error."
+#~ msgstr "js_composer_front_custom.css不能创建。连接错误。"
+
+#~ msgid ""
+#~ "js_composer_front_custom.css could not be created. Cannot write custom "
+#~ "css to \"%s\"."
+#~ msgstr "不能创建js_composer_front_custom.css。无法写入自定义CSS到 \"%s\"."
+
+#~ msgid ""
+#~ "js_composer_front_custom.css could not be created. Problem with access."
+#~ msgstr "不能创建js_composer_front_custom.css。访问问题。"
+
+#~ msgid "Something went wrong: custom.css could not be created."
+#~ msgstr "出现了某些错误：custom.css不能被创建。"
+
+#~ msgid "custom.css could not be created. Connection error."
+#~ msgstr "不能创建custom.css。连接错误。"
+
+#~ msgid "custom.css could not be created. Cannot write custom css to \""
+#~ msgstr "custom.css不能创建。无法写入自定义CSS \""
+
+#~ msgid "custom.css could not be created. Problem with access."
+#~ msgstr "custom.css不能创建。可以访问问题。"
+
+#~ msgid "This is required to enable file writing for js_composer"
+#~ msgstr "这是必需的，以使js_composer文件可写"
+
+#~ msgid "Empty section. Edit page to add content here."
+#~ msgstr "空的部分。编辑页面添加内容到这里。"
+
+#~ msgid "Text on the button"
+#~ msgstr "按钮上的文字"
+
+#~ msgid "View stream on flickr"
+#~ msgstr "在Flickr上观看流"
+
+#~ msgid "Nothing found."
+#~ msgstr "找不到"
+
+#~ msgid "This is image placeholder, edit your page to replace it."
+#~ msgstr "这是图像占位符，编辑您的网页来替换它。"
+
+#~ msgid "Previous slide"
+#~ msgstr "上张幻灯片"
+
+#~ msgid "Next slide"
+#~ msgstr "下张幻灯片"
+
+#~ msgid "Click to toggle"
+#~ msgstr "点击切换"
+
+#~ msgid "Tweet"
+#~ msgstr "Tweet"
+
+#~ msgid "Follow us on twitter"
+#~ msgstr "在twitter关注我们"
+
+#~ msgid "Meta"
+#~ msgstr "元"
+
+#~ msgid "Pages"
+#~ msgstr "页面"
+
+#~ msgid "Recent Posts"
+#~ msgstr "最新文章"
+
+#~ msgid "Recent Comments"
+#~ msgstr "最近评论"
+
+#~ msgid "Grey"
+#~ msgstr "灰色"
+
+#~ msgid "Blue"
+#~ msgstr "蓝色"
+
+#~ msgid "Turquoise"
+#~ msgstr "绿松石"
+
+#~ msgid "Green"
+#~ msgstr "绿色"
+
+#~ msgid "Orange"
+#~ msgstr "橙色"
+
+#~ msgid "Red"
+#~ msgstr "红色"
+
+#~ msgid "Black"
+#~ msgstr "黑色"
+
+#~ msgid "Regular size"
+#~ msgstr "常规尺寸"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Mini"
+#~ msgstr "迷你"
+
+#~ msgid "Same window"
+#~ msgstr "相同窗口"
+
+#~ msgid "New window"
+#~ msgstr "新窗口"
+
+#~ msgid "CSS Animation"
+#~ msgstr "CSS动画"
+
+#~ msgid "No"
+#~ msgstr "无"
+
+#~ msgid "Top to bottom"
+#~ msgstr "从上向下"
+
+#~ msgid "Bottom to top"
+#~ msgstr "从下向上"
+
+#~ msgid "Left to right"
+#~ msgstr "从左向右"
+
+#~ msgid "Right to left"
+#~ msgstr "从右向左"
+
+#~ msgid "Appear from center"
+#~ msgstr "从中心出现"
+
+#~ msgid ""
+#~ "Select animation type if you want this element to be animated when it "
+#~ "enters into the browsers viewport. Note: Works only in modern browsers."
+#~ msgstr ""
+#~ "如果你想这个元素来进行动画，当它进入到浏览器的视口，选择动画类型。注：仅在"
+#~ "现代浏览器工作。"
+
+#~ msgid "Row"
+#~ msgstr "行"
+
+#~ msgid "Text Block"
+#~ msgstr "文本块"
+
+#~ msgid "<p>I am text block. Click edit button to change this text.</p>"
+#~ msgstr "<p>我是文本块。点击编辑按钮来改变这个文本。</p>"
+
+#~ msgid "Separator"
+#~ msgstr "分隔符"
+
+#~ msgid "Separator with Text"
+#~ msgstr "分隔符带文字"
+
+#~ msgid "Separator title."
+#~ msgstr "分隔符标题。"
+
+#~ msgid "Title position"
+#~ msgstr "标题位置"
+
+#~ msgid "Align center"
+#~ msgstr "居中对齐"
+
+#~ msgid "Align left"
+#~ msgstr "左对齐"
+
+#~ msgid "Align right"
+#~ msgstr "右对齐"
+
+#~ msgid "Select title location."
+#~ msgstr "选择标题位置。"
+
+#~ msgid "Message Box"
+#~ msgstr "消息框"
+
+#~ msgid "Message box type"
+#~ msgstr "消息框类型"
+
+#~ msgid "Informational"
+#~ msgstr "信息"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Select message type."
+#~ msgstr "选择信息类型。"
+
+#~ msgid "Message text"
+#~ msgstr "消息文本"
+
+#~ msgid "<p>I am message box. Click edit button to change this text.</p>"
+#~ msgstr "<p>我的消息框。点击编辑按钮来改变这个文本。</p>"
+
+#~ msgid "Facebook Like"
+#~ msgstr "Facebook喜欢"
+
+#~ msgid "Button type"
+#~ msgstr "按钮类型"
+
+#~ msgid "Standard"
+#~ msgstr "标准"
+
+#~ msgid "Button count"
+#~ msgstr "按钮数"
+
+#~ msgid "Box count"
+#~ msgstr "框计数"
+
+#~ msgid "Select button type."
+#~ msgstr "选择按钮类型。"
+
+#~ msgid "Tweetmeme Button"
+#~ msgstr "Tweetmeme按钮"
+
+#~ msgid "Horizontal"
+#~ msgstr "水平"
+
+#~ msgid "Vertical"
+#~ msgstr "垂直"
+
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid "Google+ Button"
+#~ msgstr "Google+按钮"
+
+#~ msgid "Button size"
+#~ msgstr "按钮大小"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "Tall"
+#~ msgstr "大"
+
+#~ msgid "Select button size."
+#~ msgstr "选择按钮大小"
+
+#~ msgid "Annotation"
+#~ msgstr "注释"
+
+#~ msgid "Inline"
+#~ msgstr "内联"
+
+#~ msgid "Bubble"
+#~ msgstr "气泡"
+
+#~ msgid "Select annotation type."
+#~ msgstr "选择注释类型。"
+
+#~ msgid "Pinterest Button"
+#~ msgstr "Pinterest按钮"
+
+#~ msgid "Button layout"
+#~ msgstr "按钮布局"
+
+#~ msgid "No count"
+#~ msgstr "没有计数"
+
+#~ msgid "Select button layout."
+#~ msgstr "选择按钮布局。"
+
+#~ msgid "FAQ"
+#~ msgstr "常见问题"
+
+#~ msgid "Toggle title"
+#~ msgstr "切换标题"
+
+#~ msgid "Toggle block title."
+#~ msgstr "切换区块标题。"
+
+#~ msgid "Toggle content"
+#~ msgstr "切换内容"
+
+#~ msgid ""
+#~ "<p>Toggle content goes here, click edit button to change this text.</p>"
+#~ msgstr "<p>这里是切换内容，点击编辑按钮来改变这种文本。</p>"
+
+#~ msgid "Toggle block content."
+#~ msgstr "切换区块内容。"
+
+#~ msgid "Default state"
+#~ msgstr "默认状态"
+
+#~ msgid "Closed"
+#~ msgstr "关闭"
+
+#~ msgid "Open"
+#~ msgstr "打开"
+
+#~ msgid "Select \"Open\" if you want toggle to be open by default."
+#~ msgstr "如果你想切换为默认是打开的，选择\"打开\"。"
+
+#~ msgid "Single Image"
+#~ msgstr "单张图像"
+
+#~ msgid "Widget title"
+#~ msgstr "小工具标题"
+
+#~ msgid "What text use as a widget title. Leave blank if no title is needed."
+#~ msgstr "什么文本作为一个小工具标题。标题如果没有必要的请留空。"
+
+#~ msgid "Image"
+#~ msgstr "图片"
+
+#~ msgid "Select image from media library."
+#~ msgstr "从媒体库中选择图像。"
+
+#~ msgid "Image size"
+#~ msgstr "图像尺寸"
+
+#~ msgid ""
+#~ "Enter image size. Example: thumbnail, medium, large, full or other sizes "
+#~ "defined by current theme. Alternatively enter image size in pixels: "
+#~ "200x100 (Width x Height). Leave empty to use 'thumbnail' size."
+#~ msgstr ""
+#~ "输入图像的大小。例如：thumbnail, medium, large, full或其它尺寸，根据当前主"
+#~ "题定义。或者输入图像的像素大小：200×100（宽×高）。留空使用“缩略图”的大小。"
+
+#~ msgid "Link to large image?"
+#~ msgstr "链接到大图？"
+
+#~ msgid "If selected, image will be linked to the bigger image."
+#~ msgstr "如果选择了，图像将被链接到较大的图像。"
+
+#~ msgid "Yes, please"
+#~ msgstr "是的，请"
+
+#~ msgid "Image link"
+#~ msgstr "图像链接"
+
+#~ msgid "Enter url if you want this image to have link."
+#~ msgstr "如果你想图像有链接，输入网址。"
+
+#~ msgid "Link Target"
+#~ msgstr "链接目标"
+
+#~ msgid "Image Gallery"
+#~ msgstr "图片相册"
+
+#~ msgid "Flex slider fade"
+#~ msgstr "Flex滑块淡入淡出"
+
+#~ msgid "Flex slider slide"
+#~ msgstr "Flex幻灯片滑动"
+
+#~ msgid "Nivo slider"
+#~ msgstr "Nivo幻灯片"
+
+#~ msgid "Image grid"
+#~ msgstr "图片网格"
+
+#~ msgid "Select gallery type."
+#~ msgstr "选择相册类型。"
+
+#~ msgid "Auto rotate slides"
+#~ msgstr "自动旋转幻灯片"
+
+#~ msgid "Auto rotate slides each X seconds."
+#~ msgstr "自动旋转滑动每X秒。"
+
+#~ msgid "Images"
+#~ msgstr "图片"
+
+#~ msgid "Select images from media library."
+#~ msgstr "从媒体库中选择图像。"
+
+#~ msgid "On click"
+#~ msgstr "点击"
+
+#~ msgid "Open prettyPhoto"
+#~ msgstr "打开prettyPhoto"
+
+#~ msgid "Do nothing"
+#~ msgstr "什么都不做"
+
+#~ msgid "Open custom link"
+#~ msgstr "打开自定义链接"
+
+#~ msgid "What to do when slide is clicked?"
+#~ msgstr "当单击幻灯片时怎么做？"
+
+#~ msgid "Custom links"
+#~ msgstr "自定义链接"
+
+#~ msgid ""
+#~ "Enter links for each slide here. Divide links with linebreaks (Enter)."
+#~ msgstr "在这里为每张幻灯片输入链接。换行符分割链接（回车）"
+
+#~ msgid "Custom link target"
+#~ msgstr "自定义链接目标"
+
+#~ msgid "Select where to open  custom links."
+#~ msgstr "选择在哪打开自定义链接。"
+
+#~ msgid "Tabs"
+#~ msgstr "选项卡"
+
+#~ msgid "Auto rotate tabs"
+#~ msgstr "自动旋转选项卡"
+
+#~ msgid "Auto rotate tabs each X seconds."
+#~ msgstr "每X秒自动旋转选项卡。"
+
+#~ msgid "Tab 1"
+#~ msgstr "选项卡1"
+
+#~ msgid "Tab 2"
+#~ msgstr "选项卡2"
+
+#~ msgid "Tour Section"
+#~ msgstr "巡回部分"
+
+#~ msgid "Slide 1"
+#~ msgstr "幻灯片1"
+
+#~ msgid "Slide 2"
+#~ msgstr "幻灯片2"
+
+#~ msgid "Tab title."
+#~ msgstr "选项卡标题。"
+
+#~ msgid "Tab ID"
+#~ msgstr "选项卡ID"
+
+#~ msgid "Accordion"
+#~ msgstr "手风琴"
+
+#~ msgid "Active tab"
+#~ msgstr "激活选项卡"
+
+#~ msgid ""
+#~ "Enter tab number to be active on load or enter false to collapse all tabs."
+#~ msgstr "输入选项卡数以在载入时激活，或输入false以折叠所有选项卡"
+
+#~ msgid "Allow collapsible all"
+#~ msgstr "允许折叠所有"
+
+#~ msgid "Select checkbox to allow for all sections to be be collapsible."
+#~ msgstr "选择复选框，以允许所有部分是可折叠的。"
+
+#~ msgid "Allow"
+#~ msgstr "允许"
+
+#~ msgid "Add accordion section"
+#~ msgstr "添加手风琴部分"
+
+#~ msgid "Section 1"
+#~ msgstr "第1部分"
+
+#~ msgid "Section 2"
+#~ msgstr "第2部分"
+
+#~ msgid "Accordion Section"
+#~ msgstr "手风琴部分"
+
+#~ msgid "Accordion section title."
+#~ msgstr "手风琴部分标题。"
+
+#~ msgid "Teaser (posts) Grid"
+#~ msgstr "预告（文章）网格"
+
+#~ msgid "Columns count"
+#~ msgstr "列数"
+
+#~ msgid "Select columns count."
+#~ msgstr "选择列数。"
+
+#~ msgid "Select post types to populate posts from."
+#~ msgstr "选择文章类型来填充文章。"
+
+#~ msgid "Teasers count"
+#~ msgstr "预告数"
+
+#~ msgid "How many teasers to show? Enter number or word \"All\"."
+#~ msgstr "显示多少个预告？输入数字或单词 \"All\"."
+
+#~ msgid "Teaser (Excerpt)"
+#~ msgstr "预告（摘要）"
+
+#~ msgid "Full Content"
+#~ msgstr "全部内容"
+
+#~ msgid "Teaser layout template."
+#~ msgstr "预告布局模板。"
+
+#~ msgid "Layout"
+#~ msgstr "布局"
+
+#~ msgid "Teaser layout."
+#~ msgstr "预告布局。"
+
+#~ msgid "Link"
+#~ msgstr "链接"
+
+#~ msgid "Link to post"
+#~ msgstr "链接到文章"
+
+#~ msgid "Link to bigger image"
+#~ msgstr "链接到更大的图像"
+
+#~ msgid "Thumbnail to bigger image, title to post"
+#~ msgstr "缩略图到更大图片，标题到文章"
+
+#~ msgid "No link"
+#~ msgstr "没有链接"
+
+#~ msgid "Link type."
+#~ msgstr "链接类型"
+
+#~ msgid "Link target"
+#~ msgstr "链接目标"
+
+#~ msgid "Teaser grid layout"
+#~ msgstr "预告网格布局"
+
+#~ msgid "Grid"
+#~ msgstr "网格"
+
+#~ msgid "Grid with filter"
+#~ msgstr "网格带筛选"
+
+#~ msgid "Carousel"
+#~ msgstr "轮播"
+
+#~ msgid "Layout mode"
+#~ msgstr "布局模式"
+
+#~ msgid "Fit rows"
+#~ msgstr "适合行"
+
+#~ msgid "Masonry"
+#~ msgstr "石砌"
+
+#~ msgid "Select taxonomies from."
+#~ msgstr "选择分类"
+
+#~ msgid "Thumbnail size"
+#~ msgstr "缩略图大小"
+
+#~ msgid ""
+#~ "Enter thumbnail size. Example: thumbnail, medium, large, full or other "
+#~ "sizes defined by current theme. Alternatively enter image size in pixels: "
+#~ "200x100 (Width x Height)."
+#~ msgstr ""
+#~ "输入缩略图大小。示例：thumbnail, medium, large, full 或其它当前主题定义的"
+#~ "大小。或者输入图像像素大小:200 x100(宽度x高度)。"
+
+#~ msgid "Post/Page IDs"
+#~ msgstr "文章/页面ID"
+
+#~ msgid ""
+#~ "Fill this field with page/posts IDs separated by commas (,) to retrieve "
+#~ "only them. Use this in conjunction with \"Post types\" field."
+#~ msgstr ""
+#~ "填充该字段，用逗号分隔页面/文章的ID（，）只检索它们。配合\"文章类型\"字段"
+#~ "使用。"
+
+#~ msgid "Exclude Post/Page IDs"
+#~ msgstr "排除的文章/页面ID"
+
+#~ msgid ""
+#~ "Fill this field with page/posts IDs separated by commas (,) to exclude "
+#~ "them from query."
+#~ msgstr "用逗号（,）分隔填充此字段的页面/文章ID以从查询中排除。"
+
+#~ msgid ""
+#~ "If you want to narrow output, enter category names here. Note: Only "
+#~ "listed categories will be included. Divide categories with linebreaks "
+#~ "(Enter)."
+#~ msgstr ""
+#~ "如果你想缩小输出，在这里输入分类名字。注：只包含列出的分类。换行符分隔分类"
+#~ "（回车）。"
+
+#~ msgid "Order by"
+#~ msgstr "排列方式："
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Select how to sort retrieved posts. More at %s."
+#~ msgstr "选择如何排序检索文章。更多在%s."
+
+#~ msgid "Order way"
+#~ msgstr "订购方式"
+
+#~ msgid "Designates the ascending or descending order. More at %s."
+#~ msgstr "指定升序或降序排列。更多在%s."
+
+#~ msgid "Posts Slider"
+#~ msgstr "文章幻灯片"
+
+#~ msgid "Slider type"
+#~ msgstr "幻灯片类型"
+
+#~ msgid "Select slider type."
+#~ msgstr "选择幻灯片类型"
+
+#~ msgid "Slides count"
+#~ msgstr "幻灯片数"
+
+#~ msgid "How many slides to show? Enter number or word \"All\"."
+#~ msgstr "显示多少幻灯片？输入数字或单词\"All\"."
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "No description"
+#~ msgstr "没有描述"
+
+#~ msgid "Some sliders support description text, what content use for it?"
+#~ msgstr "有些幻灯片支持描述文字，使用什么样的内容呢？"
+
+#~ msgid "Output post title?"
+#~ msgstr "输出文章标题？"
+
+#~ msgid "If selected, title will be printed before the teaser text."
+#~ msgstr "如果选中，预告文本前会打印标题。"
+
+#~ msgid ""
+#~ "Fill this field with page/posts IDs separated by commas (,), to retrieve "
+#~ "only them. Use this in conjunction with \"Post types\" field."
+#~ msgstr ""
+#~ "填充该字段，用逗号分隔页面/文章的ID（，）只检索它们。配合\"文章类型\"字段"
+#~ "使用。"
+
+#~ msgid "Widgetised Sidebar"
+#~ msgstr "小工具化侧边栏"
+
+#~ msgid "Structure"
+#~ msgstr "结构"
+
+#~ msgid "Sidebar"
+#~ msgstr "侧边栏"
+
+#~ msgid "Select which widget area output."
+#~ msgstr "选择输出哪些小工具区域。"
+
+#~ msgid "Address book icon"
+#~ msgstr "通讯录图标"
+
+#~ msgid "Alarm clock icon"
+#~ msgstr "闹钟图标"
+
+#~ msgid "Anchor icon"
+#~ msgstr "锚图标"
+
+#~ msgid "Application Image icon"
+#~ msgstr "应用图片图标"
+
+#~ msgid "Arrow icon"
+#~ msgstr "箭头图标"
+
+#~ msgid "Asterisk icon"
+#~ msgstr "Asterisk图标"
+
+#~ msgid "Hammer icon"
+#~ msgstr "锤子图标"
+
+#~ msgid "Balloon icon"
+#~ msgstr "气球图标"
+
+#~ msgid "Balloon Buzz icon"
+#~ msgstr "Buzz气球图标"
+
+#~ msgid "Balloon Facebook icon"
+#~ msgstr "Facebook气球图标"
+
+#~ msgid "Balloon Twitter icon"
+#~ msgstr "Twitter气球图标"
+
+#~ msgid "Battery icon"
+#~ msgstr "电池图标"
+
+#~ msgid "Binocular icon"
+#~ msgstr "双目图标"
+
+#~ msgid "Document Excel icon"
+#~ msgstr "Excel文档图标"
+
+#~ msgid "Document Image icon"
+#~ msgstr "图像文档图标"
+
+#~ msgid "Document Music icon"
+#~ msgstr "音乐文档图标"
+
+#~ msgid "Document Office icon"
+#~ msgstr "office文档图标"
+
+#~ msgid "Document PDF icon"
+#~ msgstr "PDF文档图标"
+
+#~ msgid "Document Powerpoint icon"
+#~ msgstr "Powerpoint文档图标"
+
+#~ msgid "Document Word icon"
+#~ msgstr "Word文档图标"
+
+#~ msgid "Bookmark icon"
+#~ msgstr "书签图标"
+
+#~ msgid "Camcorder icon"
+#~ msgstr "摄像机图标"
+
+#~ msgid "Camera icon"
+#~ msgstr "相机图标"
+
+#~ msgid "Chart icon"
+#~ msgstr "图表图标"
+
+#~ msgid "Chart pie icon"
+#~ msgstr "图表饼图图标"
+
+#~ msgid "Clock icon"
+#~ msgstr "时钟图标"
+
+#~ msgid "Fire icon"
+#~ msgstr "消防图标"
+
+#~ msgid "Heart icon"
+#~ msgstr "心形图标"
+
+#~ msgid "Mail icon"
+#~ msgstr "邮件图标"
+
+#~ msgid "Play icon"
+#~ msgstr "播放图标"
+
+#~ msgid "Shield icon"
+#~ msgstr "盾牌图标"
+
+#~ msgid "Video icon"
+#~ msgstr "视频图标"
+
+#~ msgid "Button"
+#~ msgstr "按钮"
+
+#~ msgid "Text on the button."
+#~ msgstr "按钮文字"
+
+#~ msgid "URL (Link)"
+#~ msgstr "URL（链接）"
+
+#~ msgid "Button link."
+#~ msgstr "按钮链接"
+
+#~ msgid "Target"
+#~ msgstr "目标"
+
+#~ msgid "Color"
+#~ msgstr "颜色"
+
+#~ msgid "Button color."
+#~ msgstr "按钮颜色"
+
+#~ msgid "Icon"
+#~ msgstr "图标"
+
+#~ msgid "Button icon."
+#~ msgstr "按钮图标。"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Button size."
+#~ msgstr "按钮大小"
+
+#~ msgid "Call to Action Button"
+#~ msgstr "调用操作按钮"
+
+#~ msgid "Click edit button to change this text."
+#~ msgstr "点击编辑按钮来改变此文本。"
+
+#~ msgid "Button position"
+#~ msgstr "按钮位置"
+
+#~ msgid "Align bottom"
+#~ msgstr "底部对齐"
+
+#~ msgid "Select button alignment."
+#~ msgstr "选择按钮对齐。"
+
+#~ msgid "Video link"
+#~ msgstr "视频链接"
+
+#~ msgid "Link to the video. More about supported formats at %s."
+#~ msgstr "链接到视频。有关支持的格式在%s."
+
+#~ msgid "Google Maps"
+#~ msgstr "谷歌地图"
+
+#~ msgid "Google map link"
+#~ msgstr "谷歌地图链接"
+
+#~ msgid ""
+#~ "Link to your map. Visit %s find your address and then click \"Link\" "
+#~ "button to obtain your map link."
+#~ msgstr ""
+#~ "链接到地图。访问%s来找你的地址，然后单击\"链接\"按钮来获得您的地图链接。"
+
+#~ msgid "Map height"
+#~ msgstr "地图高度"
+
+#~ msgid "Enter map height in pixels. Example: 200."
+#~ msgstr "输入地图的像素高度。例如：200。"
+
+#~ msgid "Map type"
+#~ msgstr "地图类型"
+
+#~ msgid "Map"
+#~ msgstr "地图"
+
+#~ msgid "Satellite"
+#~ msgstr "卫星"
+
+#~ msgid "Map + Terrain"
+#~ msgstr "地图+地形"
+
+#~ msgid "Select map type."
+#~ msgstr "选择地图类型。"
+
+#~ msgid "Map Zoom"
+#~ msgstr "地图缩放"
+
+#~ msgid "14 - Default"
+#~ msgstr "14 - 默认"
+
+#~ msgid "Remove info bubble"
+#~ msgstr "删除信息气泡"
+
+#~ msgid "If selected, information bubble will be hidden."
+#~ msgstr "如果选中，气泡将被隐藏。"
+
+#~ msgid "Raw HTML"
+#~ msgstr "原始的HTML"
+
+#~ msgid "Enter your HTML content."
+#~ msgstr "请输入您的HTML内容。"
+
+#~ msgid "Raw JS"
+#~ msgstr "原始JS"
+
+#~ msgid "Raw js"
+#~ msgstr "原始JS"
+
+#~ msgid "Enter your JS code."
+#~ msgstr "输入您的JS代码。"
+
+#~ msgid "Flickr Widget"
+#~ msgstr "Flickr小工具"
+
+#~ msgid "Flickr ID"
+#~ msgstr "Flickr用户名"
+
+#~ msgid "To find your flickID visit %s."
+#~ msgstr "为了找到您的flickID访问的%s."
+
+#~ msgid "Number of photos"
+#~ msgstr "照片数"
+
+#~ msgid "Number of photos."
+#~ msgstr "照片数"
+
+#~ msgid "User"
+#~ msgstr "用户"
+
+#~ msgid "Group"
+#~ msgstr "群组"
+
+#~ msgid "Photo stream type."
+#~ msgstr "照片流类型。"
+
+#~ msgid "Display"
+#~ msgstr "显示"
+
+#~ msgid "Photo order."
+#~ msgstr "照片顺序。"
+
+#~ msgid "Progress Bar"
+#~ msgstr "进度条"
+
+#~ msgid "Graphic values"
+#~ msgstr "图形值"
+
+#~ msgid ""
+#~ "Input graph values here. Divide values with linebreaks (Enter). Example: "
+#~ "90|Development"
+#~ msgstr "在这里输入图形值。用换行符（回车）分隔值。例：90|发展"
+
+#~ msgid "Units"
+#~ msgstr "单位"
+
+#~ msgid ""
+#~ "Enter measurement units (if needed) Eg. %, px, points, etc. Graph value "
+#~ "and unit will be appended to the graph title."
+#~ msgstr ""
+#~ "输入计量单位（如需要），例如。 ％，PX，点，等。图形值和单位将被追加到图形"
+#~ "标题。"
+
+#~ msgid "Bar color"
+#~ msgstr "栏的颜色"
+
+#~ msgid "Custom Color"
+#~ msgstr "自定义颜色"
+
+#~ msgid "Select bar background color."
+#~ msgstr "选择栏的背景颜色。"
+
+#~ msgid "Bar custom color"
+#~ msgstr "栏自定义颜色"
+
+#~ msgid "Select custom background color for bars."
+#~ msgstr "选择栏自定义背景色。"
+
+#~ msgid "Options"
+#~ msgstr "选项"
+
+#~ msgid "Add Stripes?"
+#~ msgstr "添加条纹？"
+
+#~ msgid "Add animation? Will be visible with striped bars."
+#~ msgstr "添加动画？在条纹栏可见。"
+
+#~ msgid "Contact Form 7"
+#~ msgstr "联系表格7"
+
+#~ msgid "Form title"
+#~ msgstr "表格标题"
+
+#~ msgid "What text use as form title. Leave blank if no title is needed."
+#~ msgstr "使用什么文字作为小工具标题。标题如果没有必要的请留空。"
+
+#~ msgid "Select contact form"
+#~ msgstr "选择联系表格"
+
+#~ msgid "Choose previously created contact form from the drop down list."
+#~ msgstr "从下拉列表中选择先前创建的联系表单。"
+
+#~ msgid "Layer Slider"
+#~ msgstr "Layer幻灯片"
+
+#~ msgid "LayerSlider ID"
+#~ msgstr "Layer幻灯片 ID"
+
+#~ msgid "Select your LayerSlider."
+#~ msgstr "选择您的 LayerSlider."
+
+#~ msgid "No Gravity forms found."
+#~ msgstr "没有发现重力表单。"
+
+#~ msgid "Select a form to display."
+#~ msgstr "选择要显示的表单。"
+
+#~ msgid "Gravity Form"
+#~ msgstr "重力表单"
+
+#~ msgid "Form"
+#~ msgstr "表单"
+
+#~ msgid "Select a form to add it to your post or page."
+#~ msgstr "选择表单将它添加到您的文章或页面。"
+
+#~ msgid "Display Form Title"
+#~ msgstr "显示表格标题"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid "Would you like to display the forms title?"
+#~ msgstr "你想显示表格标题？"
+
+#~ msgid "Display Form Description"
+#~ msgstr "显示表格描述"
+
+#~ msgid "Would you like to display the forms description?"
+#~ msgstr "你想显示的表格描述？"
+
+#~ msgid "Enable AJAX?"
+#~ msgstr "启用AJAX？"
+
+#~ msgid "Enable AJAX submission?"
+#~ msgstr "启用AJAX提交？"
+
+#~ msgid "Tab Index"
+#~ msgstr "选项卡索引"
+
+#~ msgid ""
+#~ "(Optional) Specify the starting tab index for the fields of this form. "
+#~ "Leave blank if you're not sure what this is."
+#~ msgstr ""
+#~ "（可选）指定用于该表单中的字段的起始选项卡索引。如果你不知道这是什么请留"
+#~ "空。"
+
+#~ msgid "WordPress Widgets"
+#~ msgstr "WordPress 小工具"
+
+#~ msgid ""
+#~ "What text use as a widget title. Leave blank to use default widget title."
+#~ msgstr "使用什么文字作为小工具标题。标题如果没有必要的请留空。"
+
+#~ msgid "Number of comments to show"
+#~ msgstr "显示评论数"
+
+#~ msgid "Calendar"
+#~ msgstr "日历"
+
+#~ msgid "Sort by"
+#~ msgstr "排序方式："
+
+#~ msgid "Page title"
+#~ msgstr "页面标题"
+
+#~ msgid "Page order"
+#~ msgstr "页面顺序"
+
+#~ msgid "Page ID"
+#~ msgstr "页面ID"
+
+#~ msgid "Exclude"
+#~ msgstr "排除"
+
+#~ msgid "Page IDs, separated by commas."
+#~ msgstr "页面ID，用逗号隔开。"
+
+#~ msgid "Tag Cloud"
+#~ msgstr "标签云"
+
+#~ msgid "Taxonomy"
+#~ msgstr "分类"
+
+#~ msgid "Custom Menu"
+#~ msgstr "自定义菜单"
+
+#~ msgid "Menu"
+#~ msgstr "菜单"
+
+#~ msgid "Select menu"
+#~ msgstr "选择菜单"
+
+#~ msgid "Number of posts to show"
+#~ msgstr "显示文章数量"
+
+#~ msgid "Display post date?"
+#~ msgstr "显示文章日期？"
+
+#~ msgid "All Links"
+#~ msgstr "所有链接"
+
+#~ msgid "Links"
+#~ msgstr "链接"
+
+#~ msgid "Link Category"
+#~ msgstr "链接分类"
+
+#~ msgid "Link title"
+#~ msgstr "链接标题"
+
+#~ msgid "Link rating"
+#~ msgstr "链接评级"
+
+#~ msgid "Link ID"
+#~ msgstr "链接ID"
+
+#~ msgid "Show Link Image"
+#~ msgstr "显示链接图像"
+
+#~ msgid "Show Link Name"
+#~ msgstr "显示链接名称"
+
+#~ msgid "Show Link Description"
+#~ msgstr "显示链接描述"
+
+#~ msgid "Show Link Rating"
+#~ msgstr "显示链接评级"
+
+#~ msgid "Number of links to show"
+#~ msgstr "显示链接数"
+
+#~ msgid "Display as dropdown"
+#~ msgstr "显示为下拉"
+
+#~ msgid "Show post counts"
+#~ msgstr "显示文章数"
+
+#~ msgid "Show hierarchy"
+#~ msgstr "显示层次"
+
+#~ msgid "RSS"
+#~ msgstr "Rss"
+
+#~ msgid "RSS feed URL"
+#~ msgstr "RSS订阅网址"
+
+#~ msgid "Enter the RSS feed URL."
+#~ msgstr "输入RSS订阅网址​​。"
+
+#~ msgid "Items"
+#~ msgstr "项目"
+
+#~ msgid "10 - Default"
+#~ msgstr "10 - 默认"
+
+#~ msgid "How many items would you like to display?"
+#~ msgstr "你想显示多少项目？"
+
+#~ msgid "Display item content?"
+#~ msgstr "显示项目内容？"
+
+#~ msgid "Display item author if available?"
+#~ msgstr "如果可用，显示项目作者？"
+
+#~ msgid "Display item date?"
+#~ msgstr "显示项目日期？"
+
+#~ msgid "Posts grid"
+#~ msgstr "文章网格"
+
+#~ msgid "Loop"
+#~ msgstr "循环"
+
+#~ msgid "Create super mega query."
+#~ msgstr "创建超级大型查询。"
+
+#~ msgid "This adds a link selection box"
+#~ msgstr "这个选择框添加一个链接"
+
+#~ msgid "xxxx"
+#~ msgstr "rara"
