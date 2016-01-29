@@ -28,87 +28,43 @@
       <file leaf-file-name="class-theme-my-login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.714286" vertical-offset="6917" max-vertical-offset="22572">
-              <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.428571" vertical-offset="7829" max-vertical-offset="22648">
+              <caret line="428" column="53" selection-start-line="428" selection-start-column="53" selection-end-line="428" selection-end-column="53" />
               <folding>
-                <marker date="1453354036560" expanded="true" signature="19949:20006" placeholder="SELECT user_..." />
-                <marker date="1453354036560" expanded="true" signature="29898:30073" placeholder="SELECT p.ID ..." />
+                <marker date="1454061329227" expanded="true" signature="20161:20218" placeholder="SELECT user_..." />
+                <marker date="1454061329227" expanded="true" signature="30110:30285" placeholder="SELECT p.ID ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-my-login.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/theme-my-login.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2625216" vertical-offset="0" max-vertical-offset="988">
-              <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+            <state vertical-scroll-proportion="-3.5357144" vertical-offset="4176" max-vertical-offset="5168">
+              <caret line="225" column="52" selection-start-line="225" selection-start-column="52" selection-end-line="225" selection-end-column="52" />
+              <folding>
+                <element signature="e#6#127#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobile_verify.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/custom/mobile_verify.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30810812" vertical-offset="0" max-vertical-offset="570">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register-form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/templates/register-form.php">
+      <file leaf-file-name="custom-email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/custom-email/custom-email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="722">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="44283" max-vertical-offset="51015">
-              <caret line="2348" column="19" selection-start-line="2348" selection-start-column="19" selection-end-line="2348" selection-end-column="19" />
-              <folding>
-                <marker date="1444301294000" expanded="true" signature="8853:8887" placeholder="SELECT COUNT..." />
-                <marker date="1444301294000" expanded="true" signature="10260:10365" placeholder="SELECT post_..." />
-                <marker date="1444301294000" expanded="true" signature="29476:29561" placeholder="SELECT ${$th..." />
-                <marker date="1444301294000" expanded="true" signature="45295:45392" placeholder="SELECT ${$se..." />
-                <marker date="1444301294000" expanded="true" signature="45924:46008" placeholder="SELECT meta_..." />
-                <marker date="1444301294000" expanded="true" signature="68778:68859" placeholder="SELECT ID FR..." />
-                <marker date="1444301294000" expanded="true" signature="69085:69166" placeholder="SELECT ID FR..." />
-                <marker date="1444301294000" expanded="true" signature="83556:83626" placeholder="SELECT ID, u..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formatting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.571429" vertical-offset="79919" max-vertical-offset="87571">
-              <caret line="4219" column="9" selection-start-line="4219" selection-start-column="9" selection-end-line="4219" selection-end-column="9" />
-              <folding>
-                <marker date="1444301294000" expanded="true" signature="82192:82221" placeholder="..." />
-                <marker date="1444301294000" expanded="true" signature="149494:149523" placeholder="..." />
-                <marker date="1444301294000" expanded="true" signature="150081:150110" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-moderation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/user-moderation/user-moderation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.964286" vertical-offset="3899" max-vertical-offset="9082">
-              <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
-              <folding>
-                <marker date="1453353728862" expanded="true" signature="9859:9908" placeholder="SELECT ID FR..." />
-                <marker date="1453353728862" expanded="true" signature="11233:11310" placeholder="SELECT * FRO..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-theme-my-login-abstract.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login-abstract.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-110.17857" vertical-offset="278" max-vertical-offset="4902">
-              <caret line="181" column="70" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
+            <state vertical-scroll-proportion="-4.571429" vertical-offset="2171" max-vertical-offset="17480">
+              <caret line="130" column="82" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -120,6 +76,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/user-moderation/user-moderation.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/theme-my-login/templates/register-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Newspaper/custom/mobile_verify.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Newspaper/functions.php" />
+        <option value="$PROJECT_DIR$/custom/mobile_verify.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php" />
       </list>
     </option>
@@ -129,8 +89,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-2" />
+    <option name="y" value="-2" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -251,11 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-moderation" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,19 +225,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme-my-login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="ali-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,6 +254,12 @@
     <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bbl\colorfullady0119\public_html" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -312,6 +276,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -319,9 +286,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -340,29 +304,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-2" y="-2" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -388,12 +352,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7829" max-vertical-offset="22572">
-          <caret line="428" column="51" selection-start-line="428" selection-start-column="51" selection-end-line="428" selection-end-column="51" />
-          <folding>
-            <marker date="1453354036560" expanded="true" signature="19949:20006" placeholder="SELECT user_..." />
-            <marker date="1453354036560" expanded="true" signature="29898:30073" placeholder="SELECT p.ID ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="6917" max-vertical-offset="22572">
+          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/theme-my-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/templates/register-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="722">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -402,14 +379,70 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="44283" max-vertical-offset="51015">
           <caret line="2348" column="19" selection-start-line="2348" selection-start-column="19" selection-end-line="2348" selection-end-column="19" />
           <folding>
-            <marker date="1444301294000" expanded="true" signature="8853:8887" placeholder="SELECT COUNT..." />
-            <marker date="1444301294000" expanded="true" signature="10260:10365" placeholder="SELECT post_..." />
-            <marker date="1444301294000" expanded="true" signature="29476:29561" placeholder="SELECT ${$th..." />
-            <marker date="1444301294000" expanded="true" signature="45295:45392" placeholder="SELECT ${$se..." />
-            <marker date="1444301294000" expanded="true" signature="45924:46008" placeholder="SELECT meta_..." />
-            <marker date="1444301294000" expanded="true" signature="68778:68859" placeholder="SELECT ID FR..." />
-            <marker date="1444301294000" expanded="true" signature="69085:69166" placeholder="SELECT ID FR..." />
-            <marker date="1444301294000" expanded="true" signature="83556:83626" placeholder="SELECT ID, u..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ${$th..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ${$se..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID, u..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="79919" max-vertical-offset="87571">
+          <caret line="4219" column="9" selection-start-line="4219" selection-start-column="9" selection-end-line="4219" selection-end-column="9" />
+          <folding>
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/user-moderation/user-moderation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3899" max-vertical-offset="9082">
+          <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
+          <folding>
+            <marker date="1453353728862" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1453353728862" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login-abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="4902">
+          <caret line="181" column="70" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7829" max-vertical-offset="22572">
+          <caret line="428" column="51" selection-start-line="428" selection-start-column="51" selection-end-line="428" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44283" max-vertical-offset="51015">
+          <caret line="2348" column="19" selection-start-line="2348" selection-start-column="19" selection-end-line="2348" selection-end-column="19" />
+          <folding>
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ${$th..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ${$se..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID, u..." />
           </folding>
         </state>
       </provider>
@@ -427,9 +460,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="79919" max-vertical-offset="87571">
           <caret line="4219" column="9" selection-start-line="4219" selection-start-column="9" selection-end-line="4219" selection-end-column="9" />
           <folding>
-            <marker date="1444301294000" expanded="true" signature="82192:82221" placeholder="..." />
-            <marker date="1444301294000" expanded="true" signature="149494:149523" placeholder="..." />
-            <marker date="1444301294000" expanded="true" signature="150081:150110" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -439,8 +472,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3899" max-vertical-offset="9082">
           <caret line="249" column="38" selection-start-line="249" selection-start-column="38" selection-end-line="249" selection-end-column="38" />
           <folding>
-            <marker date="1453353728862" expanded="true" signature="9859:9908" placeholder="SELECT ID FR..." />
-            <marker date="1453353728862" expanded="true" signature="11233:11310" placeholder="SELECT * FRO..." />
+            <marker date="1453353728862" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1453353728862" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -495,23 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44283" max-vertical-offset="51015">
-          <caret line="2348" column="19" selection-start-line="2348" selection-start-column="19" selection-end-line="2348" selection-end-column="19" />
-          <folding>
-            <marker date="1444301294000" expanded="true" signature="8853:8887" placeholder="SELECT COUNT..." />
-            <marker date="1444301294000" expanded="true" signature="10260:10365" placeholder="SELECT post_..." />
-            <marker date="1444301294000" expanded="true" signature="29476:29561" placeholder="SELECT ${$th..." />
-            <marker date="1444301294000" expanded="true" signature="45295:45392" placeholder="SELECT ${$se..." />
-            <marker date="1444301294000" expanded="true" signature="45924:46008" placeholder="SELECT meta_..." />
-            <marker date="1444301294000" expanded="true" signature="68778:68859" placeholder="SELECT ID FR..." />
-            <marker date="1444301294000" expanded="true" signature="69085:69166" placeholder="SELECT ID FR..." />
-            <marker date="1444301294000" expanded="true" signature="83556:83626" placeholder="SELECT ID, u..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3214285" vertical-offset="16284" max-vertical-offset="20938">
@@ -522,7 +538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login-abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-110.17857" vertical-offset="278" max-vertical-offset="4902">
+        <state vertical-scroll-proportion="5.328152" vertical-offset="278" max-vertical-offset="4902">
           <caret line="181" column="70" selection-start-line="181" selection-start-column="70" selection-end-line="181" selection-end-column="70" />
           <folding />
         </state>
@@ -530,58 +546,217 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.571429" vertical-offset="79919" max-vertical-offset="87571">
+        <state vertical-scroll-proportion="0.22614841" vertical-offset="79919" max-vertical-offset="87571">
           <caret line="4219" column="9" selection-start-line="4219" selection-start-column="9" selection-end-line="4219" selection-end-column="9" />
           <folding>
-            <marker date="1444301294000" expanded="true" signature="82192:82221" placeholder="..." />
-            <marker date="1444301294000" expanded="true" signature="149494:149523" placeholder="..." />
-            <marker date="1444301294000" expanded="true" signature="150081:150110" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/user-moderation/user-moderation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.964286" vertical-offset="3899" max-vertical-offset="9082">
-          <caret line="223" column="31" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
-          <folding>
-            <marker date="1453353728862" expanded="true" signature="9859:9908" placeholder="SELECT ID FR..." />
-            <marker date="1453353728862" expanded="true" signature="11233:11310" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.714286" vertical-offset="6917" max-vertical-offset="22572">
-          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
-          <folding>
-            <marker date="1453354036560" expanded="true" signature="19949:20006" placeholder="SELECT user_..." />
-            <marker date="1453354036560" expanded="true" signature="29898:30073" placeholder="SELECT p.ID ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2685512" vertical-offset="1904" max-vertical-offset="2983">
-          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/templates/register-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="722">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state vertical-scroll-proportion="-8.821428" vertical-offset="114" max-vertical-offset="741">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/useso-take-over-google/useso-take-over-google.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="2584">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpjam-qiniu/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48821548" vertical-offset="1686" max-vertical-offset="2280">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6342756" vertical-offset="1180" max-vertical-offset="28329">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+          <folding>
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT optio..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT optio..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT optio..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT optio..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT autol..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33215547" vertical-offset="11592" max-vertical-offset="38152">
+          <caret line="625" column="9" selection-start-line="625" selection-start-column="9" selection-end-line="625" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/default-constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.214286" vertical-offset="5802" max-vertical-offset="6460">
+          <caret line="320" column="38" selection-start-line="320" selection-start-column="38" selection-end-line="320" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="1748">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.164076" vertical-offset="285" max-vertical-offset="1615">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/single_template_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4575973" vertical-offset="3082" max-vertical-offset="3648">
+          <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#120#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-api/top/TopClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.214286" vertical-offset="2496" max-vertical-offset="5510">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-api/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="285">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-api/top/request/AlibabaAliqinFcSmsNumSendRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.295053" vertical-offset="1980" max-vertical-offset="2603">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/theme-my-login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2625216" vertical-offset="0" max-vertical-offset="988">
-          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.21243523" vertical-offset="67" max-vertical-offset="988">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Newspaper/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5357144" vertical-offset="4176" max-vertical-offset="5168">
+          <caret line="225" column="52" selection-start-line="225" selection-start-column="52" selection-end-line="225" selection-end-column="52" />
+          <folding>
+            <element signature="e#6#127#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/includes/class-theme-my-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.428571" vertical-offset="7829" max-vertical-offset="22648">
+          <caret line="428" column="53" selection-start-line="428" selection-start-column="53" selection-end-line="428" selection-end-column="53" />
+          <folding>
+            <marker date="1454061329227" expanded="true" signature="20161:20218" placeholder="SELECT user_..." />
+            <marker date="1454061329227" expanded="true" signature="30110:30285" placeholder="SELECT p.ID ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51766783" vertical-offset="48803" max-vertical-offset="51015">
+          <caret line="2589" column="29" selection-start-line="2589" selection-start-column="16" selection-end-line="2589" selection-end-column="29" />
+          <folding>
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ${$th..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ${$se..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1444301294000" expanded="true" signature="-1:-1" placeholder="SELECT ID, u..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/custom-email/custom-email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.571429" vertical-offset="2171" max-vertical-offset="17480">
+          <caret line="130" column="82" selection-start-line="130" selection-start-column="82" selection-end-line="130" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/theme-my-login/modules/user-moderation/user-moderation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1590214" vertical-offset="1050" max-vertical-offset="9082">
+          <caret line="67" column="97" selection-start-line="67" selection-start-column="97" selection-end-line="67" selection-end-column="97" />
+          <folding>
+            <marker date="1453353728862" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1453353728862" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/mobile_verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30810812" vertical-offset="0" max-vertical-offset="570">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>

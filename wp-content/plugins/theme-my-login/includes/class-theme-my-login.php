@@ -428,12 +428,12 @@ class Theme_My_Login extends Theme_My_Login_Abstract {
 						$user_email = isset( $_POST['user_email'] ) ? $_POST['user_email'] : '';
 						$this->errors = register_new_user( $user_login, $user_email );
 						
-						die(var_dump($this->errors));
+						//die(var_dump($this->errors));
 						if ( ! is_wp_error( $this->errors ) ) {							
 							
-							$current_user = get_user_by('login', $user_login);
+							//$current_user = get_user_by('login', $user_login);
 							
-							$is_ok=update_user_meta($current_user->ID, 'show_admin_bar_front', false);
+							//$is_ok=update_user_meta($current_user->ID, 'show_admin_bar_front', false);
 							$redirect_to = ! empty( $_POST['redirect_to'] ) ? $_POST['redirect_to'] : site_url( 'wp-login.php?checkemail=registered' );
 							wp_safe_redirect( $redirect_to );
 							exit;
