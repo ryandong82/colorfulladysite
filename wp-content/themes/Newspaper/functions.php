@@ -135,7 +135,7 @@ if (TD_DEBUG_LIVE_THEME_STYLE) {
             <div class="clearfix"></div>
             <div class="td-set-hide-show"><a href="#" id="td-theme-set-hide">隐藏</a></div>
         </div>
-    <?php
+        <?php
     }
 }
 
@@ -236,7 +236,7 @@ function additional_profile_fields()
     </p>
     <p>
         <label><?php _e('验证码') ?><br/>
-            <input type="text" name="first_name" id="first_name" class="input" size="25" tabindex="20"/></label>
+            <input type="text" name="verify_code" id="edt_verify_code" class="input" size="25" tabindex="20"/></label>
     </p>
     <p>
         <label><?php _e('关于身心成长您希望在这里得到哪些帮助') ?><br/>
@@ -244,12 +244,23 @@ function additional_profile_fields()
     </p>
 <?php }
 
-// 检测表单字段是否为空，如果为空显示提示信息
-add_action('register_post', 'add_register_field_validate_first_name', 10, 3);
-function add_register_field_validate_first_name($sanitized_user_login, $user_email, $errors)
+
+// 检查验证码是否有效
+add_action('register_post', 'check_mobile_verify_code', 10, 3);
+function check_mobile_verify_code($sanitized_user_login, $user_email, $errors)
 {
-    if (!isset($_POST['first_name']) || empty($_POST['first_name'])) {
-        return $errors->add('firstnameempty', '<strong>ERROR</strong>: 请输入姓名.');
+    $redis = new Redis();
+    $redis->connect('127.0.0.1', 6379);
+    session_start();
+    if (!isset($_POST['verify_code']) || empty($_POST['verify_code'])) {
+        return $errors->add('verify_code_empty', '<strong>ERROR</strong>: 请输验证码.');
+    }
+    if (!$redis->get(session_id() . '_verify_code')) {
+        return $errors->add('verify_code_expired', '验证码已经过期');
+    }else
+    {
+        if ($redis->get(session_id() . '_verify_code')!=$_POST['verify_code'])
+        return $errors->add('verify_code_expired', '<strong>ERROR</strong>: 验证码错误.');
     }
 }
 

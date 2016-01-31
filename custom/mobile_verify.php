@@ -1,6 +1,8 @@
 <?php
 include "../ali-api/TopSdk.php";
 date_default_timezone_set('Asia/Shanghai');
+$redis = new Redis();
+$redis->connect('127.0.0.1', 6379);
 
 /**
  * Created by PhpStorm.
@@ -8,9 +10,10 @@ date_default_timezone_set('Asia/Shanghai');
  * Date: 2016-01-29
  * Time: 14:56
  */
+session_start();
 $ran_num = rand(1000, 9999);
-$_SESSION["VERIFY_CODE"] = $ran_num;
-$_SESSION["VERIFY_EXPIRE"] = strtotime("+1 minutes");
+$redis->set(session_id() . '_verify_code', $ran_num);
+$redis->expire(session_id() . '_verify_code', 60);
 $c = new TopClient;
 $c->appkey = '23305908';
 $c->secretKey = '9655a0b98c6f8f3bfaf9a40cad1b5696';
