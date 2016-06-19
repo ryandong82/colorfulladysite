@@ -55,7 +55,7 @@ $buffy .= '</aside></div>';
 
 	$buffy .= '<div class="td-pb-span4"><aside class="footer-social-wrap td-social-style-2">';
 	    $buffy .= '<div class="block-title"><span>' . __td('COLLABOR', TD_THEME_NAME) . '</span></div>';
-		$buffy .= '<img src="/wp-content/uploads/2016/01/11cafb4187b90ac0595da92030466f6c_logo_20160113.gif">';
+		$buffy .= '<img src="wp-content/uploads/2016/01/11cafb4187b90ac0595da92030466f6c_logo_20160113.gif">';
 		$buffy .= '</aside></div>';
 
 

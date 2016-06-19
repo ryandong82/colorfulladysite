@@ -11,24 +11,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="renderer" content="webkit">
 
-    <link type="text/css" href="custom/css/play.built.e1fd2eca.cache.css" rel="stylesheet" media="all">
+    <link type="text/css" href="css/play.built.e1fd2eca.cache.css" rel="stylesheet" media="all">
 
-    <!--[if lt ie 9]>
-    <script type="text/javascript" src="custom/js/html5shiv.js"></script>
-    <script type="text/javascript" src="custom/js/selectivizr-min.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript" src="custom/js/jquery-1.8.1.min.js"></script>
-    <script type="text/javascript" src="custom/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 
-    <link type="text/css" href="custom/css/styles.css" rel="stylesheet" media="all">
-
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="all">
+    <!--<link type="text/css" href="css/metro.min.css" rel="stylesheet" media="all">-->
 
 </head>
 
+<body>
 
-<body class="body_PHaoPk" data-c_tl_id="M_a0673b1406b989bf">
+<div id="regModal" class="modalDialog">
+    <div class="main_box">
+        <a href="#close" title="Close" class="close">X</a>
+        <div class="login_box">
+            <div class="login_form">
+                <form action="main" id="reg_form" method="post">
+                    <div class="form-group">
+                        <input id="edt_reg_username" value="" name="user_login" type="text" class="form-control"
+                               autocomplete="off" placeholder="输入用户名" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input id="edt_reg_password" value="" name="password" type="password" placeholder="输入密码"
+                               class="password form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input id="retype_reg_password" value="" name="pass2" type="password" placeholder="确认密码"
+                               class="password form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input id="edt_reg_mobile" value="" name="mobile" placeholder="手机号"
+                               class="password form-control" required="required" pattern="^1[3|4|5|7|8]\d{9}$">
+                    </div>
+                    <div class="form-group">
+                        <img src="captcha.php" alt="请点击刷新验证码" id="img_pic_code" onclick="refreshPicCode(this)">
+                        <input title="图片验证码" id="edt_captcha" type="text">
+                        <a href="javascript:check_picCode();" id="btnSendVerifyCode" class="btn btn-default btn-sm">发送验证码</a>
+                    </div>
+                    <div class="form-group">
+                        <input title="手机验证码" alt="手机验证码" id="mob_verify_code" name="verify_code" type="text" placeholder="手机验证码"
+                               class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="reg_btn_submit" style="display:none"></button>
+                        <input type="hidden" name="redirect_to" value="http://www.colorfullady.cn/main/?page_id=3446&registration=complete">
+                        <a class="btn btn-default btn-lg" href="javascript:submit_reg_form();">注册</a>
+                        <a class="btn btn-default btn-lg" href="#openModal">登录</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="openModal" class="modalDialog">
+    <div class="main_box">
+        <a href="#close" title="Close" class="close">X</a>
+        <div class="login_box">
+            <div class="login_form">
+                <form action="index.html" id="login_form" method="post">
+                    <div class="form-group">
+                        <input id="email" value="" name="email" type="text" class="form-control x319 in"
+                               autocomplete="off" placeholder="输入用户名" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input id="password" value="" name="password" type="password" placeholder="输入密码"
+                               class="password form-control x319 in" required="required">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="login_btn_submit" style="display:none"></button>
+                        <a class="btn btn-default btn-lg" href="javascript:login_btn_submit.click();">登录</a>
+                        <input type="hidden" name="redirect_to" value="http://www.colorfullady.cn/main/?page_id=3446&registration=complete">
+                        <a class="btn btn-default btn-lg" href="#regModal">注册</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
 <div class="container-fluid c-section section_fb2pbs" data-c_act_id="M_96ae5779d572fb0c61e093518dbb30e1"
      data-c_tl_id="M_67c4364ec61089d04ddd08e025ac3a59">
     <div class="c-div div_1O2gxH"></div>
@@ -40,85 +106,127 @@
                 <p><span style="color: #ffffff;">如果我说完美的人生并不存在，但是我们却可以获得健康多彩！</span></p>
                 <p><span style="color: #ffffff;">只要热爱生活，不拒绝学习成长，其实每个女人都能活出你想要的模样。</span></p></div>
         </div>
-        <div class="c-div div_MYOYN1"><a class="btn c-button button_kJOOmx" href="main/index.php" type="button">进入网站</a>
+        <div class="c-div div_MYOYN1"><a class="btn c-button button_kJOOmx" href="#openModal">进入网站</a>
         </div>
     </div>
 </div>
 <div class="container-fluid c-section section_sx2YWz" data-c_tl_id="M_5ce6273e2a651e36784893b404bd5fcc">
     <div class="row c-row row_1EWIAB">
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_ksM7Ff"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/0.jpg"/>
+                                                                                     src="asset/images/0.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/1.jpg"/>
+                                                                                     src="asset/images/1.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/2.jpg"/>
+                                                                                     src="asset/images/2.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/3.jpg"/>
+                                                                                     src="asset/images/3.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/4.jpg"/>
+                                                                                     src="asset/images/4.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/5.jpg"/>
+                                                                                     src="asset/images/5.jpg"/>
         </div>
     </div>
     <div class="row c-row row_1EWIAB">
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_ksM7Ff"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/6.jpg"/>
+                                                                                     src="asset/images/6.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/7.jpg"/>
+                                                                                     src="asset/images/7.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/8.jpg"/>
+                                                                                     src="asset/images/8.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/9.jpg"/>
+                                                                                     src="asset/images/9.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/10.jpg"/>
+                                                                                     src="asset/images/10.jpg"/>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 c-column column_jCiDmi"><img class="c-image image_b6iLgt"
-                                                                                     src="custom/asset/images/11.jpg"/>
+                                                                                     src="asset/images/11.jpg"/>
         </div>
     </div>
 </div>
 </body>
-
-
-<script type="text/javascript" src="custom/js/index_data.js"></script>
-
-
-<!--<script type="text/javascript" src="http://o3bnyc.creatby.com/diazo/c-built/requireJS/require.js"></script>-->
-<!--<script>-->
-<!--define('jquery',function(){});-->
-<!--</script>-->
-<!--<script>-->
-<!--define('bootstrap',function(){});-->
-<!--</script>-->
-
-<script type="text/javascript" src="custom/js/pack.built.3a8efe4c.cache.js"></script>
-
-
-<!--[if lte IE 8]>
-<script type="text/javascript" src="custom/js/respond.src.js"></script>
-<![endif]-->
-
-<!-- ie8 以下版本提示信息 -->
-<!--[if lt ie 8]>
-<script type="text/javascript">
-    window.onload = function () {
-        document.getElementById('browser-tip').style.display = "block";
-        document.getElementsByTagName('body')[0].style.paddingTop = "50px";
+<script>
+    function validate(str) {
+        var reg = /^1\d{10}$/;
+        return reg.test(str);
     }
-    function hide() {
-        document.getElementById('browser-tip').style.display = "none";
-        document.getElementsByTagName('body')[0].style.paddingTop = "0px";
+    function check_picCode() {
+        var m_number = document.getElementById("edt_reg_mobile");
+        if (!validate(m_number.value)) {
+            alert("请入正确的手机号");
+            m_number.focus();
+            return;
+        }
+        var picCode = document.getElementById("edt_captcha").value;
+        $.ajax({
+            type: "POST",
+            url: "verify_captcha.php",
+            data: {
+                pic_code: picCode
+            },
+            success: function (data) {
+                if (data.result == "OK") {
+                    send_post();
+                } else {
+                    alert("图片验证码不正确");
+                    refreshPicCode(document.getElementById("img_pic_code"));
+                }
+            }
+        });
+    }
+    function send_post() {
+        var btn = document.getElementById("btnSendVerifyCode");
+        var picCode = document.getElementById("edt_captcha").value;
+        var phone = document.getElementById("edt_reg_mobile").value;
+        $.ajax({
+            type: "POST",
+            url: "main/custom/mobile_verify.php",
+            data: {
+                picCode: picCode,
+                phone_number: phone
+            },
+            success: function (data) {
+                btn.disabled = true;
+                intervalId = setInterval(desTime, 1000);
+            }
+        });
+    }
+    function refreshPicCode(img) {
+        img.src = 'captcha.php?' + Math.random();
+    }
+    var sec = parseInt(30);
+    var intervalId;
+    function desTime() {
+        var btn = document.getElementById("btnSendVerifyCode");
+        if (sec <= 0) {
+            sec = parseInt(30);
+            btn.innerHTML = "发送验证码";
+            btn.disabled = false;
+            clearInterval(intervalId);
+        } else {
+            sec -= 1;
+            btn.innerHTML = "重新发送(" + sec + ")";
+        }
+    }
+
+    function submit_reg_form() {
+        var pass = document.getElementById("edt_reg_password");
+        var re_pass = document.getElementById("retype_reg_password");
+        if (pass.value != re_pass.value) {
+            alert("两次输入的密码不一致");
+            pass.focus();
+        }
+
+        var btnSubmit = document.getElementById("reg_btn_submit");
+        btnSubmit.click();
     }
 </script>
-<![endif]-->
-
 </html>

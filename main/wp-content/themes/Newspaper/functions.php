@@ -178,7 +178,7 @@ function additional_profile_fields()
 { ?>
     <p>
         <label><?php _e('手机') ?><br/>
-            <input type="text" name="first_name" id="first_name" class="input" size="25" tabindex="20"/></label>
+            <input type="text" name="phone_number" id="mobile" class="input" size="25" tabindex="20"/></label>
         <button id="btnSendVerifyCode" type="button">发送验证码</button>
         <script>
             function validate(str) {
@@ -220,7 +220,6 @@ function additional_profile_fields()
                                     phone_number: m_number
                                 },
                                 success: function (data) {
-                                    alert(11);
                                     intervalId = setInterval(desTime, 1000);
                                 },
                                 error: function () {
@@ -249,6 +248,8 @@ function additional_profile_fields()
 add_action('register_post', 'check_mobile_verify_code', 10, 3);
 function check_mobile_verify_code($sanitized_user_login, $user_email, $errors)
 {
+    if ($_POST["phone_number"] != $_SESSION["mobile"])
+        return $errors->add('verify_code_mob_error', '<strong>ERROR</strong>: 请输入刚刚接收验证码的手机号.');
     $redis = new Redis();
     $redis->connect('127.0.0.1', 6379);
     session_start();
@@ -269,9 +270,26 @@ add_action('user_register', 'insert_register_fields');
 function insert_register_fields($user_id)
 {
 
-    $first_name = apply_filters('pre_user_first_name', $_POST['first_name']);
+    $user_phone_number = apply_filters('pre_user_phone_number', $_POST['phone_number']);
     $description = apply_filters('pre_user_description', $_POST['description']);
     // 以下的 'first_name' 和 'last_name' 是“我的个人资料”中已有的字段
-    update_user_meta($user_id, 'first_name', $first_name);
+    update_user_meta($user_id, 'user_phone_number', $user_phone_number);
     update_user_meta($user_id, 'description', $description);
+}
+//add_action('init', 'check_login');
+
+function check_login()
+{
+    if ( is_user_logged_in() ) {
+        echo 'Welcome, registered user!';
+      } else {
+        echo 'Welcome, visitor!';
+      }
+    echo is_user_logged_in();
+    //if (!is_user_logged_in())
+    {
+        //header("Location:../index.php");
+
+        exit();
+    }
 }
