@@ -29,37 +29,58 @@
         <a href="#close" title="Close" class="close">X</a>
         <div class="login_box">
             <div class="login_form">
-                <form action="main" id="reg_form" method="post">
+                <form action="main/?page_id=3448" id="reg_form" method="post">
                     <div class="form-group">
+                        <label for="edt_reg_username">登录名称：</label>
                         <input id="edt_reg_username" value="" name="user_login" type="text" class="form-control"
                                autocomplete="off" placeholder="输入用户名" required="required">
                     </div>
                     <div class="form-group">
-                        <input id="edt_reg_password" value="" name="password" type="password" placeholder="输入密码"
+                        <label for="reg_user_email">电子邮箱：</label>
+                        <input id="reg_user_email" name="user_email" type="email" class="form-control"
+                               autocomplete="off" placeholder="输入邮箱地址" required="required">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="edt_reg_password">登录密码：</label>
+                        <input id="edt_reg_password" value="" name="pass1" type="password" placeholder="输入密码"
                                class="password form-control" required="required">
                     </div>
                     <div class="form-group">
+                        <label for="retype_reg_password">确认密码：</label>
                         <input id="retype_reg_password" value="" name="pass2" type="password" placeholder="确认密码"
                                class="password form-control" required="required">
                     </div>
                     <div class="form-group">
-                        <input id="edt_reg_mobile" value="" name="mobile" placeholder="手机号"
+                        <label for="edt_reg_mobile">手机号码：</label>
+                        <input id="edt_reg_mobile" value="" name="reg_phone_number" placeholder="手机号"
                                class="password form-control" required="required" pattern="^1[3|4|5|7|8]\d{9}$">
                     </div>
                     <div class="form-group">
                         <img src="captcha.php" alt="请点击刷新验证码" id="img_pic_code" onclick="refreshPicCode(this)">
                         <input title="图片验证码" id="edt_captcha" type="text">
-                        <a href="javascript:check_picCode();" id="btnSendVerifyCode" class="btn btn-default btn-sm">发送验证码</a>
+                        <button type="button" onclick="check_picCode();" id="btnSendVerifyCode"
+                                class="btn btn-default btn-sm">发送验证码
+                        </button>
                     </div>
                     <div class="form-group">
-                        <input title="手机验证码" alt="手机验证码" id="mob_verify_code" name="verify_code" type="text" placeholder="手机验证码"
+                        <label for="mob_verify_code">手机验证码</label>
+                        <input title="手机验证码" alt="手机验证码" id="mob_verify_code" name="verify_code" type="text"
+                               placeholder="手机验证码"
                                class="form-control">
+                    </div>
+                    <div id="reg_error_msg">
+
                     </div>
                     <div class="form-group">
                         <button type="submit" id="reg_btn_submit" style="display:none"></button>
-                        <input type="hidden" name="redirect_to" value="http://www.colorfullady.cn/main/?page_id=3446&registration=complete">
+                        <input type="hidden" name="redirect_to"
+                               value="http://www.colorfullady.cn/main">
                         <a class="btn btn-default btn-lg" href="javascript:submit_reg_form();">注册</a>
+                        <input type="hidden" name="action" value="register">
+                        <input type="hidden" name="external_reg" value="1">
                         <a class="btn btn-default btn-lg" href="#openModal">登录</a>
+
                     </div>
                 </form>
             </div>
@@ -74,19 +95,25 @@
         <a href="#close" title="Close" class="close">X</a>
         <div class="login_box">
             <div class="login_form">
-                <form action="index.html" id="login_form" method="post">
+                <form action="main/?page=3446" id="login_form" method="post">
                     <div class="form-group">
-                        <input id="email" value="" name="email" type="text" class="form-control x319 in"
+                        <input id="user_login" value="" name="log" type="text" class="form-control x319 in"
                                autocomplete="off" placeholder="输入用户名" required="required">
                     </div>
                     <div class="form-group">
-                        <input id="password" value="" name="password" type="password" placeholder="输入密码"
+                        <input id="password" value="" name="pwd" type="password" placeholder="输入密码"
                                class="password form-control x319 in" required="required">
+                    </div>
+                    <div id="reg_error_msg_login">
+
                     </div>
                     <div class="form-group">
                         <button type="submit" id="login_btn_submit" style="display:none"></button>
+                        <input type="hidden" name="action" value="login">
                         <a class="btn btn-default btn-lg" href="javascript:login_btn_submit.click();">登录</a>
-                        <input type="hidden" name="redirect_to" value="http://www.colorfullady.cn/main/?page_id=3446&registration=complete">
+                        <input type="hidden" name="redirect_to"
+                               value="http://www.colorfullady.cn/main">
+                        <input type="hidden" name="external_login" value="1">
                         <a class="btn btn-default btn-lg" href="#regModal">注册</a>
                     </div>
                 </form>
@@ -169,12 +196,13 @@
         $.ajax({
             type: "POST",
             url: "verify_captcha.php",
+            dataType:"JSON",
             data: {
                 pic_code: picCode
             },
             success: function (data) {
                 if (data.result == "OK") {
-                    send_post();
+
                 } else {
                     alert("图片验证码不正确");
                     refreshPicCode(document.getElementById("img_pic_code"));
@@ -190,12 +218,17 @@
             type: "POST",
             url: "main/custom/mobile_verify.php",
             data: {
-                picCode: picCode,
+                pic_code: picCode,
                 phone_number: phone
             },
+            dataType:"JSON",
             success: function (data) {
-                btn.disabled = true;
-                intervalId = setInterval(desTime, 1000);
+                if (data.code != 0) {
+                    alert(data.msg + "\n" + data.sub_msg);
+                } else {
+                    btn.disabled = true;
+                    intervalId = setInterval(desTime, 1000);
+                }
             }
         });
     }
@@ -210,6 +243,7 @@
             sec = parseInt(30);
             btn.innerHTML = "发送验证码";
             btn.disabled = false;
+            refreshPicCode(document.getElementById("img_pic_code"));
             clearInterval(intervalId);
         } else {
             sec -= 1;
@@ -223,10 +257,59 @@
         if (pass.value != re_pass.value) {
             alert("两次输入的密码不一致");
             pass.focus();
+            return;
         }
 
         var btnSubmit = document.getElementById("reg_btn_submit");
         btnSubmit.click();
     }
+
+    function on_reg_submit(e)
+    {
+
+    }
+
+    window.onload = function()
+    {
+        var formReg = document.getElementById("reg_form");
+        formReg.onsubmit = function(e){
+            e.preventDefault();
+            $.ajax({
+                type:"POST",
+                dataType:"JSON",
+                url: this.attributes["action"].value,
+                data: $(this).serialize(),
+                success: function (data) {
+                    if (data.result == 0) {
+                        var errmsg_box = document.getElementById("reg_error_msg");
+                        errmsg_box.innerHTML = data.error;
+                    } else {
+                        window.location="http://www.colorfullady.cn/main";
+                    }
+                }
+            });
+        };
+
+        var formLogin = document.getElementById("login_form");
+        formLogin.onsubmit=function(e)
+        {
+            e.preventDefault();
+            $.ajax({
+                type:"POST",
+                dataType:"JSON",
+                url: this.attributes["action"].value,
+                data: $(this).serialize(),
+                success: function (data) {
+                    if (data.result == 0) {
+                        var errmsg_box_login = document.getElementById("reg_error_msg_login");
+                        errmsg_box_login.innerHTML = data.errormsg;
+                    } else {
+                        window.location="http://www.colorfullady.cn/main";
+                    }
+                }
+            });
+        }
+    }
+
 </script>
 </html>

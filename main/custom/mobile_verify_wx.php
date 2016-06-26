@@ -14,15 +14,6 @@ $redis->connect('127.0.0.1', 6379);
  */
 session_start();
 
-$pic_code = $_POST["pic_code"];
-
-if (isset($pic_code)) {
-    if (strtoupper($pic_code) != strtoupper($_SESSION["VerifyCode"])) {
-        echo json_encode(array('result' => 'false', 'msg' => '图片验证码不正确', 'vcode' => strtoupper($_SESSION["VerifyCode"])));
-        return;
-    }
-}
-
 $ran_num = rand(1000, 9999);
 $redis->set(session_id() . '_verify_code', $ran_num);
 $redis->expire(session_id() . '_verify_code', 60);

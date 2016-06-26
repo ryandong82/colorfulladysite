@@ -244,52 +244,113 @@ function additional_profile_fields()
 <?php }
 
 
-// 检查验证码是否有效
-add_action('register_post', 'check_mobile_verify_code', 10, 3);
-function check_mobile_verify_code($sanitized_user_login, $user_email, $errors)
+// 检查验证码是否有效就我啊
+//add_action('register_post', 'check_mobile_verify_code', 11, 3);
+add_filter('registration_errors', 'check_mobile_verify_code', 11);
+function check_mobile_verify_code($errors)
 {
+    if (empty($errors))
+        $errors = new WP_Error();
     if ($_POST["phone_number"] != $_SESSION["mobile"])
-        return $errors->add('verify_code_mob_error', '<strong>ERROR</strong>: 请输入刚刚接收验证码的手机号.');
+        $errors->add('verify_code_mob_error', '<strong>ERROR</strong>: 请输入r刚刚接收验证码的手机号.');
     $redis = new Redis();
     $redis->connect('127.0.0.1', 6379);
     session_start();
     if (!isset($_POST['verify_code']) || empty($_POST['verify_code'])) {
-        return $errors->add('verify_code_empty', '<strong>ERROR</strong>: 请输验证码.');
+        $errors->add('verify_code_empty', '<strong>ERROR</strong>: 请输验证码.');
     }
-    if (!$redis->get(session_id() . '_verify_code')) {
-        return $errors->add('verify_code_expired', '验证码已经过期');
-    }else
-    {
-        if ($redis->get(session_id() . '_verify_code')!=$_POST['verify_code'])
-        return $errors->add('verify_code_expired', '<strong>ERROR</strong>: 验证码错误.');
+
+//    if (!$redis->get(session_id() . '_verify_code')) {
+//       $errors->add('verify_code_expired', '验证码已经过期');
+//    }else
+//    {
+//        if ($redis->get(session_id() . '_verify_code')!=$_POST['verify_code'])
+//        $errors->add('verify_code_expired', '<strong>ERROR</strong>: 验证码错误.');
+//    }
+    if (isset($_POST["external_reg"])) {
+        if ($_POST["external_reg"] == "1") {
+            if (isset($errors) && count($errors->errors)) {
+                ob_end_clean();
+                header("Content-Type: application/json; charset=UTF-8");
+                $arr_errormsg = "";
+                foreach ($errors->errors as $error) {
+                    $arr_errormsg .= $error[0];
+                }
+                $result = array("result" => 0, "error" => $arr_errormsg);
+                echo json_encode($result);
+                die();
+            }
+        }
     }
+    return $errors;
 }
 
 // 将用户填写的字段内容保存到数据库中
-add_action('user_register', 'insert_register_fields');
+add_action('user_register', 'insert_register_fields', 9);
 function insert_register_fields($user_id)
 {
-
-    $user_phone_number = apply_filters('pre_user_phone_number', $_POST['phone_number']);
+    //global $wp_filter;
+    header("Content-Type: application/json; charset=UTF-8");
+    ob_end_clean();
+    //print_r($wp_filter["user_register"]);
+    //die();
+    $user_phone_number = apply_filters('pre_user_phone_number', $_POST['reg_phone_number']);
     $description = apply_filters('pre_user_description', $_POST['description']);
     // 以下的 'first_name' 和 'last_name' 是“我的个人资料”中已有的字段
     update_user_meta($user_id, 'user_phone_number', $user_phone_number);
     update_user_meta($user_id, 'description', $description);
+    $is_external_reg = isset($_POST["external_reg"]) ? $_POST["external_reg"] : "0";
+    if ($is_external_reg == "1") {
+        ob_end_clean();
+        header("Content-Type: application/json; charset=UTF-8");
+        echo json_encode(array("result" => 1, "user_phone_number" => $user_phone_number));
+        die();
+    }
 }
-//add_action('init', 'check_login');
 
+add_action('init', 'check_login', 1);
 function check_login()
 {
-    if ( is_user_logged_in() ) {
-        echo 'Welcome, registered user!';
-      } else {
-        echo 'Welcome, visitor!';
-      }
-    echo is_user_logged_in();
-    //if (!is_user_logged_in())
-    {
-        //header("Location:../index.php");
+    if ($_SERVER['REQUEST_METHOD'] != "POST") {
+        if (!is_user_logged_in()) {
+            ob_end_clean();
+            header("Location: http://www.colorfullady.cn");
+            die();
+        }
+    }
+}
 
-        exit();
+function objectToArray($e)
+{
+    $e = (array)$e;
+    foreach ($e as $k => $v) {
+        if (gettype($v) == 'resource') return;
+        if (gettype($v) == 'object' || gettype($v) == 'array')
+            $e[$k] = (array)objectToArray($v);
+    }
+    return $e;
+}
+
+add_action('wp_login_failed', 'login_failed');
+function login_failed($username)
+{
+    $is_external_login = isset($_POST["external_login"]) ? $_POST["external_login"] : "0";
+    if ($is_external_login == "1") {
+        ob_end_clean();
+        header("Content-Type: application/json; charset=UTF-8");
+        echo json_encode(array("result" => 0, "errormsg" => "无效的用户名或密码"));
+        die();
+    }
+}
+
+add_action('wp_login', 'login');
+function login($user_name, $user_obj)
+{
+    $is_external_login = isset($_POST["external_login"]) ? $_POST["external_login"] : "0";
+    if ($is_external_login == "1") {
+        ob_end_clean();
+        header("Content-Type: application/json; charset=UTF-8");
+        echo json_encode(array("result" => 1));
+        die();
     }
 }
